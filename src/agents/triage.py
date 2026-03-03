@@ -19,12 +19,18 @@ class TriageAgent:
         origin = self._detect_origin(metrics)
         layout = self._detect_layout(metrics)
         domain = self._detect_domain(metrics)
-        cost_est = self._estimate_cost(origin, layout)
+        
+        # Override language if Ge'ez script is detected prominently
+        is_amharic = metrics.get('amharic_char_ratio', 0.0) > 0.05
+        language = "am" if is_amharic else "en"
+        
+        cost_est = self._estimate_cost(origin, layout, is_amharic)
 
         return DocumentProfile(
             document_id=doc_id,
             origin_type=origin,
             layout_complexity=layout,
+            language=language,
             domain_hint=domain,
             estimated_extraction_cost=cost_est,
             page_count=metrics.get('total_pages', 0)
@@ -58,11 +64,20 @@ class TriageAgent:
                     "total_pages": total_pages,
                     "avg_char_density": total_chars / page_area if page_area > 0 else 0,
                     "image_ratio": image_area / page_area if page_area > 0 else 0,
-                    "text_sample": " ".join(words).lower()
+                    "text_sample": " ".join(words).lower(),
+                    "amharic_char_ratio": self._calculate_amharic_ratio(text)
                 }
         except Exception as e:
             print(f"pdfplumber failed: {e}")
-            return {"total_pages": 0, "avg_char_density": 0, "image_ratio": 1.0, "text_sample": ""}
+            return {"total_pages": 0, "avg_char_density": 0, "image_ratio": 1.0, "text_sample": "", "amharic_char_ratio": 0.0}
+
+    def _calculate_amharic_ratio(self, text: str) -> float:
+        """Calculates proportion of text in the Ge'ez Unicode range (\u1200 - \u137F)."""
+        if not text:
+            return 0.0
+        amharic_chars = sum(1 for c in text if '\u1200' <= c <= '\u137F')
+        return amharic_chars / len(text)
+
 
     def _detect_origin(self, metrics: Dict[str, Any]) -> OriginType:
         if metrics["avg_char_density"] < 0.001 and metrics["image_ratio"] > 0.5:
@@ -89,8 +104,8 @@ class TriageAgent:
             return DomainHint.TECHNICAL
         return DomainHint.GENERAL
 
-    def _estimate_cost(self, origin: OriginType, layout: LayoutComplexity) -> CostEstimate:
-        if origin == OriginType.SCANNED_IMAGE:
+    def _estimate_cost(self, origin: OriginType, layout: LayoutComplexity, is_amharic: bool = False) -> CostEstimate:
+        if origin == OriginType.SCANNED_IMAGE or is_amharic:
             return CostEstimate.NEEDS_VISION_MODEL
         if layout in [LayoutComplexity.TABLE_HEAVY, LayoutComplexity.MULTI_COLUMN, LayoutComplexity.MIXED]:
             return CostEstimate.NEEDS_LAYOUT_MODEL
