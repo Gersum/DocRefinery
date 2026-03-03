@@ -1,0 +1,16 @@
+extraction_thresholds:
+  strategy_a_min_chars: 100
+  strategy_a_max_image_ratio: 0.50
+  escalation_confidence_gate: 0.85
+  vision_budget_cap_usd: 1.00
+
+chunking_constitution:
+  rule_1: "A table cell is never split from its header row."
+  rule_2: "A figure caption is always stored as metadata of its parent figure chunk."
+  rule_3: "A numbered list is always kept as a single LDU unless it exceeds max_tokens."
+  rule_4: "Section headers are stored as parent metadata on all child chunks within that section."
+  rule_5: "Cross-references (e.g., 'see Table 3') are resolved and stored as chunk relationships."
+
+retrieval_preferences:
+  default_max_chunks: 5
+  strict_provenance: true

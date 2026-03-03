@@ -1,0 +1,10 @@
+{
+  "document_id": "CBE_Annual_Report_Part_1",
+  "origin_type": "native_digital",
+  "layout_complexity": "multi_column",
+  "language": "en",
+  "language_confidence": 0.99,
+  "domain_hint": "financial",
+  "estimated_extraction_cost": "needs_layout_model",
+  "page_count": 30
+}

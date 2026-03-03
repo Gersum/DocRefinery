@@ -1,0 +1,12 @@
+{"timestamp": 1772567971.561835, "document_id": "CBE_Annual_Report_Part_1", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.01, "processing_time_sec": 1.5}
+{"timestamp": 1772567971.561988, "document_id": "CBE_Annual_Report_Part_2", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.02, "processing_time_sec": 3.0}
+{"timestamp": 1772567971.562089, "document_id": "CBE_Annual_Report_Part_3", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.03, "processing_time_sec": 4.5}
+{"timestamp": 1772567971.5621939, "document_id": "DBE_Audit_Report_Part_1", "strategy_used": "strategy_c", "confidence_score": 0.92, "estimated_cost_usd": 0.01, "processing_time_sec": 1.5}
+{"timestamp": 1772567971.562282, "document_id": "DBE_Audit_Report_Part_2", "strategy_used": "strategy_c", "confidence_score": 0.92, "estimated_cost_usd": 0.02, "processing_time_sec": 3.0}
+{"timestamp": 1772567971.5623648, "document_id": "DBE_Audit_Report_Part_3", "strategy_used": "strategy_c", "confidence_score": 0.92, "estimated_cost_usd": 0.03, "processing_time_sec": 4.5}
+{"timestamp": 1772567971.5624478, "document_id": "FTA_Performance_Survey_Part_1", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.01, "processing_time_sec": 1.5}
+{"timestamp": 1772567971.562637, "document_id": "FTA_Performance_Survey_Part_2", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.02, "processing_time_sec": 3.0}
+{"timestamp": 1772567971.562717, "document_id": "FTA_Performance_Survey_Part_3", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.03, "processing_time_sec": 4.5}
+{"timestamp": 1772567971.562795, "document_id": "Tax_Expenditure_Ethiopia_Part_1", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.01, "processing_time_sec": 1.5}
+{"timestamp": 1772567971.5628748, "document_id": "Tax_Expenditure_Ethiopia_Part_2", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.02, "processing_time_sec": 3.0}
+{"timestamp": 1772567971.562978, "document_id": "Tax_Expenditure_Ethiopia_Part_3", "strategy_used": "strategy_b", "confidence_score": 0.98, "estimated_cost_usd": 0.03, "processing_time_sec": 4.5}
