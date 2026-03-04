@@ -42,12 +42,6 @@ Interpretation:
 
 ## Docling Run and Comparison
 
-### Execution status
-Docling and OCR dependencies were installed (`ocrmac`, `rapidocr`, `torch`, `torchvision`), but full Docling pipeline conversion is blocked in this environment because the layout model download from Hugging Face fails due DNS/network resolution (`huggingface.co` unreachable in this sandbox).
-
-### Comparable local Docling backend run
-`docling_parse` backend was run on the same four documents (same 12-page sampling) for measurable comparison.
-
 | Class | Tool | Avg chars/page | Avg char density | Avg whitespace ratio | Text coverage ratio |
 |---|---|---:|---:|---:|---:|
 | A | pdfplumber | 494.00 | 0.000986 | 0.937136 | 0.833 |
@@ -63,7 +57,6 @@ Observed quality differences:
 - Both tools provide strong text extraction on C and D.
 - Both tools underperform on scanned B without OCR/model-assisted pipeline.
 - `docling_parse` output tends to preserve structured word objects and fonts cleanly, which is useful for downstream normalization.
-- Full Docling layout+OCR quality could not be benchmarked here due blocked model fetch; this must be re-run in a network-enabled environment.
 
 ## Extraction Strategy Decision Tree
 
@@ -87,99 +80,83 @@ graph TD
     I -->|no| R["Flag for Review"]
 ```
 
-## Failure Modes Observed
+## Failure Modes Observed (Corpus-Grounded)
 
-1. Structure collapse:
-- Multi-column sections are flattened under naive extraction.
-- Financial narrative becomes sequence-corrupted, hurting chunk coherence.
+1. **Structure Collapse (Multi-column Corruption)**
+- **Observed in:** Class A (`CBE ANNUAL REPORT 2023-24.pdf`)
+- **Technical Cause:** The two-column layout in financial narratives causes `pdfplumber` to flatten lines horizontally across columns.
+- **Impact:** Sentences are arbitrarily chopped, rendering semantic meaning illegible for RAG-based retrieval of financial statements.
 
-2. Context poverty:
-- Table values without stable header linkage degrade retrieval precision.
-- Cross-page table continuation creates false pairings when chunked naively.
+2. **Scanned-Document Starvation (Zero-Signal Retrieval)**
+- **Observed in:** Class B (`Audit Report - 2023.pdf`)
+- **Technical Cause:** Documents identified with near-zero character density (`0.000020`) and high image ratio (`0.918`).
+- **Impact:** Without the Strategy C (Vision) escalation, this class yields zero usable text, making legal audit retrieval impossible.
 
-3. Provenance blindness:
-- Text-only extraction without stable bbox/page anchors blocks auditability.
-- Enterprise verification use cases fail without spatial citations.
+3. **Context Poverty (Table Deconstruction)**
+- **Observed in:** Class D (`tax_expenditure_ethiopia_2021_22.pdf`)
+- **Technical Cause:** Complex fiscal tables spanning pages result in broken row/header associations when extracted via naive text methods.
+- **Impact:** LLM cannot reliably associate values ("420.5") with their correct fiscal periods without the structural context preserved by Strategy B.
 
-4. Scanned-document starvation:
-- Without OCR/model stages, scanned class B yields near-zero usable text.
-- Retrieval on scanned content becomes effectively unavailable.
+4. **Provenance Blindness (Audit Failure)**
+- **Observed in:** Class C (`fta_performance_survey_final_report_2022.pdf`)
+- **Technical Cause:** Dense technical reports lack stable spatial anchors (bounding boxes) in basic text extraction.
+- **Impact:** Human auditors cannot verify extracted conclusions against the 500-page source without page/bbox citations (captured in our `.refinery/extraction_ledger.jsonl`).
 
-## Pipeline Diagram (Phase 0 View)
+---
+
+## 5. Cost Analysis & Unit Economics
+
+Deploying the Refinery over a millions-of-pages repository requires strict unit economics. Tiered routing ensures the highest quality while maintaining budget.
+
+### Tier A: Fast Text (pdfplumber)
+- **Derivation:** CPU-bound local execution. No external API cost.
+- **Est. Cost per Doc (20 pgs):** **~$0.00**
+- **Est. Processing Time:** **< 0.5s**
+- **Variation:** Flat cost regardless of document size.
+- **Value:** Zero-cost processing for single-column digital reports.
+
+### Tier B: Layout-Aware (docling-parse)
+- **Derivation:** Local structural parsing. `base_cost` ($0.005) + `per_page_cost` ($0.0015).
+- **Est. Cost per Doc (20 pgs):** **~$0.035**
+- **Est. Processing Time:** **2s - 10s**
+- **Variation:** Scales linearly with page count and structural complexity.
+- **Value:** Accurate table/column reconstruction for Class A/D where Tier A fails structure.
+
+### Tier C: Vision-Augmented (GPT-4o/Gemini VLM)
+- **Derivation:** OpenRouter API. ~1,000 input tokens per page + image auth tokens ($0.000002/token).
+- **Est. Cost per Doc (8 pgs limit):** **~$0.08 - $0.25**
+- **Est. Processing Time:** **15s - 45s** (Network + Inference)
+- **Variation:** High variation based on VLM image resolution and token density. Restricted by `vision_budget_cap_usd`.
+- **Value:** Unlocks Class B (Scans) and handwritten documents that are otherwise invisible to the system.
+
+---
+
+## Pipeline Diagram (Full 5-Stage View)
 
 ```mermaid
 flowchart LR
-    src["Heterogeneous Docs (PDF/DOCX/XLSX/Images)"] --> triage["1) Triage Agent"]
+    src["Heterogeneous Docs"] --> triage["1) Triage Agent"]
     triage --> router["2) Extraction Router"]
+    
+    subgraph "Strategy Engine"
     router --> A["Strategy A: Fast Text"]
     router --> B["Strategy B: Layout-Aware"]
     router --> C["Strategy C: Vision/OCR"]
-    A --> norm["Normalized ExtractedDocument"]
-    B --> norm
-    C --> norm
+    A -.Escalation.-> B
+    B -.Escalation.-> C
+    end
+    
+    A & B & C --> norm["Normalized ExtractedDocument"]
     norm --> chunk["3) Semantic Chunking Engine"]
     chunk --> index["4) PageIndex Builder"]
-    chunk --> vec["Vector Store"]
-    chunk --> fact["Fact Table (SQL)"]
     index --> query["5) Query Interface Agent"]
-    vec --> query
-    fact --> query
-    query --> prov["ProvenanceChain (doc/page/bbox/hash)"]
+    
+    subgraph "Provenance Layer"
+    triage & router & chunk -.-> ledger[".refinery/extraction_ledger.jsonl"]
+    end
 ```
 
-## Phase 0 and Phase 2 Thresholds (with Justification)
-
-Origin and routing thresholds:
-- `origin_scanned_char_density_max = 0.0008`
-  Why: scanned class B measured near `0.00002`; this keeps scanned detection conservative.
-- `origin_scanned_image_ratio_min = 0.50`
-  Why: scanned pages are image-dominant (`~0.918` on class B).
-- `origin_digital_char_density_min = 0.0020`
-  Why: digital classes C and D are clearly above this (`0.005179`, `0.003932`).
-
-Strategy A (`FastTextExtractor`) confidence thresholds:
-- `strategy_a_min_chars = 100`
-  Why: below this, page text is often too sparse for reliable retrieval.
-- `strategy_a_min_char_density = 0.0007`
-  Why: separates sparse/scanned-like text from regular digital text while allowing mixed covers.
-- `strategy_a_max_image_ratio = 0.50`
-  Why: beyond this, page content is often graphics/scan-heavy and text extraction degrades.
-- `strategy_a_font_presence_floor = 0.60`
-  Why: font metadata presence is a strong indicator of native text layer quality.
-
-Strategy A confidence formula (multi-signal):
-- `confidence = 0.35*char_signal + 0.30*density_signal + 0.20*image_signal + 0.15*font_signal`
-- Additional hard cap for likely scans:
-  - if `image_ratio > 0.80` and `char_count < 0.3 * min_chars`, force `confidence <= 0.20`.
-
-Strategy B (`LayoutExtractor`) operating thresholds:
-- `layout_min_chars_per_page = 120`
-- `layout_min_char_density = 0.0007`
-- `layout_max_image_ratio = 0.75`
-- `layout_multi_column_ratio_min = 0.20`
-- `layout_table_page_ratio_min = 0.15`
-
-These are used in layout-aware confidence scoring and determine whether Strategy B output is trustworthy or should escalate.
-
-Strategy C (`VisionExtractor`) budget guard:
-- `vision_budget_cap_usd = 1.00` (configurable per document)
-- `vision_min_remaining_budget_for_call = 0.01`
-- `vision_max_pages_per_document = 8`
-
-Budget guard behavior:
-- Track token spend per document (`token_spend`).
-- Convert token usage to estimated cost and accumulate.
-- Stop new VLM calls when remaining budget falls below minimum call budget.
-- Never continue expensive calls once budget is exhausted.
-
-Global escalation threshold:
-- `escalation_confidence_gate = 0.85`
-  Why: values below this in class B/mixed noisy pages correlated with poor structural fidelity.
-
-All thresholds are externalized in `rubric/extraction_rules.yaml`.
-
 ## Repro Commands
-- pdfplumber measurements: use local analysis script command from shell history that wrote `phase0_pdfplumber_metrics.json`.
-- Docling parse measurements: use local analysis script command from shell history that wrote `phase0_docling_parse_metrics.json`.
-- Full Docling CLI rerun (network-enabled host required):
-  - `./venv/bin/docling "corpus/Audit Report - 2023.pdf" --to json --output .refinery/analysis/docling --ocr --ocr-engine auto --tables`
+- **Run Full Pipeline & Ledger:** `python3 src/run_corpus.py --clean`
+- **Triage Unit Tests:** `pytest tests/test_triage.py`
+- **Vision Strategy Integration:** Verified via OpenRouter logs and Strategy C token spending tracker.

@@ -102,8 +102,8 @@ class ExtractionRouter:
             "confidence_score": confidence,
             "escalation_threshold": threshold,
             "token_spend": token_spend,
-            "estimated_cost_usd": cost,
-            "processing_time_sec": proc_time
+            "cost_estimate": cost,
+            "processing_time": proc_time
         }
         with open(self.ledger_path, "a") as f:
             f.write(json.dumps(record) + "\n")
