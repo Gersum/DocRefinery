@@ -5,6 +5,7 @@
   "language": "en",
   "language_confidence": 0.6,
   "domain_hint": "financial",
+  "domain_label": "financial",
   "estimated_extraction_cost": "needs_layout_model",
   "page_count": 161
 }

@@ -19,6 +19,7 @@ class DomainHint(str, Enum):
     LEGAL = "legal"
     TECHNICAL = "technical"
     MEDICAL = "medical"
+    CUSTOM = "custom"
     GENERAL = "general"
 
 class CostEstimate(str, Enum):
@@ -34,5 +35,6 @@ class DocumentProfile(BaseModel):
     language: str = Field(default="en", description="Detected language code")
     language_confidence: float = Field(default=1.0, ge=0.0, le=1.0)
     domain_hint: DomainHint
+    domain_label: str = Field(default="general", min_length=1, description="Resolved domain label from config keywords")
     estimated_extraction_cost: CostEstimate
     page_count: int = Field(default=0, description="Total number of pages in the document")

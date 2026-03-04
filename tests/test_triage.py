@@ -47,6 +47,34 @@ def test_triage_domain_classifier_is_pluggable():
     assert agent._detect_domain({"text_sample": "any text"}) == DomainHint.MEDICAL
 
 
+def test_triage_domain_keywords_loaded_from_config(tmp_path):
+    rules_path = tmp_path / "rules.yaml"
+    rules_path.write_text(
+        "domain_keywords:\n"
+        "  technical:\n"
+        "    - semiconductor\n",
+        encoding="utf-8",
+    )
+    agent = TriageAgent(rules_path=str(rules_path))
+    assert agent._detect_domain({"text_sample": "advanced semiconductor process node"}) == DomainHint.TECHNICAL
+    # Existing defaults remain available after deep merge.
+    assert agent._detect_domain({"text_sample": "tax revenue fiscal quarter"}) == DomainHint.FINANCIAL
+
+
+def test_triage_custom_domain_onboarded_from_config(tmp_path):
+    rules_path = tmp_path / "rules.yaml"
+    rules_path.write_text(
+        "domain_keywords:\n"
+        "  procurement:\n"
+        "    - tender\n",
+        encoding="utf-8",
+    )
+    agent = TriageAgent(rules_path=str(rules_path))
+    hint, label = agent._detect_domain_with_label({"text_sample": "open tender and procurement policy"})
+    assert hint == DomainHint.CUSTOM
+    assert label == "procurement"
+
+
 def test_profile_document_known_scanned_type(monkeypatch, tmp_path):
     agent = TriageAgent()
     doc_path = tmp_path / "dummy.pdf"

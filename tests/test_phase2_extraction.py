@@ -181,3 +181,65 @@ def test_router_logs_strategy_trace_and_token_spend(tmp_path, monkeypatch):
     assert record["strategy_used"] == "STRATEGY_C"
     assert record["strategy_trace"] == ["strategy_c"]
     assert record["token_spend"] == 321
+
+
+def test_router_uses_configured_strategy_gates(tmp_path, monkeypatch):
+    rules = tmp_path / "rules.yaml"
+    rules.write_text(
+        "extraction_thresholds:\n"
+        "  strategy_a_confidence_gate: 0.90\n"
+        "  strategy_b_confidence_gate: 0.80\n",
+        encoding="utf-8",
+    )
+    ledger = tmp_path / "ledger.jsonl"
+    router = ExtractionRouter(ledger_path=str(ledger), rules_path=str(rules))
+    profile = _profile(CostEstimate.FAST_TEXT_SUFFICIENT)
+    dummy_doc = ExtractedDocument(document_id="doc", pages=[ExtractedPage(page_num=1)], total_processing_time=0.1, total_cost=0.01)
+
+    monkeypatch.setattr(router.strategies["strategy_a"], "extract", lambda _f, _p: dummy_doc)
+    monkeypatch.setattr(router.strategies["strategy_a"], "get_confidence", lambda: 0.85)
+    monkeypatch.setattr(router.strategies["strategy_a"], "get_cost_estimate", lambda: 0.0)
+    monkeypatch.setattr(router.strategies["strategy_b"], "extract", lambda _f, _p: dummy_doc)
+    monkeypatch.setattr(router.strategies["strategy_b"], "get_confidence", lambda: 0.82)
+    monkeypatch.setattr(router.strategies["strategy_b"], "get_cost_estimate", lambda: 0.01)
+    monkeypatch.setattr(router.strategies["strategy_c"], "extract", lambda _f, _p: dummy_doc)
+    monkeypatch.setattr(router.strategies["strategy_c"], "get_confidence", lambda: 0.99)
+    monkeypatch.setattr(router.strategies["strategy_c"], "get_cost_estimate", lambda: 0.02)
+
+    router.execute_extraction("dummy.pdf", profile)
+    with open(ledger, "r", encoding="utf-8") as handle:
+        record = json.loads(handle.readline())
+
+    assert record["strategy_used"] == "Strategy A -> Escalated to B"
+    assert record["strategy_trace"] == ["strategy_a", "strategy_b"]
+    assert record["review_required"] is False
+
+
+def test_router_flags_low_confidence_outcomes_for_review(tmp_path, monkeypatch):
+    rules = tmp_path / "rules.yaml"
+    rules.write_text(
+        "extraction_thresholds:\n"
+        "  strategy_c_review_floor: 0.95\n",
+        encoding="utf-8",
+    )
+    ledger = tmp_path / "ledger.jsonl"
+    router = ExtractionRouter(ledger_path=str(ledger), rules_path=str(rules))
+    profile = _profile(CostEstimate.NEEDS_VISION_MODEL)
+    dummy_doc = ExtractedDocument(document_id="doc", pages=[ExtractedPage(page_num=1)], total_processing_time=0.1, total_cost=0.02)
+
+    monkeypatch.setattr(router.strategies["strategy_c"], "extract", lambda _f, _p: dummy_doc)
+    monkeypatch.setattr(router.strategies["strategy_c"], "get_confidence", lambda: 0.60)
+    monkeypatch.setattr(router.strategies["strategy_c"], "get_cost_estimate", lambda: 0.02)
+    monkeypatch.setattr(router.strategies["strategy_c"], "get_token_spend", lambda: 123)
+
+    router.execute_extraction("dummy.pdf", profile)
+
+    with open(ledger, "r", encoding="utf-8") as handle:
+        record = json.loads(handle.readline())
+    with open(tmp_path / "review_queue.jsonl", "r", encoding="utf-8") as handle:
+        review_record = json.loads(handle.readline())
+
+    assert record["review_required"] is True
+    assert "strategy_c confidence" in record["review_reason"]
+    assert record["strategy_used"] == "STRATEGY_C_LOW_CONFIDENCE"
+    assert review_record["document_id"] == "doc"

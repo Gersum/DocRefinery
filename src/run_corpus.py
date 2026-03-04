@@ -39,7 +39,7 @@ def ensure_file_exists(path: Path) -> None:
         raise FileNotFoundError(f"Required corpus file not found: {path}")
 
 
-def clean_artifacts(profiles_dir: Path, extractions_dir: Path, ledger_path: Path) -> None:
+def clean_artifacts(profiles_dir: Path, extractions_dir: Path, ledger_path: Path, review_queue_path: Path) -> None:
     profiles_dir.mkdir(parents=True, exist_ok=True)
     extractions_dir.mkdir(parents=True, exist_ok=True)
     for target_dir in [profiles_dir, extractions_dir]:
@@ -47,6 +47,8 @@ def clean_artifacts(profiles_dir: Path, extractions_dir: Path, ledger_path: Path
             item.unlink()
     if ledger_path.exists():
         ledger_path.unlink()
+    if review_queue_path.exists():
+        review_queue_path.unlink()
 
 
 def main() -> None:
@@ -56,9 +58,10 @@ def main() -> None:
     profiles_dir = root / ".refinery" / "profiles"
     extractions_dir = root / ".refinery" / "extractions"
     ledger_path = root / ".refinery" / "extraction_ledger.jsonl"
+    review_queue_path = root / ".refinery" / "review_queue.jsonl"
 
     if args.clean:
-        clean_artifacts(profiles_dir, extractions_dir, ledger_path)
+        clean_artifacts(profiles_dir, extractions_dir, ledger_path, review_queue_path)
     else:
         profiles_dir.mkdir(parents=True, exist_ok=True)
         extractions_dir.mkdir(parents=True, exist_ok=True)

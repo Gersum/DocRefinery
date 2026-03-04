@@ -5,8 +5,9 @@ This repository contains the Phase 1 and 2 implementation for a 5-stage agentic 
 ## Architectural Highlights
 - **Confidence-Gated Routing:** The `ExtractionRouter` prevents hallucination loops by dropping to higher-tier, more expensive Vision Language Models ONLY if fast-text heuristics fail.
 - **Pydantic Driven:** Every stage communicates purely through strictly typed schemas (`DocumentProfile`, `ExtractedDocument`).
-- **Externalized Constitution:** Thresholds and guardrails are read from `rubric/extraction_rules.yaml`.
+- **Externalized Constitution:** Thresholds, domain keyword maps, and routing/review gates are read from `rubric/extraction_rules.yaml`.
 - **Interim Artifact Generator:** `src/run_corpus.py` generates 12 required profiles (3 per class), extraction outputs, and ledger entries.
+- **Review Queue:** Any low-confidence final outcome is explicitly flagged and written to `.refinery/review_queue.jsonl`.
 
 ## Project Structure
 ```text
@@ -49,3 +50,19 @@ This repository contains the Phase 1 and 2 implementation for a 5-stage agentic 
     ```bash
     pytest -q
     ```
+
+## Config-Only Domain Onboarding
+To onboard a domain keyword taxonomy without code edits, update `domain_keywords` in `rubric/extraction_rules.yaml`.
+
+Example:
+```yaml
+domain_keywords:
+  financial: [fiscal, revenue, tax]
+  legal: [court, plaintiff, compliance]
+  technical: [api, protocol, architecture, semiconductor]
+  medical: [clinical, diagnosis, patient]
+  procurement: [tender, bid, award]
+```
+
+The triage classifier reads this config at runtime; no Python file edits are required.
+Unknown labels (for example `procurement`) are mapped to `domain_hint=custom` with `domain_label=procurement`.
