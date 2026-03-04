@@ -1,20 +1,22 @@
 # The Document Intelligence Refinery (Interim Submission)
 
-This repository contains the Phase 1 & 2 scaffolding for a 5-stage agentic pipeline designed to extract structured data from unstructured enterprise documents.
+This repository contains the Phase 1 and 2 implementation for a 5-stage agentic pipeline designed to extract structured data from unstructured enterprise documents.
 
 ## Architectural Highlights
 - **Confidence-Gated Routing:** The `ExtractionRouter` prevents hallucination loops by dropping to higher-tier, more expensive Vision Language Models ONLY if fast-text heuristics fail.
 - **Pydantic Driven:** Every stage communicates purely through strictly typed schemas (`DocumentProfile`, `ExtractedDocument`).
-- **Externalized Constitution:** Document parsing rules are isolated in `rubric/extraction_rules.yaml`.
+- **Externalized Constitution:** Thresholds and guardrails are read from `rubric/extraction_rules.yaml`.
+- **Interim Artifact Generator:** `src/run_corpus.py` generates 12 required profiles (3 per class), extraction outputs, and ledger entries.
 
 ## Project Structure
 ```text
 ├── DOMAIN_NOTES.md                  # Phase 0 Strategic Documentation
-├── pyproject.toml                   # Locked Dependencies
+├── pyproject.toml                   # Project dependencies
 ├── rubric/
 │   └── extraction_rules.yaml        # External configuration
 ├── .refinery/
 │   ├── profiles/                    # Generated DocumentProfiles (JSON)
+│   ├── extractions/                 # Normalized extraction outputs (JSON)
 │   └── extraction_ledger.jsonl      # Audit trail of extraction costs & routing
 ├── tests/
 │   └── test_triage.py               # Unit testing
@@ -31,19 +33,19 @@ This repository contains the Phase 1 & 2 scaffolding for a 5-stage agentic pipel
     python3 -m venv venv
     source venv/bin/activate
     pip install -e .
-    # Or install dependencies manually if hatch project structuring fails
-    pip install pydantic pdfplumber PyYAML pytest pytest-mock
     ```
 
 2.  **Generate Corpus Artifacts**
-    Run the generation script. It will scan for local PDF files or generate mock profiles representing the 4 required document classes if the original binaries are not present.
+    Run the generation script. This produces 12 profiles (3 per class), extraction JSON files, and ledger entries.
     ```bash
-    export PYTHONPATH=$(pwd)
-    python3 src/run_corpus.py
+    python -m src.run_corpus --clean
     ```
+    Optional environment variables:
+    - `OPENROUTER_API_KEY`: enables live vision extraction calls in Strategy C.
+    - `OPENROUTER_VISION_MODEL`: optional model override.
+    - `REFINERY_RULES_PATH`: alternate rules YAML path.
 
 3.  **Run Pipeline Tests**
     ```bash
-    export PYTHONPATH=$(pwd)
-    pytest tests/
+    pytest -q
     ```
