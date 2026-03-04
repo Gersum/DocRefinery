@@ -58,6 +58,8 @@ Both backends were evaluated locally on the 12-page samples:
 
 ### 3.1 Pipeline Diagram (Full 5-Stage View)
 
+![Architecture Diagram](./architecture.png)
+
 ```mermaid
 flowchart LR
     src["Heterogeneous Docs"] --> triage["1) Triage Agent"]
