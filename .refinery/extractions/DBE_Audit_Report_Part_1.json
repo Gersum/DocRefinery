@@ -1,0 +1,84 @@
+{
+  "document_id": "DBE_Audit_Report_Part_1",
+  "pages": [
+    {
+      "page_num": 1,
+      "text_blocks": [
+        {
+          "text": "INDEPENDENT AUDiTOR’S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+          "page_num": 1,
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 604.8,
+            "y1": 841.68
+          },
+          "font_name": null,
+          "font_size": null
+        }
+      ],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.65,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 2,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 3,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 4,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 5,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 6,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 7,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 8,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    }
+  ],
+  "total_processing_time": 0.04356074333190918,
+  "total_cost": 0.0
+}

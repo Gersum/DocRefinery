@@ -1,10 +1,10 @@
 {
   "document_id": "FTA_Performance_Survey_Part_3",
-  "origin_type": "mixed",
-  "layout_complexity": "table_heavy",
+  "origin_type": "native_digital",
+  "layout_complexity": "mixed",
   "language": "en",
-  "language_confidence": 0.99,
+  "language_confidence": 0.6,
   "domain_hint": "technical",
   "estimated_extraction_cost": "needs_layout_model",
-  "page_count": 40
+  "page_count": 15
 }

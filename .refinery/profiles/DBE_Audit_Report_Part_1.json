@@ -1,10 +1,10 @@
 {
   "document_id": "DBE_Audit_Report_Part_1",
   "origin_type": "scanned_image",
-  "layout_complexity": "single_column",
+  "layout_complexity": "figure_heavy",
   "language": "en",
-  "language_confidence": 0.99,
+  "language_confidence": 0.6,
   "domain_hint": "financial",
   "estimated_extraction_cost": "needs_vision_model",
-  "page_count": 30
+  "page_count": 95
 }

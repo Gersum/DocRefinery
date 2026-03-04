@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pipeline Diagram</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #f6f8fb;
+      font-family: Arial, sans-serif;
+    }
+    .canvas {
+      background: #ffffff;
+      border: 1px solid #d9e1ec;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 24px rgba(25, 40, 60, 0.08);
+      width: max-content;
+      min-width: 1400px;
+    }
+  </style>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose',
+      flowchart: { useMaxWidth: false, htmlLabels: true, curve: 'linear' }
+    });
+  </script>
+</head>
+<body>
+  <div class="canvas">
+    <pre class="mermaid">
+flowchart LR
+    src["Heterogeneous Docs"] --> triage["1) Triage Agent"]
+    triage --> router["2) Extraction Router"]
+
+    subgraph "Strategy Engine"
+    router --> A["Strategy A: Fast Text"]
+    router --> B["Strategy B: Layout-Aware"]
+    router --> C["Strategy C: Vision/OCR"]
+    A -.Escalation.-> B
+    B -.Escalation.-> C
+    end
+
+    A & B & C --> norm["Normalized ExtractedDocument"]
+    norm --> chunk["3) Semantic Chunking Engine"]
+    chunk --> index["4) PageIndex Builder"]
+    index --> query["5) Query Interface Agent"]
+
+    subgraph "Provenance Layer"
+    triage & router & chunk -.-> ledger[".refinery/extraction_ledger.jsonl"]
+    end
+    </pre>
+  </div>
+</body>
+</html>

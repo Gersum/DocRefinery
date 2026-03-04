@@ -1,0 +1,34 @@
+{
+  "Class_A_Annual_Financial_Report": {
+    "file": "CBE ANNUAL REPORT 2023-24.pdf",
+    "sampled_pages": 12,
+    "pdfplumber_text_coverage_ratio": 0.833,
+    "docling_parse_text_coverage_ratio": 0.833,
+    "pdfplumber_sample": "CONTENTS PROFILE ii VISION ii MISSION ii MOTTO ii VALUES ii-iii PERFORMANCE HIGHLIGHTS iv-v BOARD OF DIRECTORS vi-vii CBE NOOR SHARI'AH ADVISORY COMMITTEE viii EXECUTIVE",
+    "docling_parse_sample": "PROFILE VISION MISSION MOTTO VALUES PERFORMANCE HIGHLIGHTS BOARD OF DIRECTORS CBENOORSHARI'AHADVISORYCOMMITTEE EXECUTIVE MANAGEMENT PRESIDENT'S MESSAGE SHARI\u00c1 ADVISORY COMMITTEE (SAC) STATEMENT FORTHE FISCALYEAR ENDED JUNE 30"
+  },
+  "Class_B_Scanned_Gov_Legal": {
+    "file": "Audit Report - 2023.pdf",
+    "sampled_pages": 12,
+    "pdfplumber_text_coverage_ratio": 0.083,
+    "docling_parse_text_coverage_ratio": 0.083,
+    "pdfplumber_sample": "INDEPENDENT AUDiTOR\u2019S REPORT AND FiNANCiAL STATEMENTS 30 JUNE 2023 DEVELOPMENT BANK OF ETHIOPIA Your Development partner!",
+    "docling_parse_sample": "DEVELOPMENT BANK OF ETHIOPIA 30 JUNE 2023 INDEPENDENT AUDiTOR'S REPORT AND FiNANCiAL STATEMENTS Your Development partner!"
+  },
+  "Class_C_Technical_Assessment": {
+    "file": "fta_performance_survey_final_report_2022.pdf",
+    "sampled_pages": 12,
+    "pdfplumber_text_coverage_ratio": 1.0,
+    "docling_parse_text_coverage_ratio": 1.0,
+    "pdfplumber_sample": "Assessment of Financial Transparency and Accountability (FTA) Implementation in Ethiopia Final Report RFP No: ET-NCB-MOFEC-COPCU-129904-CS-QCBS SUBMITTED TO: Ministry of Finance (MoF) Addis Ababa, Ethiopia SUBMITTED",
+    "docling_parse_sample": "Assessment of Financial Transparency and Accountability (FTA) Implementation in Ethiopia Final Report RFP No: ET-NCB-MOFEC-COPCU-129904-CS-QCBS SUBMITTED TO: Ministry of Finance (MoF) Addis Ababa, Ethiopia SUBMITTED"
+  },
+  "Class_D_Table_Heavy_Structured": {
+    "file": "tax_expenditure_ethiopia_2021_22.pdf",
+    "sampled_pages": 12,
+    "pdfplumber_text_coverage_ratio": 1.0,
+    "docling_parse_text_coverage_ratio": 1.0,
+    "pdfplumber_sample": "Import tax expenditure report : FY 2018/19 \u2013 2020/21 Tax Policy Directorate, Ministry of Finance, Ethiopia September 2022",
+    "docling_parse_sample": "Import tax expenditure report: FY 2018/19 - 2020/21 Tax Policy Directorate, Ministry of Finance, Ethiopia September 2022"
+  }
+}

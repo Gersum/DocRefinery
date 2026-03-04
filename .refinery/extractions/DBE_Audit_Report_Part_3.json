@@ -1,0 +1,31 @@
+{
+  "document_id": "DBE_Audit_Report_Part_3",
+  "pages": [
+    {
+      "page_num": 1,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 2,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    },
+    {
+      "page_num": 3,
+      "text_blocks": [],
+      "tables": [],
+      "figures": [],
+      "confidence_score": 0.25,
+      "strategy_used": "Strategy C - VisionExtractor"
+    }
+  ],
+  "total_processing_time": 0.0017237663269042969,
+  "total_cost": 0.0
+}

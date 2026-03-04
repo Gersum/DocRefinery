@@ -1,0 +1,54 @@
+{
+  "Class_A_Annual_Financial_Report": {
+    "file": "CBE ANNUAL REPORT 2023-24.pdf",
+    "sampled_pages": 12,
+    "avg_word_count": 73.42,
+    "avg_char_count": 417.08,
+    "avg_textline_count": 24.33,
+    "avg_char_cell_count": 480.5,
+    "avg_char_density": 0.000832,
+    "avg_whitespace_ratio": 0.944723,
+    "avg_bbox_x_span_ratio": 0.616071,
+    "avg_bbox_x_std_norm": 0.183426,
+    "avg_ocr_word_ratio": 0.0
+  },
+  "Class_B_Scanned_Gov_Legal": {
+    "file": "Audit Report - 2023.pdf",
+    "sampled_pages": 12,
+    "avg_word_count": 1.33,
+    "avg_char_count": 8.83,
+    "avg_textline_count": 0.5,
+    "avg_char_cell_count": 9.67,
+    "avg_char_density": 1.7e-05,
+    "avg_whitespace_ratio": 0.991386,
+    "avg_bbox_x_span_ratio": 0.050395,
+    "avg_bbox_x_std_norm": 0.015395,
+    "avg_ocr_word_ratio": 0.0
+  },
+  "Class_C_Technical_Assessment": {
+    "file": "fta_performance_survey_final_report_2022.pdf",
+    "sampled_pages": 12,
+    "avg_word_count": 241.08,
+    "avg_char_count": 2337.58,
+    "avg_textline_count": 52.67,
+    "avg_char_cell_count": 2604.08,
+    "avg_char_density": 0.004664,
+    "avg_whitespace_ratio": 0.801132,
+    "avg_bbox_x_span_ratio": 0.691378,
+    "avg_bbox_x_std_norm": 0.183658,
+    "avg_ocr_word_ratio": 0.0
+  },
+  "Class_D_Table_Heavy_Structured": {
+    "file": "tax_expenditure_ethiopia_2021_22.pdf",
+    "sampled_pages": 12,
+    "avg_word_count": 282.83,
+    "avg_char_count": 1687.75,
+    "avg_textline_count": 40.58,
+    "avg_char_cell_count": 1976.5,
+    "avg_char_density": 0.003369,
+    "avg_whitespace_ratio": 0.848028,
+    "avg_bbox_x_span_ratio": 0.665112,
+    "avg_bbox_x_std_norm": 0.195573,
+    "avg_ocr_word_ratio": 0.0
+  }
+}

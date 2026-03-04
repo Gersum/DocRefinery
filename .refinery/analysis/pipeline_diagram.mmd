@@ -1,0 +1,20 @@
+flowchart LR
+    src["Heterogeneous Docs"] --> triage["1) Triage Agent"]
+    triage --> router["2) Extraction Router"]
+    
+    subgraph "Strategy Engine"
+    router --> A["Strategy A: Fast Text"]
+    router --> B["Strategy B: Layout-Aware"]
+    router --> C["Strategy C: Vision/OCR"]
+    A -.Escalation.-> B
+    B -.Escalation.-> C
+    end
+    
+    A & B & C --> norm["Normalized ExtractedDocument"]
+    norm --> chunk["3) Semantic Chunking Engine"]
+    chunk --> index["4) PageIndex Builder"]
+    index --> query["5) Query Interface Agent"]
+    
+    subgraph "Provenance Layer"
+    triage & router & chunk -.-> ledger[".refinery/extraction_ledger.jsonl"]
+    end
