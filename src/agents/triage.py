@@ -3,7 +3,7 @@ from typing import Any, Dict, Optional, Protocol
 
 import pdfplumber
 
-from src.config import extraction_threshold
+from src.config import domain_keyword_map, extraction_threshold
 from src.models.profile import CostEstimate, DocumentProfile, DomainHint, LayoutComplexity, OriginType
 
 
@@ -15,17 +15,22 @@ class DomainClassifier(Protocol):
 class KeywordDomainClassifier:
     """Simple, pluggable domain classifier strategy."""
 
-    def classify(self, text: str) -> DomainHint:
+    def __init__(self, rules_path: Optional[str] = None, keyword_map: Optional[Dict[str, list[str]]] = None):
+        self.keyword_map = keyword_map or domain_keyword_map(rules_path=rules_path)
+
+    def classify_with_label(self, text: str) -> tuple[DomainHint, str]:
         normalized = text.lower()
-        if any(word in normalized for word in ["fiscal", "revenue", "tax", "balance", "financial", "profit", "expense"]):
-            return DomainHint.FINANCIAL
-        if any(word in normalized for word in ["court", "judge", "plaintiff", "defendant", "auditor", "compliance"]):
-            return DomainHint.LEGAL
-        if any(word in normalized for word in ["architecture", "api", "server", "protocol", "system", "technical"]):
-            return DomainHint.TECHNICAL
-        if any(word in normalized for word in ["patient", "clinical", "hospital", "diagnosis"]):
-            return DomainHint.MEDICAL
-        return DomainHint.GENERAL
+        for domain_key, keywords in self.keyword_map.items():
+            if any(word in normalized for word in keywords):
+                try:
+                    return DomainHint(domain_key), domain_key
+                except ValueError:
+                    return DomainHint.CUSTOM, domain_key
+        return DomainHint.GENERAL, DomainHint.GENERAL.value
+
+    def classify(self, text: str) -> DomainHint:
+        hint, _ = self.classify_with_label(text)
+        return hint
 
 
 class TriageAgent:
@@ -38,15 +43,21 @@ class TriageAgent:
         rules_path: Optional[str] = None,
     ):
         self.sample_pages = sample_pages
-        self.domain_classifier = domain_classifier or KeywordDomainClassifier()
+        self.domain_classifier = domain_classifier or KeywordDomainClassifier(rules_path=rules_path)
         self.scanned_density_max = float(extraction_threshold("origin_scanned_char_density_max", 0.0008, rules_path))
         self.digital_density_min = float(extraction_threshold("origin_digital_char_density_min", 0.0020, rules_path))
         self.scanned_image_ratio_min = float(extraction_threshold("origin_scanned_image_ratio_min", 0.50, rules_path))
+        self.mixed_image_ratio_min = float(extraction_threshold("origin_mixed_image_ratio_min", 0.20, rules_path))
+        self.digital_chars_floor = int(extraction_threshold("origin_digital_chars_floor", 80, rules_path))
+        self.digital_chars_with_font_floor = int(extraction_threshold("origin_digital_chars_with_font_floor", 150, rules_path))
         self.form_fillable_widget_ratio_min = float(extraction_threshold("origin_form_fillable_widget_ratio_min", 0.10, rules_path))
         self.multi_column_ratio_min = float(extraction_threshold("layout_multi_column_ratio_min", 0.20, rules_path))
         self.multi_column_count_min = int(extraction_threshold("layout_multi_column_count_min", 2, rules_path))
         self.table_page_ratio_min = float(extraction_threshold("layout_table_page_ratio_min", 0.15, rules_path))
         self.figure_page_ratio_min = float(extraction_threshold("layout_figure_page_ratio_min", 0.20, rules_path))
+        self.language_amharic_ratio_threshold = float(extraction_threshold("language_amharic_ratio_threshold", 0.05, rules_path))
+        self.language_confidence_floor = float(extraction_threshold("language_confidence_floor", 0.60, rules_path))
+        self.language_confidence_base = float(extraction_threshold("language_confidence_base", 0.60, rules_path))
 
     def profile_document(self, file_path: str, doc_id: str) -> DocumentProfile:
         if not os.path.exists(file_path):
@@ -55,11 +66,11 @@ class TriageAgent:
         metrics = self._gather_metrics(file_path)
         origin = self._detect_origin(metrics)
         layout = self._detect_layout(metrics)
-        domain = self._detect_domain(metrics)
+        domain, domain_label = self._detect_domain_with_label(metrics)
 
         amharic_ratio = metrics.get("amharic_char_ratio", 0.0)
-        language = "am" if amharic_ratio > 0.05 else "en"
-        language_confidence = min(1.0, max(0.6, 0.6 + amharic_ratio))
+        language = "am" if amharic_ratio > self.language_amharic_ratio_threshold else "en"
+        language_confidence = min(1.0, max(self.language_confidence_floor, self.language_confidence_base + amharic_ratio))
         cost_est = self._estimate_cost(origin, layout, is_amharic=(language == "am"))
 
         return DocumentProfile(
@@ -69,6 +80,7 @@ class TriageAgent:
             language=language,
             language_confidence=language_confidence,
             domain_hint=domain,
+            domain_label=domain_label,
             estimated_extraction_cost=cost_est,
             page_count=metrics.get("total_pages", 0),
         )
@@ -195,11 +207,11 @@ class TriageAgent:
             return OriginType.SCANNED_IMAGE
         if avg_char_density >= self.digital_density_min and image_ratio < self.scanned_image_ratio_min:
             return OriginType.NATIVE_DIGITAL
-        if avg_char_density >= self.digital_density_min and avg_chars_per_page >= 150 and font_ratio > 0:
+        if avg_char_density >= self.digital_density_min and avg_chars_per_page >= self.digital_chars_with_font_floor and font_ratio > 0:
             return OriginType.NATIVE_DIGITAL
-        if image_ratio > 0.20 and avg_char_density > self.scanned_density_max:
+        if image_ratio > self.mixed_image_ratio_min and avg_char_density > self.scanned_density_max:
             return OriginType.MIXED
-        return OriginType.NATIVE_DIGITAL if avg_chars_per_page > 80 else OriginType.MIXED
+        return OriginType.NATIVE_DIGITAL if avg_chars_per_page > self.digital_chars_floor else OriginType.MIXED
 
     def _detect_layout(self, metrics: Dict[str, Any]) -> LayoutComplexity:
         table_heavy = float(metrics.get("table_page_ratio", 0.0)) >= self.table_page_ratio_min
@@ -222,7 +234,16 @@ class TriageAgent:
         return LayoutComplexity.SINGLE_COLUMN
 
     def _detect_domain(self, metrics: Dict[str, Any]) -> DomainHint:
-        return self.domain_classifier.classify(metrics.get("text_sample", ""))
+        domain_hint, _ = self._detect_domain_with_label(metrics)
+        return domain_hint
+
+    def _detect_domain_with_label(self, metrics: Dict[str, Any]) -> tuple[DomainHint, str]:
+        text = metrics.get("text_sample", "")
+        classify_with_label = getattr(self.domain_classifier, "classify_with_label", None)
+        if callable(classify_with_label):
+            return classify_with_label(text)
+        domain_hint = self.domain_classifier.classify(text)
+        return domain_hint, domain_hint.value
 
     def _estimate_cost(self, origin: OriginType, layout: LayoutComplexity, is_amharic: bool = False) -> CostEstimate:
         if origin == OriginType.SCANNED_IMAGE or is_amharic:
