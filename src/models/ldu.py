@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import List, Optional, Any, Dict
+from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
 
 from src.models.extraction import BoundingBox

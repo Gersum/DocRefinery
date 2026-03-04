@@ -1,4 +1,4 @@
-from typing import List, Optional, Any, Dict
+from typing import List, Optional
 from pydantic import BaseModel, Field
 
 class BoundingBox(BaseModel):
@@ -34,15 +34,15 @@ class ExtractedFigure(BaseModel):
 class ExtractedPage(BaseModel):
     """A single page normalized extracted output."""
     page_num: int
-    text_blocks: List[ExtractedText] = []
-    tables: List[ExtractedTable] = []
-    figures: List[ExtractedFigure] = []
+    text_blocks: List[ExtractedText] = Field(default_factory=list)
+    tables: List[ExtractedTable] = Field(default_factory=list)
+    figures: List[ExtractedFigure] = Field(default_factory=list)
     confidence_score: float = Field(default=1.0, ge=0.0, le=1.0)
     strategy_used: str = ""
 
 class ExtractedDocument(BaseModel):
     """The normalized representation of the entire document post-extraction."""
     document_id: str
-    pages: List[ExtractedPage] = []
+    pages: List[ExtractedPage] = Field(default_factory=list)
     total_processing_time: float = 0.0
     total_cost: float = 0.0
