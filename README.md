@@ -1,68 +1,105 @@
-# The Document Intelligence Refinery (Interim Submission)
+# The Document Intelligence Refinery
 
-This repository contains the Phase 1 and 2 implementation for a 5-stage agentic pipeline designed to extract structured data from unstructured enterprise documents.
+This repository implements a five-stage document refinery pipeline for heterogeneous PDFs:
+1. Triage Agent (`DocumentProfile`)
+2. Confidence-gated multi-strategy extraction router (A -> B -> C escalation)
+3. Semantic chunking with rule validation + content hashing
+4. PageIndex construction and retrieval pre-navigation
+5. Query + provenance + structured fact lookup + audit mode
 
-## Architectural Highlights
-- **Confidence-Gated Routing:** The `ExtractionRouter` prevents hallucination loops by dropping to higher-tier, more expensive Vision Language Models ONLY if fast-text heuristics fail.
-- **Pydantic Driven:** Every stage communicates purely through strictly typed schemas (`DocumentProfile`, `ExtractedDocument`).
-- **Externalized Constitution:** Thresholds, domain keyword maps, and routing/review gates are read from `rubric/extraction_rules.yaml`.
-- **Interim Artifact Generator:** `src/run_corpus.py` generates 12 required profiles (3 per class), extraction outputs, and ledger entries.
-- **Review Queue:** Any low-confidence final outcome is explicitly flagged and written to `.refinery/review_queue.jsonl`.
+## What is Implemented
 
-## Project Structure
-```text
-├── DOMAIN_NOTES.md                  # Phase 0 Strategic Documentation
-├── pyproject.toml                   # Project dependencies
-├── rubric/
-│   └── extraction_rules.yaml        # External configuration
-├── .refinery/
-│   ├── profiles/                    # Generated DocumentProfiles (JSON)
-│   ├── extractions/                 # Normalized extraction outputs (JSON)
-│   └── extraction_ledger.jsonl      # Audit trail of extraction costs & routing
-├── tests/
-│   └── test_triage.py               # Unit testing
-└── src/
-    ├── models/                      # Core Pydantic schemas
-    ├── agents/                      # Triage and Router Agents
-    ├── strategies/                  # Tier A, B, C Extraction strategies
-    └── run_corpus.py                # Batch generation script
+### Core Models (`src/models/`)
+- `DocumentProfile`
+- `ExtractedDocument`
+- `LDU` (includes `content_hash`, `bounding_box`, parent/child chunk relations)
+- `PageIndex` / recursive `PageIndexNode`
+- `ProvenanceChain` / `ProvenanceCitation` (typed `BoundingBox`, `content_hash`)
+
+### Agents and Strategies
+- `src/agents/triage.py`
+  - Origin and layout classification
+  - Config-driven domain keyword classifier (pluggable strategy)
+- `src/agents/extractor.py`
+  - Initial strategy from profile
+  - Confidence gates from config
+  - Escalation A -> B -> C
+  - Decision logging + review queue flagging
+- `src/strategies/`
+  - `FastTextExtractor` (Strategy A)
+  - `LayoutExtractor` (Strategy B)
+  - `VisionExtractor` (Strategy C, OpenRouter + budget guard)
+- `src/agents/chunker.py`
+  - `ChunkingEngine` + `ChunkValidator` enforcing 5 chunking rules
+- `src/agents/indexer.py`
+  - `PageIndexBuilder` with cheap summary generation (OpenRouter when available, heuristic fallback)
+  - `PageIndexNavigator` for top-k section routing
+  - Precision benchmark (`naive` vs `PageIndex`-guided retrieval)
+- `src/agents/vector_store.py`
+  - Local vector ingestion/retrieval
+  - Configurable backend (`local_hash`, optional `chroma`)
+- `src/agents/fact_table.py`
+  - Numeric/key-value fact extraction to SQLite
+- `src/agents/query_agent.py`
+  - Tools: `pageindex_navigate`, `semantic_search`, `structured_query`
+  - Answer output with `ProvenanceChain`
+  - `audit_mode` for verify-or-unverifiable behavior
+
+## Configuration
+
+All major tunables are externalized in [`rubric/extraction_rules.yaml`](/Users/gersumasfaw/Downloads/week3/rubric/extraction_rules.yaml):
+- extraction thresholds and confidence gates
+- domain keyword lists
+- chunking constitution
+- retrieval preferences (chunk limits, vector backend, PageIndex/semantic top-k, fact DB path)
+
+To onboard a new domain, edit only `domain_keywords` in YAML; no code changes are required.
+
+## Setup (Under 10 Minutes)
+
+```bash
+cd /Users/gersumasfaw/Downloads/week3
+python3 -m venv venv
+source venv/bin/activate
+pip install -e .
 ```
 
-## Setup & Running
-1.  **Environment Setup**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -e .
-    ```
+Optional environment variables:
+- `OPENROUTER_API_KEY` for Strategy C VLM calls and LLM summaries
+- `OPENROUTER_VISION_MODEL` to pin a vision model
+- `REFINERY_RULES_PATH` to point to an alternate rules file
 
-2.  **Generate Corpus Artifacts**
-    Run the generation script. This produces 12 profiles (3 per class), extraction JSON files, and ledger entries.
-    ```bash
-    python -m src.run_corpus --clean
-    ```
-    Optional environment variables:
-    - `OPENROUTER_API_KEY`: enables live vision extraction calls in Strategy C.
-    - `OPENROUTER_VISION_MODEL`: optional model override.
-    - `REFINERY_RULES_PATH`: alternate rules YAML path.
+## Run the Corpus Pipeline
 
-3.  **Run Pipeline Tests**
-    ```bash
-    pytest -q
-    ```
-
-## Config-Only Domain Onboarding
-To onboard a domain keyword taxonomy without code edits, update `domain_keywords` in `rubric/extraction_rules.yaml`.
-
-Example:
-```yaml
-domain_keywords:
-  financial: [fiscal, revenue, tax]
-  legal: [court, plaintiff, compliance]
-  technical: [api, protocol, architecture, semiconductor]
-  medical: [clinical, diagnosis, patient]
-  procurement: [tender, bid, award]
+```bash
+cd /Users/gersumasfaw/Downloads/week3
+set -a && source .env && set +a
+./venv/bin/python -m src.run_corpus --clean
 ```
 
-The triage classifier reads this config at runtime; no Python file edits are required.
-Unknown labels (for example `procurement`) are mapped to `domain_hint=custom` with `domain_label=procurement`.
+This generates:
+- `.refinery/profiles/*.json`
+- `.refinery/extractions/*.json`
+- `.refinery/extraction_ledger.jsonl`
+- `.refinery/review_queue.jsonl`
+- `.refinery/structures/*.json`
+- `.refinery/pageindex/*.json`
+- `.refinery/retrieval_benchmark/*.json`
+- `.refinery/query_examples/*.json`
+- `.refinery/facts.db`
+
+## Run Tests
+
+```bash
+cd /Users/gersumasfaw/Downloads/week3
+./venv/bin/python -m pytest -q
+```
+
+## Evidence Paths for Rubric Review
+
+- Routing decisions: `.refinery/extraction_ledger.jsonl`
+- Low-confidence review flags: `.refinery/review_queue.jsonl`
+- LDU/PageIndex/Provenance artifacts: `.refinery/structures/`
+- PageIndex trees: `.refinery/pageindex/`
+- Retrieval precision comparison: `.refinery/retrieval_benchmark/`
+- Query + provenance + audit outputs: `.refinery/query_examples/`
