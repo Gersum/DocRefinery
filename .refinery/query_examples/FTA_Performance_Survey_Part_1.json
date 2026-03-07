@@ -1,0 +1,150 @@
+{
+  "document_id": "FTA_Performance_Survey_Part_1",
+  "document_class": "class_c",
+  "queries": [
+    {
+      "question": "What are the major assessment findings?",
+      "answer": "are (section: Page 40)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "fta_performance_survey_final_report_2022.pdf",
+        "page_number": 40,
+        "citations": [
+          {
+            "document_name": "fta_performance_survey_final_report_2022.pdf",
+            "document_id": "FTA_Performance_Survey_Part_1",
+            "page_number": 40,
+            "excerpt": "are",
+            "bbox": {
+              "x0": 269.54400000000004,
+              "y0": 756.964,
+              "x1": 284.21999999999997,
+              "y1": 767.296
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 269.54400000000004,
+          "y0": 756.964,
+          "x1": 284.21999999999997,
+          "y1": 767.296
+        },
+        "content_hash": "ba78973ddcf98d4e5369f5e722d681d94f5106895e5d6cf6fa3ca8240fabdc14",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Which section describes implementation challenges?",
+      "answer": "(FTA) (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "fta_performance_survey_final_report_2022.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "fta_performance_survey_final_report_2022.pdf",
+            "document_id": "FTA_Performance_Survey_Part_1",
+            "page_number": 1,
+            "excerpt": "(FTA)",
+            "bbox": {
+              "x0": 79.584,
+              "y0": 662.6282472989196,
+              "x1": 148.704,
+              "y1": 687.01
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 79.584,
+          "y0": 662.6282472989196,
+          "x1": 148.704,
+          "y1": 687.01
+        },
+        "content_hash": "83b029642a5144791ce470895f089b7c15d8013da10872440af1186df42dddf8",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Summarize recommendations from the report.",
+      "answer": "report (section: Page 7)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "fta_performance_survey_final_report_2022.pdf",
+        "page_number": 7,
+        "citations": [
+          {
+            "document_name": "fta_performance_survey_final_report_2022.pdf",
+            "document_id": "FTA_Performance_Survey_Part_1",
+            "page_number": 7,
+            "excerpt": "report",
+            "bbox": {
+              "x0": 98.412,
+              "y0": 720.844,
+              "x1": 126.984,
+              "y1": 731.176
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 98.412,
+          "y0": 720.844,
+          "x1": 126.984,
+          "y1": 731.176
+        },
+        "content_hash": "845e91831319e89c4d656bdb80c278ac09a7230d61e5dfd2e1b1fbb436ac8917",
+        "verification_status": "verified"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "assessment findings recommendations implementation is explicitly discussed in this document.",
+    "result": "actions (section: Page 14)",
+    "audit_status": "verified",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "fta_performance_survey_final_report_2022.pdf",
+      "page_number": 14,
+      "citations": [
+        {
+          "document_name": "fta_performance_survey_final_report_2022.pdf",
+          "document_id": "FTA_Performance_Survey_Part_1",
+          "page_number": 14,
+          "excerpt": "actions",
+          "bbox": {
+            "x0": 489.0479999999999,
+            "y0": 494.614,
+            "x1": 522.9839999999998,
+            "y1": 504.94599999999997
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 489.0479999999999,
+        "y0": 494.614,
+        "x1": 522.9839999999998,
+        "y1": 504.94599999999997
+      },
+      "content_hash": "2b0dcdd40016096b852d9d5b79de2ad570249dc8e4d4ebe4fa4ab81e2aa9af35",
+      "verification_status": "verified"
+    }
+  }
+}

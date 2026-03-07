@@ -1,0 +1,15 @@
+{
+  "document_id": "DBE_Audit_Report_Part_1",
+  "topic": "audit opinion compliance findings",
+  "relevant_sections": [
+    "Page 1"
+  ],
+  "naive_precision_at_k": 0.0,
+  "indexed_precision_at_k": 1.0,
+  "naive_hits": 0,
+  "indexed_hits": 1,
+  "top_sections": [
+    "Page 1",
+    "Document"
+  ]
+}

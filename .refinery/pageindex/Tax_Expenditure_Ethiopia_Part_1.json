@@ -1,0 +1,1102 @@
+{
+  "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+  "root_node": {
+    "section_title": "Document Root",
+    "page_start": 1,
+    "page_end": 60,
+    "summary": "Hierarchical section index for guided retrieval.",
+    "key_entities": [],
+    "data_types_present": [],
+    "child_sections": [
+      {
+        "section_title": "Page 1",
+        "page_start": 1,
+        "page_end": 1,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 Tax Policy Directorate, Ministry of Finance, Ethiopia September 2022 Figure 1",
+        "key_entities": [
+          "Import",
+          "Tax",
+          "Policy",
+          "Directorate",
+          "Ministry",
+          "Finance",
+          "Ethiopia",
+          "September"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Document",
+        "page_start": 1,
+        "page_end": 60,
+        "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+        "key_entities": [
+          "Page"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 2",
+        "page_start": 2,
+        "page_end": 2,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 2 Preface This report has been prepared by the IFS Centre for Tax Analysis in Developing Countries (TaxDev) team (Daniel Prinz, Edris Seid and Ben Waltmann) in collaboration with the Ethiopian Ministry of...",
+        "key_entities": [
+          "Import",
+          "Preface",
+          "This",
+          "IFS",
+          "Centre",
+          "Tax",
+          "Analysis",
+          "Developing"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 3",
+        "page_start": 3,
+        "page_end": 3,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 3 Contents Executive summary...................................................................................................................... 4 1. Introduction ...........................................",
+        "key_entities": [
+          "Import",
+          "Contents",
+          "Executive",
+          "Introduction",
+          "Policy",
+          "Definitions",
+          "Defining",
+          "Estimating"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 4",
+        "page_start": 4,
+        "page_end": 4,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 4 Executive summary Understanding, estimating and reporting on tax expenditures is an important exercise in Tax expenditures - cases in which the tax liability of an public financial management. individual...",
+        "key_entities": [
+          "Import",
+          "Executive",
+          "Understanding",
+          "Tax",
+          "Ethiopia",
+          "This",
+          "Ethiopian",
+          "Customs"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 5",
+        "page_start": 5,
+        "page_end": 5,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 5 import value of affected goods in FY 2020/21, 16% in FY 2019/20 and around 20% in FY 2018/19. In FY 2020/21, import tax expenditures were especially large on motor vehicles and on Together, these two cat...",
+        "key_entities": [
+          "Import",
+          "Together",
+          "For",
+          "Tax",
+          "This",
+          "The",
+          "However",
+          "Ministry"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 6",
+        "page_start": 6,
+        "page_end": 6,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 6 1. Introduction This report provides estimates of federal import tax expenditures during fiscal years The report is based on shipment-level microdata on customs 2018/19, 2019/20 and 2020/21. duty, excise...",
+        "key_entities": [
+          "Import",
+          "Introduction",
+          "This",
+          "The",
+          "VAT",
+          "Ethiopian",
+          "Customs",
+          "Commission"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 7",
+        "page_start": 7,
+        "page_end": 7,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 7 2. Policy rationale for and issues with tax expenditures The government of Ethiopia has been using tax policies such as tax holidays, tax credits and preferential tax treatments for certain sectors and p...",
+        "key_entities": [
+          "Import",
+          "Policy",
+          "The",
+          "Ethiopia",
+          "Various",
+          "Investors",
+          "Council",
+          "Ministers"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 8",
+        "page_start": 8,
+        "page_end": 8,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 8 Together, these effects are intended to help transform the Ethiopian economy into an industrial 3 economy and improve living standards. Tax expenditures lack transparency in terms of how much the governm...",
+        "key_entities": [
+          "Import",
+          "Together",
+          "Ethiopian",
+          "Tax",
+          "Even",
+          "This",
+          "For",
+          "Proclamation"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 9",
+        "page_start": 9,
+        "page_end": 9,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 9 3. Definitions and data 3.1 Defining the benchmark tax system The first step in Tax expenditures are defined as deviations from a benchmark system. estimating tax expenditures is therefore the definition...",
+        "key_entities": [
+          "Import",
+          "Definitions",
+          "Defining",
+          "The",
+          "Tax",
+          "Below",
+          "When",
+          "International"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 10",
+        "page_start": 10,
+        "page_end": 10,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 10 Furthermore, import tax expenditures likely lead to higher collection of domestic taxes. Import VAT exemptions likely lead to higher domestic VAT collection on final goods, as less input VAT can be recl...",
+        "key_entities": [
+          "Import",
+          "Furthermore",
+          "VAT",
+          "All",
+          "Thus",
+          "Ethiopian",
+          "This",
+          "For"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 11",
+        "page_start": 11,
+        "page_end": 11,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 11 Ethiopia has a bilateral trade agreement with Sudan granting duty-free access for goods o originating from Sudan. The benchmark customs duty rate for goods coming from Sudan is set to zero. ▪ Duty-free...",
+        "key_entities": [
+          "Import",
+          "Ethiopia",
+          "Sudan",
+          "The",
+          "Duty",
+          "Vienna",
+          "Conventions",
+          "Imports"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 12",
+        "page_start": 12,
+        "page_end": 12,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 12 ▪ basic food items (e.g. milk, bread, injera, unprocessed grains, wheat flour, oilseeds; but excluding most vegetables); ▪ agricultural inputs, including fertilisers, pesticides, poultry feed, and impro...",
+        "key_entities": [
+          "Import",
+          "The",
+          "VAT",
+          "CIF",
+          "Proclamation",
+          "Vienna",
+          "Conventions",
+          "Imports"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 13",
+        "page_start": 13,
+        "page_end": 13,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 13 The benchmark tax system for surtax on imports is defined as follows: ▪ The unit of taxation for surtax on imports is the importer, the business or the individual. ▪ The surtax base is the sum of the CI...",
+        "key_entities": [
+          "Import",
+          "The",
+          "CIF",
+          "VAT",
+          "Council",
+          "Ministers",
+          "Regulation",
+          "Goods"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 14",
+        "page_start": 14,
+        "page_end": 14,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 14 𝑏𝑐 𝑎𝑐 𝜏 𝜏 where and are, respectively, the customs duty rate in the benchmark system for shipment 𝑖𝑡 𝑖𝑡 𝑖 𝑡 𝑖 𝑡 𝐶𝐼𝐹 in fiscal year and the rate actually charged on shipment in fiscal year . is, as above...",
+        "key_entities": [
+          "Import",
+          "For",
+          "Appendix",
+          "Customs",
+          "Similarly",
+          "Note",
+          "Again",
+          "VAT"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 15",
+        "page_start": 15,
+        "page_end": 15,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 15 3.3 Data This report uses shipment-level microdata from the Ethiopian Customs Commission at the During this period, the Ethiopian eight-digit HS level from FY 2018/19 to FY 2020/21. Customs Commission t...",
+        "key_entities": [
+          "Import",
+          "Data",
+          "This",
+          "Ethiopian",
+          "Customs",
+          "Commission",
+          "During",
+          "Automated"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 16",
+        "page_start": 16,
+        "page_end": 16,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 16 4. Tax expenditure estimates 4.1 Overall tax expenditures The overall tax expenditure Overall tax expenditures were ETB 120.7 billion in FY 2020/21. estimate includes ETB 38.9 billion in forgone customs...",
+        "key_entities": [
+          "Import",
+          "Tax",
+          "Overall",
+          "The",
+          "ETB",
+          "VAT",
+          "Figure",
+          "Customs"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 17",
+        "page_start": 17,
+        "page_end": 17,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 17 counting arising from the transition between two customs IT systems in that fiscal year. Tax expenditures in FY 2018/19 were worth between ETB 68.7 billion and ETB 99.3 billion, amounting to between 2.6...",
+        "key_entities": [
+          "Import",
+          "Tax",
+          "ETB",
+          "GDP",
+          "The",
+          "Figures",
+          "However",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 18",
+        "page_start": 18,
+        "page_end": 18,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 18 2020/21 than in previous tax years, mainly because higher statutory excise tax rates on vehicles increased the value of capital goods exemptions for vehicles. Table 4.1. Tax expenditures by type (in ETB...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Tax",
+          "ETB",
+          "Imports",
+          "CIF",
+          "Total",
+          "Capital"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 19",
+        "page_start": 19,
+        "page_end": 19,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 19 import value of animal and vegetable fats increased more than threefold between 2019/20 and 2020/21. Table 4.2. Tax expenditures by broad commodity category (in ETB million), FY 2018/19 to FY 2020/21 20...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Tax",
+          "ETB",
+          "Animal",
+          "Vegetable",
+          "Prepared",
+          "Mineral"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 20",
+        "page_start": 20,
+        "page_end": 20,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 20 animal or vegetable fats (48.1%). Both were considerably higher than in FY 2019/20, when the largest tax expenditure as a share of import value was on prepared food and beverages (incl. sugar). Table 4....",
+        "key_entities": [
+          "Import",
+          "Both",
+          "Table",
+          "Tax",
+          "Animal",
+          "Vegetable",
+          "Prepared",
+          "Mineral"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 21",
+        "page_start": 21,
+        "page_end": 21,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 21 Overall estimated tax expenditures are somewhat higher than, but in line with previous Differences appear to arise primarily from differences in the definition of the estimates. benchmark tax system. De...",
+        "key_entities": [
+          "Import",
+          "Overall",
+          "Differences",
+          "Details",
+          "Box",
+          "Tax",
+          "Alternative",
+          "Ethiopian"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 22",
+        "page_start": 22,
+        "page_end": 22,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 22 Note: 'This report' refers to our headline figures assuming no double-counting of shipments across customs IT systems. 'This report, eCMS only' refers to estimates obtained using only the eCMS customs s...",
+        "key_entities": [
+          "Import",
+          "Note",
+          "This",
+          "Appendix",
+          "ECC",
+          "Ministry",
+          "Finance",
+          "Ethiopia"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 23",
+        "page_start": 23,
+        "page_end": 23,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 23 duty expenditures were around ETB 23 billion. FY 2018/19 customs duty expenditures were up to ETB 30 billion. Figure 4.3. Customs duty tax expenditures, FY 2018/19 to FY 2020/21 40 35 30 Higher order in...",
+        "key_entities": [
+          "Import",
+          "ETB",
+          "Figure",
+          "Customs",
+          "Higher",
+          "Indirect",
+          "VAT",
+          "Direct"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 24",
+        "page_start": 24,
+        "page_end": 24,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 24 represented a lower share of imports in both FY 2019/20 (5%) and FY 2018/19 (around 6%). As a share of all tax expenditures, customs duty tax expenditures were lower in both FY 2019/20 and FY 2018/19 (a...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Customs",
+          "GDP",
+          "Imports",
+          "Note",
+          "Assumes",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 25",
+        "page_start": 25,
+        "page_end": 25,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 25 Table 4.5. Customs duty tax expenditures by type (in ETB million), FY 2018/19 to FY 2020/21 Exemp- Rate Indirect Indirect Indirect Higher- Total tions reduc- effects effects effects order customs throug...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Customs",
+          "ETB",
+          "Exemp",
+          "Rate",
+          "Indirect",
+          "Higher"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 26",
+        "page_start": 26,
+        "page_end": 26,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 26 Relative to FY 2018/19 (around 15%) and FY machinery at ETB 3.5 billion (or 9.1%). 2019/20 (8%), the importance of animal or vegetable fats for customs duty tax expenditures has increased very substanti...",
+        "key_entities": [
+          "Import",
+          "Relative",
+          "ETB",
+          "The",
+          "Exemp",
+          "Rate",
+          "Indirect",
+          "Higher"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 27",
+        "page_start": 27,
+        "page_end": 27,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 27 573.81 54.07 11.49 94.18 54.11 11.16 798.82 Others Table 4.6. Customs duty tax expenditures by broad commodity category (in ETB million), FY 2020/21 Note: The detailed disaggregation of the customs duty...",
+        "key_entities": [
+          "Import",
+          "Others",
+          "Table",
+          "Customs",
+          "ETB",
+          "Note",
+          "The",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 28",
+        "page_start": 28,
+        "page_end": 28,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 28 Figure 4.5. Excise duty tax expenditures, FY 2018/19 to FY 2020/21 20 16 billion 12 ETB 8 4 0 2018/19 2019/20 2020/21 Direct effect Indirect effect through VAT Indirect effect through Surtax Higher orde...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Excise",
+          "ETB",
+          "Direct",
+          "Indirect",
+          "VAT",
+          "Surtax"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 29",
+        "page_start": 29,
+        "page_end": 29,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 29 Figure 4.6. Excise duty tax expenditures as a share of imports, GDP and all import tax expenditures, FY 2018/19 to FY 2020/21 16% 12% 8% 4% 0% 2018/19 2019/20 2020/21 %of Imports %of GDP %of total trade...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Excise",
+          "GDP",
+          "Imports",
+          "Note",
+          "Assumes",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 30",
+        "page_start": 30,
+        "page_end": 30,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 30 Table 4.7. Excise duty tax expenditures by type (in ETB million) - FY 2018/19 to FY 2020/21 Direct effect Indirect Indirect Higher- Total excise of excise tax effect effect order tax expenditure through...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Excise",
+          "ETB",
+          "Direct",
+          "Indirect",
+          "Higher",
+          "Total"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 31",
+        "page_start": 31,
+        "page_end": 31,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 31 Table 4.8. Excise duty tax expenditures by broad commodity category (in ETB million), FY 2020/21 Direct effect Indirect Indirect Higher- Total excise Commodity category of excise effect effect order tax...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Excise",
+          "ETB",
+          "Direct",
+          "Indirect",
+          "Higher",
+          "Total"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 32",
+        "page_start": 32,
+        "page_end": 32,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 32 Box 4.2. Tax expenditures on imports of motor vehicles Tax expenditures on motor vehicles constituted a large fraction of total tax expenditures at ETB 23.0 billion (0.5% of GDP) in 2020/21. This is a t...",
+        "key_entities": [
+          "Import",
+          "Box",
+          "Tax",
+          "ETB",
+          "GDP",
+          "This",
+          "Almost",
+          "These"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 33",
+        "page_start": 33,
+        "page_end": 33,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 33 4.4 VAT Tax expenditures in the form of forgone VAT were large at ETB 44.6 billion in FY 2020/21; of this, the direct effects represented ETB 42.2 billion (94.7%) and the indirect Relative to the preced...",
+        "key_entities": [
+          "Import",
+          "VAT",
+          "Tax",
+          "ETB",
+          "Relative",
+          "However",
+          "Figure",
+          "Direct"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 34",
+        "page_start": 34,
+        "page_end": 34,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 34 Figure 4.8. VAT expenditures as a share of imports, GDP and all import tax expenditures, FY 2018/19 to FY 2020/21 50% 45% 40% 35% 30% 25% 20% 15% 10% 5% 0% 2018/19 2019/20 2020/21 %of Imports %of GDP %o...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "VAT",
+          "GDP",
+          "Imports",
+          "Note",
+          "Assumes",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 35",
+        "page_start": 35,
+        "page_end": 35,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 35 Table 4.9. VAT expenditures by type (in ETB million), FY 2018/19 to FY 2020/21 Direct effect of Indirect effect Total VAT VAT expenditure through surtax expenditure Capital/investment 309.79 17.61 327.4...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "VAT",
+          "ETB",
+          "Direct",
+          "Indirect",
+          "Total",
+          "Capital"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 36",
+        "page_start": 36,
+        "page_end": 36,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 36 Table 4.10. VAT expenditures by broad commodity category (in ETB million), FY 2020/21 Direct effect Indirect effect Total VAT Commodity category of VAT through expenditure expenditure surtax 66.58 5.39...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "VAT",
+          "ETB",
+          "Direct",
+          "Indirect",
+          "Total",
+          "Commodity"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 37",
+        "page_start": 37,
+        "page_end": 37,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 37 ETB 11 billion. FY 2018/19 surtax expenditures were up to ETB 13.5 billion Surtax . expenditures have no indirect effect on the collection of other taxes, as it is applied last in the calculation of bor...",
+        "key_entities": [
+          "Import",
+          "ETB",
+          "Surtax",
+          "Figure",
+          "Note",
+          "Assumes",
+          "Appendix",
+          "Source"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 38",
+        "page_start": 38,
+        "page_end": 38,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 38 Figure 4.10. Surtax expenditures as a share of imports, GDP and all import tax expenditures, FY 2018/19 to FY 2020/21 16% 12% 8% 4% 0% 2018/19 2019/20 2020/21 %of Imports %of GDP %of total trade tax exp...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Surtax",
+          "GDP",
+          "Imports",
+          "Note",
+          "Assumes",
+          "Appendix"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 39",
+        "page_start": 39,
+        "page_end": 39,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 39 Table 4.11. Surtax expenditures by type (in ETB million), FY 2018/19 to FY 2020/21 Direct effect of surtax expenditure Capital/investment 117.38 2018/19 Second schedule 1,417.15 Non-capital/second sched...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Surtax",
+          "ETB",
+          "Direct",
+          "Capital",
+          "Second",
+          "Non"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 40",
+        "page_start": 40,
+        "page_end": 40,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 40 Table 4.12. Surtax expenditures by broad commodity category (in ETB million), FY 2020/21 Direct effect of surtax expenditure Commodity category 150.97 Animal products 158.55 Vegetable products 4,153.68...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Surtax",
+          "ETB",
+          "Direct",
+          "Commodity",
+          "Animal",
+          "Vegetable"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 41",
+        "page_start": 41,
+        "page_end": 41,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 41 5. Conclusions and recommendations This report estimated import tax expenditures incurred by the government of Ethiopia in To do so, shipment-level microdata from the Ethiopian FY 2018/19, 2019/20 and 2...",
+        "key_entities": [
+          "Import",
+          "Conclusions",
+          "This",
+          "Ethiopia",
+          "Ethiopian",
+          "Customs",
+          "Commission",
+          "Tax"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 42",
+        "page_start": 42,
+        "page_end": 42,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 42 which ended over a year ago. The shipment-level microdata are often lacking details crucial for understanding the reason for underpayment on shipments. Reporting could be improved if the data were more...",
+        "key_entities": [
+          "Import",
+          "The",
+          "Reporting",
+          "Ministry",
+          "Finance",
+          "Ethiopia"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 43",
+        "page_start": 43,
+        "page_end": 43,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 43 Appendices A. Negative tax expenditures positive tax expenditures In the main text of this report, we study - cases in which an importer is charged at a lower (possibly zero) customs duty/tax rate than...",
+        "key_entities": [
+          "Import",
+          "Appendices",
+          "Negative",
+          "However",
+          "This",
+          "Ethiopian",
+          "Customs",
+          "Commission"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 44",
+        "page_start": 44,
+        "page_end": 44,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 44 Figure A.1. Negative tax expenditures when the actual rate is not imposed as a lower bound, FY 2018/19 to FY 2020/21 Customs Excise VAT Surtax 0.0 -0.5 -1.0 billion -1.5 ETB -2.0 -2.5 -3.0 2018/19 2019/...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Negative",
+          "Customs",
+          "Excise",
+          "VAT",
+          "Surtax",
+          "ETB"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 45",
+        "page_start": 45,
+        "page_end": 45,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 45 The indirect effect of excise tax expenditures is 𝑒 𝑏𝑒 𝑎𝑒 𝑏𝑣 𝑎𝑐 𝑏𝑒 𝑎𝑒 𝑏𝑠 𝑎𝑐 (1+𝜏 )𝐶𝐼𝐹 (1+𝜏 )𝐶𝐼𝐹 𝐼𝐸 = (𝜏 -𝜏 )𝜏 + (𝜏 -𝜏 )𝜏 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 𝑖𝑡 indirect effect of excise exp. throughVAT indire...",
+        "key_entities": [
+          "Import",
+          "The",
+          "VAT",
+          "This",
+          "Alternative",
+          "For",
+          "Figure",
+          "Ministry"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 46",
+        "page_start": 46,
+        "page_end": 46,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 46 Figure C.1. Comparing the two tax expenditure measures by tax type, FY 2018/19 to FY 2020/21 50 40 billion 30 ETB 20 10 0 2018/19 2019/20 2020/21 2018/19 2019/20 2020/21 2018/19 2019/20 2020/21 2018/19...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Comparing",
+          "ETB",
+          "Customs",
+          "Excise",
+          "VAT",
+          "Surtax"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 47",
+        "page_start": 47,
+        "page_end": 47,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 47 import tax on shipments recorded in eCMS alone amounted to 95% of actual collection, the total across both IT systems added up to 107% of actual collection. One plausible explanation of this discrepancy...",
+        "key_entities": [
+          "Import",
+          "One",
+          "Figure",
+          "Total",
+          "ETB",
+          "ASYCUDA",
+          "Actual",
+          "Source"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 48",
+        "page_start": 48,
+        "page_end": 48,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 48 Figure D.2. Tax expenditures on shipments reported through the two IT systems, FY 2018/19 to FY 2020/21 140 120 100 billion 80 ETB 60 40 20 0 2018/19 2019/20 2020/21 Total tax expenditure: eCMS Total ta...",
+        "key_entities": [
+          "Import",
+          "Figure",
+          "Tax",
+          "ETB",
+          "Total",
+          "ASYCUDA",
+          "Source",
+          "Authors"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 49",
+        "page_start": 49,
+        "page_end": 49,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 49 Table E.1. Commodity categorisation by HS codes (or chapters) Commodity categorisation HS codes (chapters) Animal products 1 to 5 1 Vegetable products 6 to 14 2 Animal or vegetable fats 15 3 Prepared fo...",
+        "key_entities": [
+          "Import",
+          "Table",
+          "Commodity",
+          "Animal",
+          "Vegetable",
+          "Prepared",
+          "Mineral",
+          "Other"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 50",
+        "page_start": 50,
+        "page_end": 50,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 50 Pharmaceuticals 133.48 0.00 - 20.02 0.00 0.00 153.50 Fertiliser - - - - - - - Plastics and rubbers 568.53 352.71 - 138.19 90.42 13.56 1,163.41 Other chemical products 634.03 255.73 90.50 133.46 35.64 29...",
+        "key_entities": [
+          "Import",
+          "Pharmaceuticals",
+          "Fertiliser",
+          "Plastics",
+          "Other",
+          "Leather",
+          "Paper",
+          "Textiles"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 51",
+        "page_start": 51,
+        "page_end": 51,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 51 Mineral oil and fuel 165.85 34.13 - 30.00 15.20 2.28 247.46 Other mineral products 238.33 117.05 0.96 53.31 33.59 5.29 448.53 (incl. cement) Pharmaceuticals 130.56 - - 19.55 - - 150.11 Fertiliser - - -...",
+        "key_entities": [
+          "Import",
+          "Mineral",
+          "Other",
+          "Pharmaceuticals",
+          "Fertiliser",
+          "Plastics",
+          "Leather",
+          "Paper"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 52",
+        "page_start": 52,
+        "page_end": 52,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 52 Other machinery 19.21 2.88 1.92 0.29 24.30 Vehicles 2,396.29 359.44 239.63 35.94 3,031.30 Aircraft - - - - - Other transport equipment - - - - - Furniture - - - - - Others 213.40 32.01 21.34 3.20 269.95...",
+        "key_entities": [
+          "Import",
+          "Other",
+          "Vehicles",
+          "Aircraft",
+          "Furniture",
+          "Others",
+          "Animal",
+          "Vegetable"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 53",
+        "page_start": 53,
+        "page_end": 53,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 53 Vehicles 10,514.53 1,577.18 729.28 109.39 12,930.3 8 Aircraft - - - - - Other transport equipment - - - - - Furniture - - - - - Others 32.35 4.85 3.23 0.49 40.92 Note: Assumes no duplicate reporting of...",
+        "key_entities": [
+          "Import",
+          "Vehicles",
+          "Aircraft",
+          "Other",
+          "Furniture",
+          "Others",
+          "Note",
+          "Assumes"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 54",
+        "page_start": 54,
+        "page_end": 54,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 54 Plastics and rubbers 428.32 27.28 455.60 Other chemical products 1,119.13 40.88 1,160.01 Leather and shoes 15.85 1.44 17.29 Paper and wood products 77.75 6.58 84.33 Textiles 320.75 32.03 352.78 Base met...",
+        "key_entities": [
+          "Import",
+          "Plastics",
+          "Other",
+          "Leather",
+          "Paper",
+          "Textiles",
+          "Base",
+          "Electrical"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 55",
+        "page_start": 55,
+        "page_end": 55,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 55 Animal or vegetable fats 1,351.00 Prepared food and beverages (incl. sugar) 932.60 Mineral oil and fuel 259.47 Other mineral products (incl. cement) 152.34 Pharmaceuticals 0.00 Fertiliser - Plastics and...",
+        "key_entities": [
+          "Import",
+          "Animal",
+          "Prepared",
+          "Mineral",
+          "Other",
+          "Pharmaceuticals",
+          "Fertiliser",
+          "Plastics"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 56",
+        "page_start": 56,
+        "page_end": 56,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 56 Other mineral products (incl. cement) 82.18 Pharmaceuticals 0.00 Fertiliser - Plastics and rubbers 340.48 Other chemical products 448.86 Leather and shoes 13.58 Paper and wood products 115.84 Textiles 7...",
+        "key_entities": [
+          "Import",
+          "Other",
+          "Pharmaceuticals",
+          "Fertiliser",
+          "Plastics",
+          "Leather",
+          "Paper",
+          "Textiles"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 57",
+        "page_start": 57,
+        "page_end": 57,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 57 Base metals and 13.6% 0.0% 5.4% 11.6% 8.0% articles of base metal Electrical machinery 15.2% 0.6% 8.3% 21.2% 11.2% Other machinery 12.1% 0.2% 21.6% 32.7% 17.6% Vehicles 13.6% 24.8% 3.0% 4.5% 9.1% Aircra...",
+        "key_entities": [
+          "Import",
+          "Base",
+          "Electrical",
+          "Other",
+          "Vehicles",
+          "Aircraft",
+          "Furniture",
+          "Others"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 58",
+        "page_start": 58,
+        "page_end": 58,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 58 Other mineral 1.2% 0.0% 0.3% 0.4% 0.6% products (incl. cement) Pharmaceuticals 0.4% 0.0% 7.5% 0.0% 2.9% Fertiliser 0.0% 0.0% 8.0% 0.0% 3.0% Plastics and rubbers 3.3% 0.0% 1.3% 1.8% 1.8% Other chemical 3...",
+        "key_entities": [
+          "Import",
+          "Other",
+          "Pharmaceuticals",
+          "Fertiliser",
+          "Plastics",
+          "Leather",
+          "Paper",
+          "Textiles"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 59",
+        "page_start": 59,
+        "page_end": 59,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 59 References Council of Ministers Regulation No. 133/2007, 'Import Sur-Tax Regulation', https://chilot.files.wordpress.com/2017/10/reg-no-133-2007-import-sur-tax.pdf. Council of Ministers Regulation No. 2...",
+        "key_entities": [
+          "Import",
+          "References",
+          "Council",
+          "Ministers",
+          "Regulation",
+          "Sur",
+          "Tax",
+          "Investment"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 60",
+        "page_start": 60,
+        "page_end": 60,
+        "summary": "Import tax expenditure report: FY 2018/19 - 2020/21 60 Proclamation No. 859/2014, 'Customs Proclamation', https://chilot.files.wordpress.com/2014/09/proclamation-no-859-2014-customs-proclamation.pdf. Proclamation No. 886/2015, 'Industrial Park Proclamation'...",
+        "key_entities": [
+          "Import",
+          "Proclamation",
+          "Customs",
+          "Industrial",
+          "Park",
+          "The",
+          "Excise",
+          "Tax"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      }
+    ]
+  }
+}

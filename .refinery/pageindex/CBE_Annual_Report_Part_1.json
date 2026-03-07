@@ -1,0 +1,121 @@
+{
+  "document_id": "CBE_Annual_Report_Part_1",
+  "root_node": {
+    "section_title": "Document Root",
+    "page_start": 1,
+    "page_end": 8,
+    "summary": "Hierarchical section index for guided retrieval.",
+    "key_entities": [],
+    "data_types_present": [],
+    "child_sections": [
+      {
+        "section_title": "Document",
+        "page_start": 1,
+        "page_end": 8,
+        "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+        "key_entities": [
+          "Page"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 3",
+        "page_start": 3,
+        "page_end": 3,
+        "summary": "CONTENTS PROFILE ii VISION ii MISSION ii MOTTO ii VALUES ii-iii PERFORMANCE HIGHLIGHTS iv-v BOARD OF DIRECTORS vi-vii CBE NOOR SHARI'AH ADVISORY COMMITTEE viii EXECUTIVE MANAGEMENT ix-xi PRESIDENT’S MESSAGE XII SHARIÁ ADVISORY COMMITTEE (SAC) STATEMENT FOR...",
+        "key_entities": [
+          "CONTENTS",
+          "PROFILE",
+          "VISION",
+          "MISSION",
+          "MOTTO",
+          "VALUES",
+          "PERFORMANCE",
+          "HIGHLIGHTS"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 4",
+        "page_start": 4,
+        "page_end": 4,
+        "summary": "PROFILE Â Has been serving Ethiopia since 1942. Â Pioneered ATM services in Ethiopia. Â Introduced Western Union Money Transfer Services to Ethiopia. Â Is the first Ethiopian bank to offer interest-free banking services. Â Has been playing a catalytic role...",
+        "key_entities": [
+          "PROFILE",
+          "Has",
+          "Ethiopia",
+          "Pioneered",
+          "ATM",
+          "Introduced",
+          "Western",
+          "Union"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 5",
+        "page_start": 5,
+        "page_end": 5,
+        "summary": "VALUES - (Continued) Iv) Empowerment Â We distinguish employees as valuable organizational resources. Â We promote delegation of duties and responsibilities. Â We maintain an atmosphere that inspires confidence and take ownership. Â We take responsibility,...",
+        "key_entities": [
+          "VALUES",
+          "Continued",
+          "Empowerment",
+          "Innovative",
+          "Organization",
+          "Bank",
+          "Teamwork",
+          "Vii"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 6",
+        "page_start": 6,
+        "page_end": 6,
+        "summary": "Performance Highlights iv",
+        "key_entities": [
+          "Performance",
+          "Highlights"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 7",
+        "page_start": 7,
+        "page_end": 7,
+        "summary": "Performance Highlights - (Continued) v",
+        "key_entities": [
+          "Performance",
+          "Highlights",
+          "Continued"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      },
+      {
+        "section_title": "Page 8",
+        "page_start": 8,
+        "page_end": 8,
+        "summary": "Board of Directors Ato Ahmed Shide Chairperson Woy. Aynalem Nigussie Ato Moges Balcha Member Member Ato Wondimagegnehu Negera Woy. Tigist Hamid Member Member vi",
+        "key_entities": [
+          "Board",
+          "Directors",
+          "Ato",
+          "Ahmed",
+          "Shide",
+          "Chairperson",
+          "Woy",
+          "Aynalem"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      }
+    ]
+  }
+}

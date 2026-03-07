@@ -1,0 +1,78 @@
+{
+  "document_id": "FTA_Performance_Survey_Part_2",
+  "document_class": "class_c",
+  "queries": [
+    {
+      "question": "What are the major assessment findings?",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "6b1c5ac4b8a2e1539298327a126001149f5268d5a3b07be5a87aaa7ad6484ce7",
+        "verification_status": "needs_review"
+      }
+    },
+    {
+      "question": "Which section describes implementation challenges?",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "1a278b4ff46ebe71a459c2320ba063d272419af13f3812c170798c5bfd07461c",
+        "verification_status": "needs_review"
+      }
+    },
+    {
+      "question": "Summarize recommendations from the report.",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "8fe5b2294041a0ab244a2abf65c1c5b15e16f4b535477f3de406a7e97d303890",
+        "verification_status": "needs_review"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "assessment findings recommendations implementation is explicitly discussed in this document.",
+    "result": "not found / unverifiable",
+    "audit_status": "unverifiable",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 1,
+      "citations": [],
+      "bbox": null,
+      "content_hash": "d74e2cc8f427345a74aa250db7ddf120a7e3a36083f6ada60d27c59a3e865863",
+      "verification_status": "needs_review"
+    }
+  }
+}

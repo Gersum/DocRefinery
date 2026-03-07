@@ -1,0 +1,16 @@
+{
+  "document_id": "FTA_Performance_Survey_Part_3",
+  "topic": "assessment findings recommendations implementation",
+  "relevant_sections": [
+    "Page 1"
+  ],
+  "naive_precision_at_k": 0.0,
+  "indexed_precision_at_k": 0.0,
+  "naive_hits": 0,
+  "indexed_hits": 0,
+  "top_sections": [
+    "Page 1",
+    "Document",
+    "Page 2"
+  ]
+}

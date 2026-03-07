@@ -1,0 +1,398 @@
+{
+  "document_id": "DBE_Audit_Report_Part_1",
+  "ldus": [
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p1-t1-1",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+      "chunk_type": "text",
+      "page_refs": [
+        1
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 604.8,
+        "y1": 841.68
+      },
+      "parent_section": "Page 1",
+      "parent_ldu_id": "DBE_Audit_Report_Part_1-p1-section",
+      "child_ldu_ids": [],
+      "token_count": 16,
+      "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p1-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 1 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        1
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 604.8,
+        "y1": 841.68
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "DBE_Audit_Report_Part_1-p1-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 1"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p2-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 2 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        2
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 2"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p3-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 3 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        3
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 3"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p4-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 4 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        4
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 4"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p5-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 5 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        5
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 5"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p6-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 6 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        6
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 6"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p7-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 7 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        7
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 7"
+      }
+    },
+    {
+      "ldu_id": "DBE_Audit_Report_Part_1-p8-section",
+      "document_id": "DBE_Audit_Report_Part_1",
+      "content": "Page 8 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        8
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 8"
+      }
+    }
+  ],
+  "page_index": {
+    "document_id": "DBE_Audit_Report_Part_1",
+    "root_node": {
+      "section_title": "Document Root",
+      "page_start": 1,
+      "page_end": 8,
+      "summary": "Hierarchical section index for guided retrieval.",
+      "key_entities": [],
+      "data_types_present": [],
+      "child_sections": [
+        {
+          "section_title": "Page 1",
+          "page_start": 1,
+          "page_end": 1,
+          "summary": "INDEPENDENT AUDiTOR\u2019S REPORT AND FiNANCiAL STATEMENTS 30 JUNE 2023 DEVELOPMENT BANK OF ETHIOPIA Your Development partner!",
+          "key_entities": [
+            "INDEPENDENT",
+            "AUDiTOR",
+            "REPORT",
+            "AND",
+            "FiNANCiAL",
+            "STATEMENTS",
+            "JUNE",
+            "DEVELOPMENT"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Document",
+          "page_start": 1,
+          "page_end": 8,
+          "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+          "key_entities": [
+            "Page"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        }
+      ]
+    }
+  },
+  "provenance_chains": [
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 1,
+          "excerpt": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 604.8,
+            "y1": 841.68
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 604.8,
+        "y1": 841.68
+      },
+      "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 1,
+          "excerpt": "Page 1 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 604.8,
+            "y1": 841.68
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 604.8,
+        "y1": 841.68
+      },
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 2,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 2,
+          "excerpt": "Page 2 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 3,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 3,
+          "excerpt": "Page 3 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 4,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 4,
+          "excerpt": "Page 4 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 5,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 5,
+          "excerpt": "Page 5 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 6,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 6,
+          "excerpt": "Page 6 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 7,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 7,
+          "excerpt": "Page 7 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 8,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 8,
+          "excerpt": "Page 8 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "verification_status": "unverified"
+    }
+  ],
+  "fact_count": 0
+}

@@ -1,0 +1,19 @@
+{
+  "document_id": "CBE_Annual_Report_Part_1",
+  "topic": "financial performance revenue income statement",
+  "relevant_sections": [
+    "Page 3",
+    "Page 4",
+    "Page 6",
+    "Page 7"
+  ],
+  "naive_precision_at_k": 1.0,
+  "indexed_precision_at_k": 1.0,
+  "naive_hits": 3,
+  "indexed_hits": 3,
+  "top_sections": [
+    "Page 3",
+    "Page 6",
+    "Page 7"
+  ]
+}

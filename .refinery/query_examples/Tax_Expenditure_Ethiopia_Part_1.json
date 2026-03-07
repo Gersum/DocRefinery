@@ -1,0 +1,150 @@
+{
+  "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+  "document_class": "class_d",
+  "queries": [
+    {
+      "question": "What tax expenditure values are reported?",
+      "answer": "tax (section: Page 8)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+        "page_number": 8,
+        "citations": [
+          {
+            "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+            "page_number": 8,
+            "excerpt": "tax",
+            "bbox": {
+              "x0": 138.71419999999998,
+              "y0": 795.597475359116,
+              "x1": 153.12631999999996,
+              "y1": 804.53088
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 138.71419999999998,
+          "y0": 795.597475359116,
+          "x1": 153.12631999999996,
+          "y1": 804.53088
+        },
+        "content_hash": "1ffc0406b9891fcd265a225e83a668fa045f1282588f80c8d11c029bad156d85",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Which sections contain fiscal category tables?",
+      "answer": "which (section: Page 4)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+        "page_number": 4,
+        "citations": [
+          {
+            "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+            "page_number": 4,
+            "excerpt": "which",
+            "bbox": {
+              "x0": 348.63352000000003,
+              "y0": 644.6852799999999,
+              "x1": 375.4828,
+              "y1": 654.1907199999999
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 348.63352000000003,
+          "y0": 644.6852799999999,
+          "x1": 375.4828,
+          "y1": 654.1907199999999
+        },
+        "content_hash": "77bc06c55d29ee3cfa295b4592e4b2a85a16bb06a8974726b7bfa3d4ca36d5ae",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Summarize the key multi-year numerical trends.",
+      "answer": "the (section: Page 14)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+        "page_number": 14,
+        "citations": [
+          {
+            "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+            "page_number": 14,
+            "excerpt": "the",
+            "bbox": {
+              "x0": 244.05871999999997,
+              "y0": 747.1652799999999,
+              "x1": 257.59376,
+              "y1": 756.67072
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 244.05871999999997,
+          "y0": 747.1652799999999,
+          "x1": 257.59376,
+          "y1": 756.67072
+        },
+        "content_hash": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0",
+        "verification_status": "verified"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "tax expenditure fiscal table values is explicitly discussed in this document.",
+    "result": "tax (section: Page 4)",
+    "audit_status": "verified",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+      "page_number": 4,
+      "citations": [
+        {
+          "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
+          "document_id": "Tax_Expenditure_Ethiopia_Part_1",
+          "page_number": 4,
+          "excerpt": "tax",
+          "bbox": {
+            "x0": 138.71419999999998,
+            "y0": 795.597475359116,
+            "x1": 153.12631999999996,
+            "y1": 804.53088
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 138.71419999999998,
+        "y0": 795.597475359116,
+        "x1": 153.12631999999996,
+        "y1": 804.53088
+      },
+      "content_hash": "1ffc0406b9891fcd265a225e83a668fa045f1282588f80c8d11c029bad156d85",
+      "verification_status": "verified"
+    }
+  }
+}

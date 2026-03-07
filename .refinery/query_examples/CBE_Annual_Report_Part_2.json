@@ -1,0 +1,150 @@
+{
+  "document_id": "CBE_Annual_Report_Part_2",
+  "document_class": "class_a",
+  "queries": [
+    {
+      "question": "What does this report say about revenue or income?",
+      "answer": "REPORT (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "CBE Annual Report 2018-19.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "CBE Annual Report 2018-19.pdf",
+            "document_id": "CBE_Annual_Report_Part_2",
+            "page_number": 1,
+            "excerpt": "REPORT",
+            "bbox": {
+              "x0": 94.2047,
+              "y0": 687.8247291066282,
+              "x1": 334.58869999999996,
+              "y1": 743.7669999999999
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 94.2047,
+          "y0": 687.8247291066282,
+          "x1": 334.58869999999996,
+          "y1": 743.7669999999999
+        },
+        "content_hash": "255633313f2c2771dd5bbd4f2e2bb425d9c216f1df713db6ef123275db8b900f",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Summarize the key financial highlights.",
+      "answer": "Highlights (section: Page 3)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "CBE Annual Report 2018-19.pdf",
+        "page_number": 3,
+        "citations": [
+          {
+            "document_name": "CBE Annual Report 2018-19.pdf",
+            "document_id": "CBE_Annual_Report_Part_2",
+            "page_number": 3,
+            "excerpt": "Highlights",
+            "bbox": {
+              "x0": 193.2684,
+              "y0": 677.0289282420748,
+              "x1": 258.52240000000006,
+              "y1": 689.2662999999999
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 193.2684,
+          "y0": 677.0289282420748,
+          "x1": 258.52240000000006,
+          "y1": 689.2662999999999
+        },
+        "content_hash": "6e517828c3d88ea3e62b2169a626c32e39be2e7cf52e99f7e9d764af6859bbd0",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Which section discusses performance highlights?",
+      "answer": "Performance (section: Page 3)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "CBE Annual Report 2018-19.pdf",
+        "page_number": 3,
+        "citations": [
+          {
+            "document_name": "CBE Annual Report 2018-19.pdf",
+            "document_id": "CBE_Annual_Report_Part_2",
+            "page_number": 3,
+            "excerpt": "Performance",
+            "bbox": {
+              "x0": 106.8898,
+              "y0": 677.0289282420748,
+              "x1": 190.02040000000002,
+              "y1": 689.2662999999999
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 106.8898,
+          "y0": 677.0289282420748,
+          "x1": 190.02040000000002,
+          "y1": 689.2662999999999
+        },
+        "content_hash": "442aded87a55aa8c8f7d5ff0c30228150d4b1cb8756e4be138d615ca4708fc26",
+        "verification_status": "verified"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "financial performance revenue income statement is explicitly discussed in this document.",
+    "result": "Performance (section: Page 3)",
+    "audit_status": "verified",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "CBE Annual Report 2018-19.pdf",
+      "page_number": 3,
+      "citations": [
+        {
+          "document_name": "CBE Annual Report 2018-19.pdf",
+          "document_id": "CBE_Annual_Report_Part_2",
+          "page_number": 3,
+          "excerpt": "Performance",
+          "bbox": {
+            "x0": 106.8898,
+            "y0": 677.0289282420748,
+            "x1": 190.02040000000002,
+            "y1": 689.2662999999999
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 106.8898,
+        "y0": 677.0289282420748,
+        "x1": 190.02040000000002,
+        "y1": 689.2662999999999
+      },
+      "content_hash": "442aded87a55aa8c8f7d5ff0c30228150d4b1cb8756e4be138d615ca4708fc26",
+      "verification_status": "verified"
+    }
+  }
+}

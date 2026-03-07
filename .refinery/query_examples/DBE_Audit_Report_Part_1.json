@@ -1,0 +1,150 @@
+{
+  "document_id": "DBE_Audit_Report_Part_1",
+  "document_class": "class_b",
+  "queries": [
+    {
+      "question": "What audit opinion or finding is stated?",
+      "answer": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner! (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Audit Report - 2023.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "Audit Report - 2023.pdf",
+            "document_id": "DBE_Audit_Report_Part_1",
+            "page_number": 1,
+            "excerpt": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "bbox": {
+              "x0": 0.0,
+              "y0": 0.0,
+              "x1": 604.8,
+              "y1": 841.68
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 0.0,
+          "y0": 0.0,
+          "x1": 604.8,
+          "y1": 841.68
+        },
+        "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Summarize the main compliance statements.",
+      "answer": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner! (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Audit Report - 2023.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "Audit Report - 2023.pdf",
+            "document_id": "DBE_Audit_Report_Part_1",
+            "page_number": 1,
+            "excerpt": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "bbox": {
+              "x0": 0.0,
+              "y0": 0.0,
+              "x1": 604.8,
+              "y1": 841.68
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 0.0,
+          "y0": 0.0,
+          "x1": 604.8,
+          "y1": 841.68
+        },
+        "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Which part of the document references financial statements?",
+      "answer": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner! (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Audit Report - 2023.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "Audit Report - 2023.pdf",
+            "document_id": "DBE_Audit_Report_Part_1",
+            "page_number": 1,
+            "excerpt": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+            "bbox": {
+              "x0": 0.0,
+              "y0": 0.0,
+              "x1": 604.8,
+              "y1": 841.68
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 0.0,
+          "y0": 0.0,
+          "x1": 604.8,
+          "y1": 841.68
+        },
+        "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+        "verification_status": "verified"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "audit opinion compliance findings is explicitly discussed in this document.",
+    "result": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner! (section: Page 1)",
+    "audit_status": "verified",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "Audit Report - 2023.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "Audit Report - 2023.pdf",
+          "document_id": "DBE_Audit_Report_Part_1",
+          "page_number": 1,
+          "excerpt": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner!",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 604.8,
+            "y1": 841.68
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 604.8,
+        "y1": 841.68
+      },
+      "content_hash": "6aff2740be91a00d09ec2f346a6c3440a2815c308a6696843941c100c8292d45",
+      "verification_status": "verified"
+    }
+  }
+}

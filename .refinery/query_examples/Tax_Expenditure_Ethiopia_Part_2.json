@@ -1,0 +1,150 @@
+{
+  "document_id": "Tax_Expenditure_Ethiopia_Part_2",
+  "document_class": "class_d",
+  "queries": [
+    {
+      "question": "What tax expenditure values are reported?",
+      "answer": "prices (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Consumer Price Index July 2025.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "Consumer Price Index July 2025.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_2",
+            "page_number": 1,
+            "excerpt": "prices",
+            "bbox": {
+              "x0": 468.55408,
+              "y0": 356.2263598395185,
+              "x1": 495.73492,
+              "y1": 365.82764
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 468.55408,
+          "y0": 356.2263598395185,
+          "x1": 495.73492,
+          "y1": 365.82764
+        },
+        "content_hash": "fe81f9390ffe3dc8daa4888a7dc430ce4a41f164281d15449a24840a70b5f2c2",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Which sections contain fiscal category tables?",
+      "answer": "of (section: Page 4)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Consumer Price Index July 2025.pdf",
+        "page_number": 4,
+        "citations": [
+          {
+            "document_name": "Consumer Price Index July 2025.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_2",
+            "page_number": 4,
+            "excerpt": "of",
+            "bbox": {
+              "x0": 211.15967999999987,
+              "y0": 592.1489771715145,
+              "x1": 221.18399999999986,
+              "y1": 602.79136
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 211.15967999999987,
+          "y0": 592.1489771715145,
+          "x1": 221.18399999999986,
+          "y1": 602.79136
+        },
+        "content_hash": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+        "verification_status": "verified"
+      }
+    },
+    {
+      "question": "Summarize the key multi-year numerical trends.",
+      "answer": "The (section: Page 1)",
+      "audit_status": "verified",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "Consumer Price Index July 2025.pdf",
+        "page_number": 1,
+        "citations": [
+          {
+            "document_name": "Consumer Price Index July 2025.pdf",
+            "document_id": "Tax_Expenditure_Ethiopia_Part_2",
+            "page_number": 1,
+            "excerpt": "The",
+            "bbox": {
+              "x0": 161.86550473451152,
+              "y0": 575.9963598395185,
+              "x1": 181.957771412,
+              "y1": 585.59764
+            }
+          }
+        ],
+        "bbox": {
+          "x0": 161.86550473451152,
+          "y0": 575.9963598395185,
+          "x1": 181.957771412,
+          "y1": 585.59764
+        },
+        "content_hash": "b344d80e24a3679999fa964450b34bc24d1578a35509f934c1418b0a20d21a67",
+        "verification_status": "verified"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "tax expenditure fiscal table values is explicitly discussed in this document.",
+    "result": "is (section: Page 1)",
+    "audit_status": "verified",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "Consumer Price Index July 2025.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "Consumer Price Index July 2025.pdf",
+          "document_id": "Tax_Expenditure_Ethiopia_Part_2",
+          "page_number": 1,
+          "excerpt": "is",
+          "bbox": {
+            "x0": 447.65774473451165,
+            "y0": 575.9963598395185,
+            "x1": 457.8796514120001,
+            "y1": 585.59764
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 447.65774473451165,
+        "y0": 575.9963598395185,
+        "x1": 457.8796514120001,
+        "y1": 585.59764
+      },
+      "content_hash": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "verification_status": "verified"
+    }
+  }
+}

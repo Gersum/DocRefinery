@@ -1,0 +1,24 @@
+{
+  "document_id": "DBE_Audit_Report_Part_2",
+  "root_node": {
+    "section_title": "Document Root",
+    "page_start": 1,
+    "page_end": 3,
+    "summary": "Hierarchical section index for guided retrieval.",
+    "key_entities": [],
+    "data_types_present": [],
+    "child_sections": [
+      {
+        "section_title": "Document",
+        "page_start": 1,
+        "page_end": 3,
+        "summary": "Page 1 section summary Page 2 section summary Page 3 section summary",
+        "key_entities": [
+          "Page"
+        ],
+        "data_types_present": [],
+        "child_sections": []
+      }
+    ]
+  }
+}

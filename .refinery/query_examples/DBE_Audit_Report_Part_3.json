@@ -1,0 +1,78 @@
+{
+  "document_id": "DBE_Audit_Report_Part_3",
+  "document_class": "class_b",
+  "queries": [
+    {
+      "question": "What audit opinion or finding is stated?",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "2019_Audited_Financial_Statement_Report.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "a909a9ce5a92e5406b514a61b8b051768b451d7b1e934cbe98d04cb0eaf90cf0",
+        "verification_status": "needs_review"
+      }
+    },
+    {
+      "question": "Summarize the main compliance statements.",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "2019_Audited_Financial_Statement_Report.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "b5eaf992b255eb2a8152ad33fbe15210a8634b6871d8080bbc0d854e1b05a4f5",
+        "verification_status": "needs_review"
+      }
+    },
+    {
+      "question": "Which part of the document references financial statements?",
+      "answer": "not found / unverifiable",
+      "audit_status": "unverifiable",
+      "tool_trace": [
+        "pageindex_navigate",
+        "semantic_search",
+        "structured_query"
+      ],
+      "provenance": {
+        "document_name": "2019_Audited_Financial_Statement_Report.pdf",
+        "page_number": 1,
+        "citations": [],
+        "bbox": null,
+        "content_hash": "df30cd16cf80e6588fa24f90b1ee844e9726a5a46658896766e6ca79d39b6b5c",
+        "verification_status": "needs_review"
+      }
+    }
+  ],
+  "audit_mode": {
+    "claim": "audit opinion compliance findings is explicitly discussed in this document.",
+    "result": "not found / unverifiable",
+    "audit_status": "unverifiable",
+    "tool_trace": [
+      "pageindex_navigate",
+      "semantic_search",
+      "structured_query"
+    ],
+    "provenance": {
+      "document_name": "2019_Audited_Financial_Statement_Report.pdf",
+      "page_number": 1,
+      "citations": [],
+      "bbox": null,
+      "content_hash": "c32642f5129290ddbe25b559223f53a8b0914dcf625564464dfcf9812ed785b6",
+      "verification_status": "needs_review"
+    }
+  }
+}

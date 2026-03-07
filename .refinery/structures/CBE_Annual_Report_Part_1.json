@@ -1,0 +1,817 @@
+{
+  "document_id": "CBE_Annual_Report_Part_1",
+  "ldus": [
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p1-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 1 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        1
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 1"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p2-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 2 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        2
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 2"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p3-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "CONTENTS\nPROFILE ii\nVISION ii\nMISSION ii\nMOTTO ii\nVALUES ii-iii\nPERFORMANCE HIGHLIGHTS iv-v\nBOARD OF DIRECTORS vi-vii\nCBE NOOR SHARI'AH ADVISORY COMMITTEE viii\nEXECUTIVE MANAGEMENT ix-xi\nPRESIDENT\u2019S MESSAGE XII\nSHARI\u00c1 ADVISORY COMMITTEE (SAC) STATEMENT FOR THE 1-2\nFISCAL YEAR ENDED JUNE 30 2022\n1. HIGHLIGHTS OF GLOBAL AND DOMESTIC ECONOMIES\n3\n1.1 The Global Economy\n3\n1.2 The Ethiopian Economy\n3\n2 HIGHLIGHTS OF CBE\u2019S FINANCIAL STATEMENTS\n5\n2.1 Income Statement\n5\n2.1.1 Income\n5\n2.1.2 Expense\n6\n2.1.3 Profit\n6\n2.2 Balance Sheet 7\n2.2.1 Assets 7\n2.2.2 Liabilities 8\n2.2.3 Capital and Reserves 8\n3 HIGHLIGHTS OF NON-FINANCIAL DEVELOPMENTS 8\n3.1 Customer Base Expansion and Use of Digital Channels 8\n3.2 Accessibility 8\n3.3 Human Resource Development 8\nANNEX: 2022/23 AUDITOR\u2019S REPORT AND FINANCIAL STATEMENTS 10-144\n145\nCONTENTS OF THE ANNEX",
+      "chunk_type": "text",
+      "page_refs": [
+        3
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 3",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p3-section",
+      "child_ldu_ids": [],
+      "token_count": 134,
+      "content_hash": "337edd4b2f55cb12489716ca92d806a84785fbbacea882c20dafc2f006c73cfa",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p3-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 3 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        3
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p3-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 3"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p4-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "PROFILE\n\u00c2 Has been serving Ethiopia since 1942.\n\u00c2 Pioneered ATM services in Ethiopia.\n\u00c2 Introduced Western Union Money Transfer Services to Ethiopia.\n\u00c2 Is the first Ethiopian bank to offer interest-free banking services.\n\u00c2 Has been playing a catalytic role in the socio-economic development of the nation.\n\u00c2 Had 1,942 branches across the country as of 30 June 2024.\n\u00c2 Has strong correspondent relationships with about 38 renowned foreign banks and SWIFT\nbilateral key arrangements with over 750 banks.\n\u00c2 Achieved a strong asset position of Birr 1.4 trillion as of 30 June 2024.\n\u00c2 Combines a wide capital base with above 48 thousand permanent and 33 thousand\ntemporary employees.\n\u00c2 Is headquartered in a modern skyscraper (4B+G+48) that is the tallest in East Africa.\nVISION\nTo become a world-class commercial bank financially driving Ethiopia\u2019s future.\nMISSION\nWe are committed to realizing stakeholders\u2019 values through enhanced financial intermediation\nglobally, deploying highly motivated and skilled employees.\nMOTTO\nThe Bank You Can Always Rely on!\nVALUES\ni) Integrity\n\u00c2 We are committed to the highest ideals of honor and integrity.\n\u00c2 We are committed to acting in an honest and trustworthy manner.\n\u00c2 We are committed to firmly adhering to ethical principles and standards.\nii) Service Excellence\n\u00c2 We are committed to maintaining the highest operating standards.\n\u00c2 We are committed to being a preferred brand in service quality in the minds of customers and\nthe general public.\n\u00c2 We strive to build long lasting relationships with our customers.\niii) Professionalism\n\u00c2 We take ownership and personal responsibility for all what we do.\n\u00c2 We are professionals in conduct and treat customers with the utmost respect.\n\u00c2 We are responsive to the needs and interests of our customers.\n\u00c2 We maintain the confidentiality and privacy of all customers.\n\u00c2 We continually develop ourselves to maintain leading-edge capabilities.\n\u00c2 We apply our knowledge and competence to our competitive advantage.\nii",
+      "chunk_type": "text",
+      "page_refs": [
+        4
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 4",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p4-section",
+      "child_ldu_ids": [],
+      "token_count": 318,
+      "content_hash": "85db60be6df904d6a02f6b6eea13300aaa3c509d5c91e7cb553ad3a40ad77c06",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p4-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 4 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        4
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p4-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 4"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p5-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "VALUES - (Continued)\nIv) Empowerment\n\u00c2 We distinguish employees as valuable organizational resources.\n\u00c2 We promote delegation of duties and responsibilities.\n\u00c2 We maintain an atmosphere that inspires confidence and take ownership.\n\u00c2 We take responsibility, support each other and serve customers in a courteous and respectful\nmanner.\n\u00c2 We recognize our employees for their best achievements.\nV) Innovative Organization\n\u00c2 We go above and beyond to find solutions to stakeholder problems leveraging technology\nwhere possible.\n\u00c2 We anticipate and respond to internal and external changes through constant improvement\nand adjustment.\n\u00c2 We establish a culture that nurtures individual and group learning.\n\u00c2 We retain and disseminate tacit knowledge across the Bank.\nVi) Teamwork\n\u00c2 We respect one another and cooperate in our work.\n\u00c2 We recognize the importance of teamwork for our success.\n\u00c2 We collaborate and support one another to ensure process integration and minimize external\nbusiness challenges.\nVii) Respect for Diversity\n\u00c2 We are responsive to cultural, ethical, religious or other values of employees and customers.\n\u00c2 We value diversity of ideas and viewpoints of our employees.\n\u00c2 We foster an environment of inclusiveness, where all people, regardless of their sex, age,\nbelief, etc. can exercise their maximum potential.\n\u00c2 We are committed to address the needs of our customers, regardless of their sex, age,\neducation etc.\n\u00c2 We are committed to listening to one another and respond appropriately.\nViii) Corporate Citizenship\n\u00c2 We value the importance of our role in national development endeavours and stand up for\nthis commitment.\n\u00c2 We abide by the laws of Ethiopia and other countries in which we do business.\n\u00c2 We care about the society\u2019s welfare and the environment.\n\u00c2 We believe that the sustainability of our business depends on our ability to maintain and\nbuild public confidence.\niii",
+      "chunk_type": "text",
+      "page_refs": [
+        5
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 5",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p5-section",
+      "child_ldu_ids": [],
+      "token_count": 299,
+      "content_hash": "5a8d6879e5f3a025849b4f039698d113153c52b7cdfeb1a905cdc7b4ed2b71d6",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p5-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 5 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        5
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p5-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 5"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p6-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Performance Highlights\niv",
+      "chunk_type": "text",
+      "page_refs": [
+        6
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 6",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p6-section",
+      "child_ldu_ids": [],
+      "token_count": 3,
+      "content_hash": "e9babeacc4f04626f5b6ced90c2d9591da5cfb6531adddcbc57fec14e5355be2",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p6-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 6 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        6
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p6-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 6"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p7-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Performance Highlights - (Continued)\nv",
+      "chunk_type": "text",
+      "page_refs": [
+        7
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 7",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p7-section",
+      "child_ldu_ids": [],
+      "token_count": 5,
+      "content_hash": "3f8d73901fec01b4e86bacb0c4abdb41d51a80d4acafd31315495cb428baf05c",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p7-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 7 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        7
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p7-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 7"
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p8-t1-1",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Board of Directors\nAto Ahmed Shide\nChairperson\nWoy. Aynalem Nigussie Ato Moges Balcha\nMember Member\nAto Wondimagegnehu Negera\nWoy. Tigist Hamid\nMember\nMember\nvi",
+      "chunk_type": "text",
+      "page_refs": [
+        8
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": "Page 8",
+      "parent_ldu_id": "CBE_Annual_Report_Part_1-p8-section",
+      "child_ldu_ids": [],
+      "token_count": 24,
+      "content_hash": "2241f19d1656d83d6d0590c4d00ca0df90ebfb94fc8023788b4702fe24e3f2f4",
+      "metadata": {
+        "source_strategy": "Strategy C - VisionExtractor",
+        "list_integrity": null,
+        "cross_references": []
+      }
+    },
+    {
+      "ldu_id": "CBE_Annual_Report_Part_1-p8-section",
+      "document_id": "CBE_Annual_Report_Part_1",
+      "content": "Page 8 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        8
+      ],
+      "bounding_box": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [
+        "CBE_Annual_Report_Part_1-p8-t1-1"
+      ],
+      "token_count": 4,
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 8"
+      }
+    }
+  ],
+  "page_index": {
+    "document_id": "CBE_Annual_Report_Part_1",
+    "root_node": {
+      "section_title": "Document Root",
+      "page_start": 1,
+      "page_end": 8,
+      "summary": "Hierarchical section index for guided retrieval.",
+      "key_entities": [],
+      "data_types_present": [],
+      "child_sections": [
+        {
+          "section_title": "Document",
+          "page_start": 1,
+          "page_end": 8,
+          "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+          "key_entities": [
+            "Page"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 3",
+          "page_start": 3,
+          "page_end": 3,
+          "summary": "CONTENTS PROFILE ii VISION ii MISSION ii MOTTO ii VALUES ii-iii PERFORMANCE HIGHLIGHTS iv-v BOARD OF DIRECTORS vi-vii CBE NOOR SHARI'AH ADVISORY COMMITTEE viii EXECUTIVE MANAGEMENT ix-xi PRESIDENT\u2019S MESSAGE XII SHARI\u00c1 ADVISORY COMMITTEE (SAC) STATEMENT FOR...",
+          "key_entities": [
+            "CONTENTS",
+            "PROFILE",
+            "VISION",
+            "MISSION",
+            "MOTTO",
+            "VALUES",
+            "PERFORMANCE",
+            "HIGHLIGHTS"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 4",
+          "page_start": 4,
+          "page_end": 4,
+          "summary": "PROFILE \u00c2 Has been serving Ethiopia since 1942. \u00c2 Pioneered ATM services in Ethiopia. \u00c2 Introduced Western Union Money Transfer Services to Ethiopia. \u00c2 Is the first Ethiopian bank to offer interest-free banking services. \u00c2 Has been playing a catalytic role...",
+          "key_entities": [
+            "PROFILE",
+            "Has",
+            "Ethiopia",
+            "Pioneered",
+            "ATM",
+            "Introduced",
+            "Western",
+            "Union"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 5",
+          "page_start": 5,
+          "page_end": 5,
+          "summary": "VALUES - (Continued) Iv) Empowerment \u00c2 We distinguish employees as valuable organizational resources. \u00c2 We promote delegation of duties and responsibilities. \u00c2 We maintain an atmosphere that inspires confidence and take ownership. \u00c2 We take responsibility,...",
+          "key_entities": [
+            "VALUES",
+            "Continued",
+            "Empowerment",
+            "Innovative",
+            "Organization",
+            "Bank",
+            "Teamwork",
+            "Vii"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 6",
+          "page_start": 6,
+          "page_end": 6,
+          "summary": "Performance Highlights iv",
+          "key_entities": [
+            "Performance",
+            "Highlights"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 7",
+          "page_start": 7,
+          "page_end": 7,
+          "summary": "Performance Highlights - (Continued) v",
+          "key_entities": [
+            "Performance",
+            "Highlights",
+            "Continued"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        },
+        {
+          "section_title": "Page 8",
+          "page_start": 8,
+          "page_end": 8,
+          "summary": "Board of Directors Ato Ahmed Shide Chairperson Woy. Aynalem Nigussie Ato Moges Balcha Member Member Ato Wondimagegnehu Negera Woy. Tigist Hamid Member Member vi",
+          "key_entities": [
+            "Board",
+            "Directors",
+            "Ato",
+            "Ahmed",
+            "Shide",
+            "Chairperson",
+            "Woy",
+            "Aynalem"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        }
+      ]
+    }
+  },
+  "provenance_chains": [
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 1,
+          "excerpt": "Page 1 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 2,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 2,
+          "excerpt": "Page 2 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 3,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 3,
+          "excerpt": "CONTENTS\nPROFILE ii\nVISION ii\nMISSION ii\nMOTTO ii\nVALUES ii-iii\nPERFORMANCE HIGHLIGHTS iv-v\nBOARD OF DIRECTORS vi-vii\nCBE NOOR SHARI'AH ADVISORY COMMITTEE viii\n",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "337edd4b2f55cb12489716ca92d806a84785fbbacea882c20dafc2f006c73cfa",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 3,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 3,
+          "excerpt": "Page 3 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 4,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 4,
+          "excerpt": "PROFILE\n\u00c2 Has been serving Ethiopia since 1942.\n\u00c2 Pioneered ATM services in Ethiopia.\n\u00c2 Introduced Western Union Money Transfer Services to Ethiopia.\n\u00c2 Is the f",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "85db60be6df904d6a02f6b6eea13300aaa3c509d5c91e7cb553ad3a40ad77c06",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 4,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 4,
+          "excerpt": "Page 4 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 5,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 5,
+          "excerpt": "VALUES - (Continued)\nIv) Empowerment\n\u00c2 We distinguish employees as valuable organizational resources.\n\u00c2 We promote delegation of duties and responsibilities.\n\u00c2 ",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "5a8d6879e5f3a025849b4f039698d113153c52b7cdfeb1a905cdc7b4ed2b71d6",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 5,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 5,
+          "excerpt": "Page 5 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 6,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 6,
+          "excerpt": "Performance Highlights\niv",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "e9babeacc4f04626f5b6ced90c2d9591da5cfb6531adddcbc57fec14e5355be2",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 6,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 6,
+          "excerpt": "Page 6 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 7,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 7,
+          "excerpt": "Performance Highlights - (Continued)\nv",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "3f8d73901fec01b4e86bacb0c4abdb41d51a80d4acafd31315495cb428baf05c",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 7,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 7,
+          "excerpt": "Page 7 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 8,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 8,
+          "excerpt": "Board of Directors\nAto Ahmed Shide\nChairperson\nWoy. Aynalem Nigussie Ato Moges Balcha\nMember Member\nAto Wondimagegnehu Negera\nWoy. Tigist Hamid\nMember\nMember\nvi",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "2241f19d1656d83d6d0590c4d00ca0df90ebfb94fc8023788b4702fe24e3f2f4",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+      "page_number": 8,
+      "citations": [
+        {
+          "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
+          "document_id": "CBE_Annual_Report_Part_1",
+          "page_number": 8,
+          "excerpt": "Page 8 section summary",
+          "bbox": {
+            "x0": 0.0,
+            "y0": 0.0,
+            "x1": 595.276,
+            "y1": 841.89
+          }
+        }
+      ],
+      "bbox": {
+        "x0": 0.0,
+        "y0": 0.0,
+        "x1": 595.276,
+        "y1": 841.89
+      },
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "verification_status": "unverified"
+    }
+  ],
+  "fact_count": 1
+}

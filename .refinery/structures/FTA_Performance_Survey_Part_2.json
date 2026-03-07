@@ -1,0 +1,312 @@
+{
+  "document_id": "FTA_Performance_Survey_Part_2",
+  "ldus": [
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p1-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 1 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        1
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 1"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p2-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 2 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        2
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 2"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p3-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 3 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        3
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 3"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p4-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 4 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        4
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 4"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p5-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 5 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        5
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 5"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p6-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 6 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        6
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 6"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p7-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 7 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        7
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 7"
+      }
+    },
+    {
+      "ldu_id": "FTA_Performance_Survey_Part_2-p8-section",
+      "document_id": "FTA_Performance_Survey_Part_2",
+      "content": "Page 8 section summary",
+      "chunk_type": "text",
+      "page_refs": [
+        8
+      ],
+      "bounding_box": null,
+      "parent_section": null,
+      "parent_ldu_id": null,
+      "child_ldu_ids": [],
+      "token_count": 4,
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "metadata": {
+        "is_section_parent": true,
+        "section_title": "Page 8"
+      }
+    }
+  ],
+  "page_index": {
+    "document_id": "FTA_Performance_Survey_Part_2",
+    "root_node": {
+      "section_title": "Document Root",
+      "page_start": 1,
+      "page_end": 8,
+      "summary": "Hierarchical section index for guided retrieval.",
+      "key_entities": [],
+      "data_types_present": [],
+      "child_sections": [
+        {
+          "section_title": "Document",
+          "page_start": 1,
+          "page_end": 8,
+          "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+          "key_entities": [
+            "Page"
+          ],
+          "data_types_present": [],
+          "child_sections": []
+        }
+      ]
+    }
+  },
+  "provenance_chains": [
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 1,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 1,
+          "excerpt": "Page 1 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 2,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 2,
+          "excerpt": "Page 2 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 3,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 3,
+          "excerpt": "Page 3 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 4,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 4,
+          "excerpt": "Page 4 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 5,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 5,
+          "excerpt": "Page 5 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 6,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 6,
+          "excerpt": "Page 6 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 7,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 7,
+          "excerpt": "Page 7 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
+      "verification_status": "unverified"
+    },
+    {
+      "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "page_number": 8,
+      "citations": [
+        {
+          "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+          "document_id": "FTA_Performance_Survey_Part_2",
+          "page_number": 8,
+          "excerpt": "Page 8 section summary",
+          "bbox": null
+        }
+      ],
+      "bbox": null,
+      "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
+      "verification_status": "unverified"
+    }
+  ],
+  "fact_count": 0
+}

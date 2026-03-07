@@ -1,0 +1,218 @@
+{
+  "metric_definition": {
+    "table_detection_unit": "page-level binary classification",
+    "ground_truth_proxy": "pdfplumber page has table if find_tables() or extract_tables() returns >=1 non-trivial table",
+    "prediction": "extraction output page has tables list length > 0"
+  },
+  "overall_table_extraction": {
+    "pages": 799,
+    "tp": 98,
+    "fp": 0,
+    "fn": 328,
+    "tn": 373,
+    "precision": 1.0,
+    "recall": 0.23,
+    "f1": 0.374
+  },
+  "class_table_extraction": {
+    "class_a": {
+      "documents": 3,
+      "pages": 427,
+      "tp": 46,
+      "fp": 0,
+      "fn": 247,
+      "tn": 134,
+      "precision": 1.0,
+      "recall": 0.157,
+      "f1": 0.2714
+    },
+    "class_b": {
+      "documents": 3,
+      "pages": 101,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 101,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "class_c": {
+      "documents": 3,
+      "pages": 185,
+      "tp": 4,
+      "fp": 0,
+      "fn": 66,
+      "tn": 115,
+      "precision": 1.0,
+      "recall": 0.0571,
+      "f1": 0.1081
+    },
+    "class_d": {
+      "documents": 3,
+      "pages": 86,
+      "tp": 48,
+      "fp": 0,
+      "fn": 15,
+      "tn": 23,
+      "precision": 1.0,
+      "recall": 0.7619,
+      "f1": 0.8649
+    }
+  },
+  "per_document_table_extraction": {
+    "CBE_Annual_Report_Part_1": {
+      "document": "CBE ANNUAL REPORT 2023-24.pdf",
+      "class": "class_a",
+      "pages": 161,
+      "tp": 0,
+      "fp": 0,
+      "fn": 96,
+      "tn": 65,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "CBE_Annual_Report_Part_2": {
+      "document": "CBE Annual Report 2018-19.pdf",
+      "class": "class_a",
+      "pages": 162,
+      "tp": 25,
+      "fp": 0,
+      "fn": 70,
+      "tn": 67,
+      "precision": 1.0,
+      "recall": 0.2632,
+      "f1": 0.4167
+    },
+    "CBE_Annual_Report_Part_3": {
+      "document": "Annual_Report_JUNE-2023.pdf",
+      "class": "class_a",
+      "pages": 104,
+      "tp": 21,
+      "fp": 0,
+      "fn": 81,
+      "tn": 2,
+      "precision": 1.0,
+      "recall": 0.2059,
+      "f1": 0.3415
+    },
+    "DBE_Audit_Report_Part_1": {
+      "document": "Audit Report - 2023.pdf",
+      "class": "class_b",
+      "pages": 95,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 95,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "DBE_Audit_Report_Part_2": {
+      "document": "2018_Audited_Financial_Statement_Report.pdf",
+      "class": "class_b",
+      "pages": 3,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "DBE_Audit_Report_Part_3": {
+      "document": "2019_Audited_Financial_Statement_Report.pdf",
+      "class": "class_b",
+      "pages": 3,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "FTA_Performance_Survey_Part_1": {
+      "document": "fta_performance_survey_final_report_2022.pdf",
+      "class": "class_c",
+      "pages": 155,
+      "tp": 4,
+      "fp": 0,
+      "fn": 51,
+      "tn": 100,
+      "precision": 1.0,
+      "recall": 0.0727,
+      "f1": 0.1356
+    },
+    "FTA_Performance_Survey_Part_2": {
+      "document": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
+      "class": "class_c",
+      "pages": 15,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "tn": 15,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "FTA_Performance_Survey_Part_3": {
+      "document": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
+      "class": "class_c",
+      "pages": 15,
+      "tp": 0,
+      "fp": 0,
+      "fn": 15,
+      "tn": 0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Tax_Expenditure_Ethiopia_Part_1": {
+      "document": "tax_expenditure_ethiopia_2021_22.pdf",
+      "class": "class_d",
+      "pages": 60,
+      "tp": 22,
+      "fp": 0,
+      "fn": 15,
+      "tn": 23,
+      "precision": 1.0,
+      "recall": 0.5946,
+      "f1": 0.7458
+    },
+    "Tax_Expenditure_Ethiopia_Part_2": {
+      "document": "Consumer Price Index July 2025.pdf",
+      "class": "class_d",
+      "pages": 13,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "Tax_Expenditure_Ethiopia_Part_3": {
+      "document": "Consumer Price Index August 2025.pdf",
+      "class": "class_d",
+      "pages": 13,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0,
+      "tn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "pipeline_quality": {
+    "ledger_entries": 12,
+    "avg_final_confidence": 0.6744,
+    "review_required_count": 5,
+    "strategy_distribution": {
+      "STRATEGY_C_LOW_CONFIDENCE": 5,
+      "STRATEGY_B": 7
+    }
+  }
+}
