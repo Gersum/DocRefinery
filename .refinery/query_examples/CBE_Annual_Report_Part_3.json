@@ -4,37 +4,37 @@
   "queries": [
     {
       "question": "What does this report say about revenue or income?",
-      "answer": "REPORT (section: Page 1)",
+      "answer": "Report (section: Page 38)",
       "audit_status": "verified",
       "tool_trace": [
+        "structured_query",
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Annual_Report_JUNE-2023.pdf",
-        "page_number": 1,
+        "page_number": 38,
         "citations": [
           {
             "document_name": "Annual_Report_JUNE-2023.pdf",
             "document_id": "CBE_Annual_Report_Part_3",
-            "page_number": 1,
-            "excerpt": "REPORT",
+            "page_number": 38,
+            "excerpt": "Report",
             "bbox": {
-              "x0": 454.75368000000003,
-              "y0": 123.16172423208192,
-              "x1": 523.17293,
-              "y1": 174.7579
+              "x0": 477.2208,
+              "y0": 703.282953201082,
+              "x1": 501.2208,
+              "y1": 710.6578999999999
             }
           }
         ],
         "bbox": {
-          "x0": 454.75368000000003,
-          "y0": 123.16172423208192,
-          "x1": 523.17293,
-          "y1": 174.7579
+          "x0": 477.2208,
+          "y0": 703.282953201082,
+          "x1": 501.2208,
+          "y1": 710.6578999999999
         },
-        "content_hash": "255633313f2c2771dd5bbd4f2e2bb425d9c216f1df713db6ef123275db8b900f",
+        "content_hash": "b6ce788d9786917c9d19adaa0d904213365607c7f683d7277f508dcf142b4cc2",
         "verification_status": "verified"
       }
     },
@@ -44,8 +44,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Annual_Report_JUNE-2023.pdf",
@@ -76,12 +75,11 @@
     },
     {
       "question": "Which section discusses performance highlights?",
-      "answer": "HIGHLIGHTS) (section: Page 6)",
+      "answer": "Most relevant section: Page 6 (page 6)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Annual_Report_JUNE-2023.pdf",
@@ -113,37 +111,37 @@
   ],
   "audit_mode": {
     "claim": "financial performance revenue income statement is explicitly discussed in this document.",
-    "result": "IN (section: Page 6)",
+    "result": "in (section: Page 23)",
     "audit_status": "verified",
     "tool_trace": [
+      "structured_query",
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "Annual_Report_JUNE-2023.pdf",
-      "page_number": 6,
+      "page_number": 23,
       "citations": [
         {
           "document_name": "Annual_Report_JUNE-2023.pdf",
           "document_id": "CBE_Annual_Report_Part_3",
-          "page_number": 6,
-          "excerpt": "IN",
+          "page_number": 23,
+          "excerpt": "in",
           "bbox": {
-            "x0": 210.26989999999998,
-            "y0": 662.5117680089485,
-            "x1": 222.60989999999998,
-            "y1": 679.3149
+            "x0": 153.69609999999997,
+            "y0": 672.1008011328527,
+            "x1": 160.9861,
+            "y1": 680.0269
           }
         }
       ],
       "bbox": {
-        "x0": 210.26989999999998,
-        "y0": 662.5117680089485,
-        "x1": 222.60989999999998,
-        "y1": 679.3149
+        "x0": 153.69609999999997,
+        "y0": 672.1008011328527,
+        "x1": 160.9861,
+        "y1": 680.0269
       },
-      "content_hash": "fed1d872f6d540f4118582ec694270274e987b12f5dfe2057dddf1e12df2761a",
+      "content_hash": "582967534d0f909d196b97f9e6921342777aea87b46fa52df165389db1fb8ccf",
       "verification_status": "verified"
     }
   }

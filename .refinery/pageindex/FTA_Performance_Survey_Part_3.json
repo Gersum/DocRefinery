@@ -21,8 +21,42 @@
           "Enablers",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 1::figure",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::text",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Emerging manufacturing hub in Africa Ethiopia Attractive investment opportunities Enablers & support",
+            "key_entities": [
+              "Emerging",
+              "Africa",
+              "Ethiopia",
+              "Attractive",
+              "Enablers"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Document",
@@ -32,8 +66,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 15,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 2",
@@ -50,8 +100,45 @@
           "Ethiopia",
           "Link"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 2::figure",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 2::text",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Our Investment Promotion Objectives are: Coordination and collaboration to attract FDIs to Ethiopia Link up and network with the international community for soliciting support Pitch potential manufacturing opportunities in Ethiopia & enablers Learn Ethiopia...",
+            "key_entities": [
+              "Our",
+              "Investment",
+              "Promotion",
+              "Objectives",
+              "Coordination",
+              "FDIs",
+              "Ethiopia",
+              "Link"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 3",
@@ -68,8 +155,45 @@
           "Economy",
           "East"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 3::figure",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 3::text",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Investment - Why do business in Ethiopia? Growing & dynamic Opportunities to invest Benefit based on Economy, access to in high value tailored enabling East African market pharmaceutical sector environment including specialized parks 3",
+            "key_entities": [
+              "Investment",
+              "Why",
+              "Ethiopia",
+              "Growing",
+              "Opportunities",
+              "Benefit",
+              "Economy",
+              "East"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 4",
@@ -86,8 +210,45 @@
           "COMESA",
           "AGOA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 4::figure",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 4::text",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "One of the fastest growing economies with 9.68% average growth over the past 10 years. One of the top destinations for foreign direct investment Ethiopia has a th standing 5 in Africa. clear vision for industrialization Productive labor force with more than...",
+            "key_entities": [
+              "One",
+              "Ethiopia",
+              "Africa",
+              "Productive",
+              "Dedicated",
+              "Member",
+              "COMESA",
+              "AGOA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 5",
@@ -104,8 +265,45 @@
           "Tourism",
           "Textile"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 5::figure",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10 Figure 11 Figure 12 Figure 13 Figure 14",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 5::text",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Strategic sectors have been identified for investment including pharmaceutical and textile manufacturing Focus Area Pharmaceutical Energy Agro-processing Tourism Textile Leather Floriculture",
+            "key_entities": [
+              "Strategic",
+              "Focus",
+              "Area",
+              "Pharmaceutical",
+              "Energy",
+              "Agro",
+              "Tourism",
+              "Textile"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 6",
@@ -122,8 +320,45 @@
           "Benefit",
           "East"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 6::figure",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::text",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Investment - Why do business in Ethiopia? Growing Economy, Opportunities to invest Benefit based on dynamic market with in high value tailored enabling access to East African pharmaceutical sector environment market including specialized parks 6",
+            "key_entities": [
+              "Investment",
+              "Why",
+              "Ethiopia",
+              "Growing",
+              "Economy",
+              "Opportunities",
+              "Benefit",
+              "East"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 7",
@@ -140,8 +375,45 @@
           "Import",
           "Strong"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 7::figure",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::text",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Pharmaceutical manufacturing sectors is nascent with a potential for growth Ethiopia's ~ 4 B ~ 1 B pharmaceutical USD by 2030 USD by sector market 2020 size ▪ One of the first African countries Mainly driven by: to develop a national strategy for pharmaceut...",
+            "key_entities": [
+              "Pharmaceutical",
+              "Ethiopia",
+              "USD",
+              "One",
+              "African",
+              "Mainly",
+              "Import",
+              "Strong"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 8",
@@ -158,8 +430,45 @@
           "Note",
           "Forecast"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 8::figure",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 8::text",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "Ethiopian pharmaceutical market has been growing at 15% per year and is predicted to reach $905 million by 2020 Pharmaceutical market in Ethiopia 5 years forecast ▪ Local market has been Annual forecast (2015-30F), US$ million growing steadily at an average...",
+            "key_entities": [
+              "Ethiopian",
+              "Pharmaceutical",
+              "Ethiopia",
+              "Local",
+              "Annual",
+              "With",
+              "Note",
+              "Forecast"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 9",
@@ -176,8 +485,45 @@
           "Growing",
           "Increasing"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 9::figure",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 9::text",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Large & growing population and rising health care coverage make pharmaceutical manufacturing an attractive endeavor Key drivers of pharmaceutical demand in Ethiopia ▪ Second-largest population in Africa (>100M, ~8.5% of Africa's population ); growth of 2.3%...",
+            "key_entities": [
+              "Large",
+              "Key",
+              "Ethiopia",
+              "Second",
+              "Africa",
+              "With",
+              "Growing",
+              "Increasing"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 10",
@@ -194,8 +540,45 @@
           "Garment",
           "USD"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 10::figure",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 10::text",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "Ethiopia's textile and garment industry presents unique opportunities to investors Booming industry which has More than 2.7 million hectare Textile manufacturing: producing - - - grown 7 fold since 2008 of suitable land availability for any goods prepared b...",
+            "key_entities": [
+              "Ethiopia",
+              "Booming",
+              "More",
+              "Textile",
+              "Emerging",
+              "Reliable",
+              "Garment",
+              "USD"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 11",
@@ -212,8 +595,45 @@
           "Benefit",
           "East"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 11::figure",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 11::text",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Investment - Why do business in Ethiopia? Growing Economy, Opportunities to invest Benefit based on dynamic market with in high value tailored enabling access to East African pharmaceutical sector environment market 11",
+            "key_entities": [
+              "Investment",
+              "Why",
+              "Ethiopia",
+              "Growing",
+              "Economy",
+              "Opportunities",
+              "Benefit",
+              "East"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 12",
@@ -230,8 +650,45 @@
           "Djibouti",
           "Bole"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 12::figure",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10 Figure 11",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 12::text",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Kilinto Industrial Park is the first IP specializing in pharmaceuticals Location • Addis Ababa; 25 km from city center, 863 Km from Djibouti port and 10 minutes drive from Bole International Airport Population and employment • +4 million people live in the...",
+            "key_entities": [
+              "Kilinto",
+              "Industrial",
+              "Park",
+              "Location",
+              "Addis",
+              "Ababa",
+              "Djibouti",
+              "Bole"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 13",
@@ -248,8 +705,45 @@
           "EXPORT",
           "ORINTED"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 13::figure",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 13::text",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Industrial park key ……. characteristics Located along strategic economic corridors, connected to SECTOR ports by electric driven railway lines and asphalt roads with SPECIALIZATION Close proximity to abundant labor force Ready for plug-and-play , equipped w...",
+            "key_entities": [
+              "Industrial",
+              "Located",
+              "SECTOR",
+              "SPECIALIZATION",
+              "Close",
+              "Ready",
+              "EXPORT",
+              "ORINTED"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 14",
@@ -266,8 +760,45 @@
           "Exemption",
           "Customs"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 14::figure",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 14::text",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "Proactive business environment - tailored incentives and support Non-fiscal Incentives Industry support targeting Fiscal Incentives Miscellaneous tailored to investment manufacturers tailored to investment Exemption from income Customs facilitation Public p...",
+            "key_entities": [
+              "Proactive",
+              "Non",
+              "Incentives",
+              "Industry",
+              "Fiscal",
+              "Miscellaneous",
+              "Exemption",
+              "Customs"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 15",
@@ -282,8 +813,42 @@
           "Modjo",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 15::figure",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10 Figure 11 Figure 12",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 15::text",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "10 minutes drive from Addis Ababa International Airport. 35 minutes drive to Modjo dry port through expressway.",
+            "key_entities": [
+              "Addis",
+              "Ababa",
+              "International",
+              "Airport",
+              "Modjo"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }

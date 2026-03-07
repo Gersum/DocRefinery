@@ -7,9 +7,9 @@
       "answer": "REPORT (section: Page 1)",
       "audit_status": "verified",
       "tool_trace": [
+        "structured_query",
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE Annual Report 2018-19.pdf",
@@ -44,8 +44,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE Annual Report 2018-19.pdf",
@@ -76,12 +75,11 @@
     },
     {
       "question": "Which section discusses performance highlights?",
-      "answer": "Performance (section: Page 3)",
+      "answer": "Most relevant section: Page 3 (page 3)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE Annual Report 2018-19.pdf",
@@ -116,9 +114,9 @@
     "result": "Performance (section: Page 3)",
     "audit_status": "verified",
     "tool_trace": [
+      "structured_query",
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "CBE Annual Report 2018-19.pdf",

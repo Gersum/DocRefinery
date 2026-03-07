@@ -7,9 +7,9 @@
       "answer": "not found / unverifiable",
       "audit_status": "unverifiable",
       "tool_trace": [
+        "structured_query",
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
@@ -22,22 +22,21 @@
     },
     {
       "question": "Summarize the key financial highlights.",
-      "answer": "Performance Highlights\niv (section: Page 6)",
+      "answer": "CONTENTS\nPROFILE ii\nVISION ii\nMISSION ii\nMOTTO ii\nVALUES ii-iii\nPERFORMANCE HIGHLIGHTS iv-v\nBOARD OF DIRECTORS vi-vii\nCBE NOOR SHARI'AH ADVISORY COMMITTEE viii\nEXECUTIVE MANAGEMENT ix-xi\nPRESIDENT\u2019S MESSAGE XII\nSHARI\u00c1 ADVISORY COMMITTEE (SAC) STATEMENT FOR... (section: Page 3)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
-        "page_number": 6,
+        "page_number": 3,
         "citations": [
           {
             "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
             "document_id": "CBE_Annual_Report_Part_1",
-            "page_number": 6,
-            "excerpt": "Performance Highlights\niv",
+            "page_number": 3,
+            "excerpt": "CONTENTS\nPROFILE ii\nVISION ii\nMISSION ii\nMOTTO ii\nVALUES ii-iii\nPERFORMANCE HIGHLIGHTS iv-v\nBOARD OF DIRECTORS vi-vii\nCBE NOOR SHARI'AH ADVISORY COMMITTEE viii\nEXECUTIVE MANAGEMENT",
             "bbox": {
               "x0": 0.0,
               "y0": 0.0,
@@ -52,18 +51,17 @@
           "x1": 595.276,
           "y1": 841.89
         },
-        "content_hash": "e9babeacc4f04626f5b6ced90c2d9591da5cfb6531adddcbc57fec14e5355be2",
+        "content_hash": "337edd4b2f55cb12489716ca92d806a84785fbbacea882c20dafc2f006c73cfa",
         "verification_status": "verified"
       }
     },
     {
       "question": "Which section discusses performance highlights?",
-      "answer": "Performance Highlights\niv (section: Page 6)",
+      "answer": "Most relevant section: Page 6 (page 6)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "CBE ANNUAL REPORT 2023-24.pdf",
@@ -98,9 +96,9 @@
     "result": "PROFILE\n\u00c2 Has been serving Ethiopia since 1942.\n\u00c2 Pioneered ATM services in Ethiopia.\n\u00c2 Introduced Western Union Money Transfer Services to Ethiopia.\n\u00c2 Is the first Ethiopian bank to offer interest-free banking services.\n\u00c2 Has been playing a catalytic role... (section: Page 4)",
     "audit_status": "verified",
     "tool_trace": [
+      "structured_query",
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "CBE ANNUAL REPORT 2023-24.pdf",

@@ -17,7 +17,8 @@
       "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 1"
+        "section_title": "Page 1",
+        "cross_reference_links": []
       }
     },
     {
@@ -36,7 +37,8 @@
       "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 2"
+        "section_title": "Page 2",
+        "cross_reference_links": []
       }
     },
     {
@@ -55,7 +57,8 @@
       "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 3"
+        "section_title": "Page 3",
+        "cross_reference_links": []
       }
     }
   ],
@@ -77,8 +80,24 @@
           "key_entities": [
             "Page"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Document::text",
+              "page_start": 1,
+              "page_end": 3,
+              "summary": "Page 1 section summary Page 2 section summary Page 3 section summary",
+              "key_entities": [
+                "Page"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         }
       ]
     }

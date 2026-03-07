@@ -59,8 +59,12 @@ class ChunkValidator:
 
             # Rule 5: explicit cross-references are resolved into metadata relationships.
             if re.search(r"\bsee\s+(table|figure|section)\s+\d+\b", ldu.content, flags=re.IGNORECASE):
-                if not ldu.metadata.get("cross_references"):
+                refs = ldu.metadata.get("cross_references") or []
+                links = ldu.metadata.get("cross_reference_links") or []
+                if not refs:
                     violations.append(RuleViolation("rule_5", f"{ldu.ldu_id} cross-reference unresolved"))
+                elif len(links) < len(refs):
+                    violations.append(RuleViolation("rule_5", f"{ldu.ldu_id} cross-reference links missing"))
 
         if violations:
             details = "; ".join([f"{v.rule_id}: {v.message}" for v in violations])
@@ -89,6 +93,28 @@ class ChunkingEngine:
             refs.append(f"{kind.lower()}:{number}")
         return refs
 
+    def _resolve_cross_ref_links(
+        self,
+        refs: List[str],
+        section_id: str,
+        table_ids: dict[int, str],
+        figure_ids: dict[int, str],
+    ) -> list[dict[str, str]]:
+        links: list[dict[str, str]] = []
+        for ref in refs:
+            kind, _, raw_number = ref.partition(":")
+            number = int(raw_number) if raw_number.isdigit() else -1
+            if kind == "table":
+                target = table_ids.get(number, f"unresolved:table:{raw_number}")
+            elif kind == "figure":
+                target = figure_ids.get(number, f"unresolved:figure:{raw_number}")
+            elif kind == "section":
+                target = section_id
+            else:
+                target = f"unresolved:{ref}"
+            links.append({"reference": ref, "target_ldu_id": target})
+        return links
+
     def _is_numbered_list(self, text: str) -> bool:
         lines = [line.strip() for line in text.splitlines() if line.strip()]
         if len(lines) < 2:
@@ -111,6 +137,9 @@ class ChunkingEngine:
             section_title = f"Page {page.page_num}"
             section_id = f"{extracted.document_id}-p{page.page_num}-section"
             child_ids: List[str] = []
+            table_id_map: dict[int, str] = {}
+            figure_id_map: dict[int, str] = {}
+            page_ldu_lookup: dict[str, LDU] = {}
 
             for text_idx, block in enumerate(page.text_blocks, start=1):
                 chunk_type = ChunkType.LIST if self._is_numbered_list(block.text) else ChunkType.TEXT
@@ -142,9 +171,11 @@ class ChunkingEngine:
                                 "list_integrity": list_integrity if chunk_type == ChunkType.LIST else None,
                                 "list_original_token_count": full_list_token_count if chunk_type == ChunkType.LIST else None,
                                 "cross_references": self._extract_cross_refs(part),
+                                "cross_reference_links": [],
                             },
                         )
                     )
+                    page_ldu_lookup[ldu_id] = ldus[-1]
 
             for table_idx, table in enumerate(page.tables, start=1):
                 rows = [" | ".join([str(cell) for cell in row]) for row in table.data]
@@ -153,6 +184,7 @@ class ChunkingEngine:
                     continue
                 ldu_id = f"{extracted.document_id}-p{page.page_num}-table-{table_idx}"
                 child_ids.append(ldu_id)
+                table_id_map[table_idx] = ldu_id
                 ldus.append(
                     LDU(
                         ldu_id=ldu_id,
@@ -170,14 +202,17 @@ class ChunkingEngine:
                             "table_headers": table.headers or [],
                             "table_integrity": "header_attached",
                             "cross_references": self._extract_cross_refs(table_text),
+                            "cross_reference_links": [],
                         },
                     )
                 )
+                page_ldu_lookup[ldu_id] = ldus[-1]
 
             for fig_idx, figure in enumerate(page.figures, start=1):
                 figure_content = figure.caption or f"Figure {fig_idx}"
                 ldu_id = f"{extracted.document_id}-p{page.page_num}-figure-{fig_idx}"
                 child_ids.append(ldu_id)
+                figure_id_map[fig_idx] = ldu_id
                 ldus.append(
                     LDU(
                         ldu_id=ldu_id,
@@ -191,9 +226,14 @@ class ChunkingEngine:
                         child_ldu_ids=[],
                         token_count=self._token_count(figure_content),
                         content_hash=self._hash(figure_content),
-                        metadata={"caption": figure.caption, "cross_references": self._extract_cross_refs(figure_content)},
+                        metadata={
+                            "caption": figure.caption,
+                            "cross_references": self._extract_cross_refs(figure_content),
+                            "cross_reference_links": [],
+                        },
                     )
                 )
+                page_ldu_lookup[ldu_id] = ldus[-1]
 
             section_content = f"{section_title} section summary"
             ldus.append(
@@ -212,6 +252,18 @@ class ChunkingEngine:
                     metadata={"is_section_parent": True, "section_title": section_title},
                 )
             )
+            page_ldu_lookup[section_id] = ldus[-1]
+
+            # Resolve textual/structural cross-references into explicit chunk relationships.
+            for ldu_id in list(page_ldu_lookup.keys()):
+                page_ldu = page_ldu_lookup[ldu_id]
+                refs = page_ldu.metadata.get("cross_references") or []
+                page_ldu.metadata["cross_reference_links"] = self._resolve_cross_ref_links(
+                    refs=refs,
+                    section_id=section_id,
+                    table_ids=table_id_map,
+                    figure_ids=figure_id_map,
+                )
 
         self.validator.validate(ldus)
         return ldus

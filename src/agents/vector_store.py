@@ -21,6 +21,7 @@ class VectorSearchResult:
     document_id: str
     content: str
     score: float
+    chunk_type: str
     parent_section: str | None
     page_refs: list[int]
     content_hash: str
@@ -87,6 +88,7 @@ class LocalVectorStore:
                     document_id=record.document_id,
                     content=record.content,
                     score=score,
+                    chunk_type=record.chunk_type.value,
                     parent_section=record.parent_section,
                     page_refs=record.page_refs,
                     content_hash=record.content_hash,
@@ -141,6 +143,7 @@ class ChromaVectorStore:
         metadatas = [
             {
                 "document_id": ldu.document_id,
+                "chunk_type": ldu.chunk_type.value,
                 "parent_section": ldu.parent_section or "",
                 "page_refs": ",".join(str(p) for p in ldu.page_refs),
                 "content_hash": ldu.content_hash,
@@ -199,6 +202,7 @@ class ChromaVectorStore:
                     document_id=str(metadata.get("document_id") or ""),
                     content=str(documents[idx] or ""),
                     score=score,
+                    chunk_type=str(metadata.get("chunk_type") or ""),
                     parent_section=parent_section or None,
                     page_refs=page_refs or [1],
                     content_hash=str(metadata.get("content_hash") or ""),

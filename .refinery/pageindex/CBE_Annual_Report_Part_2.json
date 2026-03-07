@@ -18,8 +18,39 @@
           "REPORT",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 1::figure",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::text",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "ANNUAL REPORT 2018/19",
+            "key_entities": [
+              "ANNUAL",
+              "REPORT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Document",
@@ -29,8 +60,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 80,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 2",
@@ -40,8 +87,24 @@
         "key_entities": [
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 2::figure",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 3",
@@ -58,8 +121,31 @@
           "Global",
           "Domestic"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 3::text",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Contents Profile i-ii Performance Highlights 1 Message from the President 2 1. Global and Domestic Economic Highlights 2 1.1 Global Economy 2 1.2 Ethiopian Economy 3 2. CBE's Financial Statement Highlights 3 2.1 Income 4 2.2 Expense 4 2.3 Profit 5 2.4 Profi...",
+            "key_entities": [
+              "Contents",
+              "Profile",
+              "Performance",
+              "Highlights",
+              "Message",
+              "President",
+              "Global",
+              "Domestic"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 4",
@@ -76,8 +162,31 @@
           "Machine",
           "ATM"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 4::text",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "PROFILE Serving Ethioipa since 1942.  Pioneer in introducing Automated Teller Machine (ATM) to Ethiopia.  First intermediary for Western Union Money Transfer Services to Ethiopia.  A catalytic agent in the socio-economic development of the nation.  1,44...",
+            "key_entities": [
+              "PROFILE",
+              "Serving",
+              "Ethioipa",
+              "Pioneer",
+              "Automated",
+              "Teller",
+              "Machine",
+              "ATM"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 5",
@@ -94,8 +203,31 @@
           "TEAMWORK",
           "Wearededicated"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 5::text",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "VALUES LEARNING ORGANIZATION INTEGRITY We anticipate and respond to internal  We are committed to the highest  and external changes through constant ideals of honor and integrity. improvement and adjustment. We are committed to act in an  We establish a...",
+            "key_entities": [
+              "VALUES",
+              "LEARNING",
+              "ORGANIZATION",
+              "INTEGRITY",
+              "SERVICE",
+              "EXCELLENCE",
+              "TEAMWORK",
+              "Wearededicated"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 6",
@@ -112,8 +244,45 @@
           "Profit",
           "Before"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 6::figure",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::text",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "PERFORMANCE HIGHLIGHTS Trends in Income (Mn. Birr) 60,000 50,000 40,000 30,000 20,000 10,000 0 2008/09 2009/10 2010/11 2011/12 2012/13 2013/14 2014/15 2015/16 2016/17 2017/18 2018/19 Trends in Expense (Mn. Birr) 45,000 40,000 35,000 30,000 25,000 20,000 15,...",
+            "key_entities": [
+              "PERFORMANCE",
+              "HIGHLIGHTS",
+              "Trends",
+              "Income",
+              "Birr",
+              "Expense",
+              "Profit",
+              "Before"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 7",
@@ -130,8 +299,45 @@
           "Reserve",
           "Number"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 7::figure",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::text",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Trends in Total Assets (Mn. Birr) 800,000 700,000 600,000 500,000 400,000 300,000 200,000 100,000 0 2008/09 2009/10 2010/11 2011/12 2012/13 2013/14 2014/15 2015/16 2016/17 2017/18 2018/19 Trends in Liabilities (Mn. Birr) 700,000 600,000 500,000 400,000 300,...",
+            "key_entities": [
+              "Trends",
+              "Total",
+              "Assets",
+              "Birr",
+              "Liabilities",
+              "Capital",
+              "Reserve",
+              "Number"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 8",
@@ -148,8 +354,45 @@
           "Board",
           "Chairperson"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 8::figure",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 8::text",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "CBE BOARD OF DIRECTORS Ato Teklewold Atinafu Board Chairperson W/o. Demitu Hambissa Abreham Belay (Ph.D) Board Member Board Member",
+            "key_entities": [
+              "CBE",
+              "BOARD",
+              "DIRECTORS",
+              "Ato",
+              "Teklewold",
+              "Atinafu",
+              "Board",
+              "Chairperson"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 9",
@@ -166,8 +409,45 @@
           "Board",
           "Member"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 9::figure",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 9::text",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "BOARD OF DIRECTORS Fitsum Assefa (Ph.D) W/o. Yasmin Wohabrebbi Board Member Board Member Ato Beyene G/Meskel Ato Mamo Esmelealem Mihretu Board Member Board Member Ato Nebiyou Samuel Eyob Tesfaye (Ph.D) Board Member Board Member",
+            "key_entities": [
+              "BOARD",
+              "DIRECTORS",
+              "Fitsum",
+              "Assefa",
+              "Yasmin",
+              "Wohabrebbi",
+              "Board",
+              "Member"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 10",
@@ -184,8 +464,45 @@
           "Chairperson",
           "Sheikh"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 10::figure",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 10::text",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "CBE SHARI'AH ADVISARY COMMITTEE Dr. Jeyilan Kedir Chairperson Sheikh Mohammed Hamidin Associate Prof. Nur Abdi Gudle Member Vice Chairperson Dr. Mohammed Zein Nur Ustaz Awel Abdulwehab Member Member",
+            "key_entities": [
+              "CBE",
+              "SHARI",
+              "ADVISARY",
+              "COMMITTEE",
+              "Jeyilan",
+              "Kedir",
+              "Chairperson",
+              "Sheikh"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 11",
@@ -202,8 +519,45 @@
           "President",
           "Fikiresilassie"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 11::figure",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 11::text",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "CBE EXECUTIVE MANAGEMENT Ato Abie Sano President Ato Fikiresilassie Zewdu Ato Muluneh Aboye Executive V/P - Branch V/P - Risk & Compliance & Digital Banking",
+            "key_entities": [
+              "CBE",
+              "EXECUTIVE",
+              "MANAGEMENT",
+              "Ato",
+              "Abie",
+              "Sano",
+              "President",
+              "Fikiresilassie"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 12",
@@ -220,8 +574,45 @@
           "Assefa",
           "Internal"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 12::figure",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 12::text",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "EXECUTIVE MANAGEMENT W/o. Makeda Oumer Ato Amare Assefa V/P - Internal Audit V/P - Information System Ato Dawit Keno Ato Muluneh Lemma V/P - Resource & V/P - Credit Appraisal & Credit Managment Portfolio Management W/o. Tiruberhan Hailu Ato Surra Saketa V/P...",
+            "key_entities": [
+              "EXECUTIVE",
+              "MANAGEMENT",
+              "Makeda",
+              "Oumer",
+              "Ato",
+              "Amare",
+              "Assefa",
+              "Internal"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 13",
@@ -238,8 +629,45 @@
           "Garo",
           "Finance"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 13::figure",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 13::text",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "EXECUTIVE MANAGEMENT Ato Yonas Lidetu Ato Giragn Garo V/P - Finance V/P - Quality Management & Control Ato Nuri Hussein Ato Yishak Mengesha V/P - CBE NOOR V/P - Strategy & Business Development Ato Ephrem Mekuria Ato Ali Ahmed Ato Turi Goshe V/P - Facility M...",
+            "key_entities": [
+              "EXECUTIVE",
+              "MANAGEMENT",
+              "Ato",
+              "Yonas",
+              "Lidetu",
+              "Giragn",
+              "Garo",
+              "Finance"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 14",
@@ -256,8 +684,60 @@
           "Despite",
           "Ethiopian"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 14::figure",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 14::table",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "PRESIDENT’S MESSAGE |",
+            "key_entities": [
+              "PRESIDENT",
+              "MESSAGE"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 14::text",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "It gives me a great pleasure to present the annual report of the Commercial Bank of Ethiopia (CBE) for the 2018/19 Fiscal Year, which was a successful year for the bank. Despite the challenges faced in the Ethiopian external sector, particularly the export...",
+            "key_entities": [
+              "Commercial",
+              "Bank",
+              "Ethiopia",
+              "CBE",
+              "Fiscal",
+              "Year",
+              "Despite",
+              "Ethiopian"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 15",
@@ -274,8 +754,31 @@
           "During",
           "Addis"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 15::text",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "with the ongoing change and move forward by CBEstill needstoimproveits customerservices, sustaining its leadership position in the banking enhance its mobilization of resources and widen industry. its customer base. Therefore, it will continue expanding bra...",
+            "key_entities": [
+              "CBEstill",
+              "Therefore",
+              "Like",
+              "CBE",
+              "Prime",
+              "Minister",
+              "During",
+              "Addis"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 16",
@@ -292,8 +795,45 @@
           "The",
           "This"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 16::figure",
+            "page_start": 16,
+            "page_end": 16,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 16::text",
+            "page_start": 16,
+            "page_end": 16,
+            "summary": "1. Global and Domestic Economic Highlights 1.1 Global Economy 1.2 Ethiopian Economy In 2019, the world recorded the lowest output growth The Ethiopian economy registered a 9.0% growth after the 2008 financial crises as it dropped to 2.4% during the 2018/19...",
+            "key_entities": [
+              "Global",
+              "Domestic",
+              "Economic",
+              "Highlights",
+              "Economy",
+              "Ethiopian",
+              "The",
+              "This"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 17",
@@ -310,8 +850,66 @@
           "Birr",
           "Interest"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 17::figure",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 17::table",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "Particulars | 2018/19 FY (Mn. Birr) | 2017/18 FY (Mn. Birr) | Growth (%) Total Income | 54,301.3 | 42,810.9 | 26.8 Interest Income | 45,675.2 | 37,328.5 | 22.4 Non-Interest Income | 8,626.1 | 5,482.4 | 57.3 Total Expense | 38,601.8 | 32,804.8 | 17.7 Interes...",
+            "key_entities": [
+              "Particulars",
+              "Birr",
+              "Growth",
+              "Total",
+              "Income",
+              "Interest",
+              "Non",
+              "Expense"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 17::text",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "2. CBE's Financial Statement Highlights 2.1 INCOME During the 2018/19 FY, CBE generated a total income of Birr 54.3 billion, depicting a growth of 26.8% from last FY's performances that was driven by an increase in interest income, commission and charges. I...",
+            "key_entities": [
+              "CBE",
+              "Financial",
+              "Statement",
+              "Highlights",
+              "INCOME",
+              "During",
+              "Birr",
+              "Interest"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 18",
@@ -328,8 +926,66 @@
           "The",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 18::figure",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 18::table",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "Particular | 2018/19 FY (Mn. Birr) | 2017/18 FY (Mn. Birr) | Growth (%) Total Income | 54,301.3 | 42,810.9 | 26.8 Total Expense | 38,601.8 | 32,804.8 | 17.7 Profit Before Tax | 15,699.5 | 10,006.1 | 56.9",
+            "key_entities": [
+              "Particular",
+              "Birr",
+              "Growth",
+              "Total",
+              "Income",
+              "Expense",
+              "Profit",
+              "Before"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 18::text",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "Net gain on foreign Exchange During the year being considered, CBE's net gain from foreign exchange transactions reached Birr 479 million, in contrast to the Birr 3.8 billion net loss incurred in the previous year due to the 2017 Birr devaluation. 2.2 EXPEN...",
+            "key_entities": [
+              "Net",
+              "Exchange",
+              "During",
+              "CBE",
+              "Birr",
+              "EXPENSE",
+              "The",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 19",
@@ -346,8 +1002,65 @@
           "Equity",
           "RoE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 19::figure",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 19::table",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "Particular | 2018/19 FY (%) | 2017/18 FY (%) | Growth (%) Return on Asset (RoA) | 1.79 | 1.03 | 73.8 Return on Equity (RoE) | 23.6 | 12 | 96.7",
+            "key_entities": [
+              "Particular",
+              "Growth",
+              "Return",
+              "Asset",
+              "RoA",
+              "Equity",
+              "RoE"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 19::text",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "15,700 16,000 14,000 12,504 12,168 11,525 12,000 10,006 10,000 8,000 6,000 4,000 2,000 0 2014/15 2015/16 2016/17 2017/18 2018/19 2.4 PROFITABILITY INDICATORS The bank's Return on Assets (RoA) stood nearly at 1.8% and Return on Equity (RoE) at 23.6%, rising...",
+            "key_entities": [
+              "PROFITABILITY",
+              "INDICATORS",
+              "The",
+              "Return",
+              "Assets",
+              "RoA",
+              "Equity",
+              "RoE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 20",
@@ -364,8 +1077,66 @@
           "Loans",
           "Advances"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 20::figure",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 20::table",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "Particulars | 2018/19 FY (Mn. Birr) | 2017/18 FY (Mn. Birr) | Growth (%) Debt & Equity securities | 395,196.9 | 319,069.3 | 23.9 Loans to customers (Net of impairment losses) | 197,364.8 | 172,688.4 | 14.4 Agriculture | 10,179.9 | 9,874.6 | 3.1 Manufacturin...",
+            "key_entities": [
+              "Particulars",
+              "Birr",
+              "Growth",
+              "Debt",
+              "Equity",
+              "Loans",
+              "Net",
+              "Agriculture"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 20::text",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "Belayineh Kinde oil Factory Bure Comparison of Outstanding Loans &Advances and Bonds 2018/19 FY 2017/18 FY Particulars Growth (%) (Mn. Birr) (Mn. Birr) Debt &Equity securities 395,196.9 319,069.3 23.9 Loans to customers (Net of impairment losses) 197,364.8...",
+            "key_entities": [
+              "Belayineh",
+              "Kinde",
+              "Factory",
+              "Bure",
+              "Comparison",
+              "Outstanding",
+              "Loans",
+              "Advances"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 21",
@@ -382,8 +1153,52 @@
           "End",
           "Deposits"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 21::table",
+            "page_start": 21,
+            "page_end": 21,
+            "summary": "Particulars | 2018/19 FY (Mn. Birr) | 2017/18 FY (Mn. Birr) | Growth(%) Customer deposit | 540,941 | 450,681 | 20.0 Demand deposit | 222,697 | 200,867 | 10.9 Savings deposit | 270,216 | 224,304 | 20.5 Fixed time deposit | 23,580 | 15,171 | 55.4 IFB deposit...",
+            "key_entities": [
+              "Particulars",
+              "Birr",
+              "Growth",
+              "Customer",
+              "Demand",
+              "Savings",
+              "Fixed",
+              "IFB"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 21::text",
+            "page_start": 21,
+            "page_end": 21,
+            "summary": "2.5.3 Liabilities The total liabilities of the bank reached Birr 662.6 billion at the end of the FY being reviewed. The liabilities grew by 25.8%, compared with those of the previous year, due to the increase in deposit, accounts payable to NBE, state divid...",
+            "key_entities": [
+              "Liabilities",
+              "The",
+              "Birr",
+              "NBE",
+              "Comparison",
+              "Year",
+              "End",
+              "Deposits"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 22",
@@ -400,8 +1215,45 @@
           "ATMs",
           "POS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 22::figure",
+            "page_start": 22,
+            "page_end": 22,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 22::text",
+            "page_start": 22,
+            "page_end": 22,
+            "summary": "Training 3.2 Technology Deployment During the FY beingconsidered, CBE continued to give high priority to the deployment of modern banking technologies by including digitalization as one strategic theme. The accessibility of the bank increased with the newly...",
+            "key_entities": [
+              "Training",
+              "Technology",
+              "Deployment",
+              "During",
+              "CBE",
+              "The",
+              "ATMs",
+              "POS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 23",
@@ -413,8 +1265,39 @@
           "Report",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 23::figure",
+            "page_start": 23,
+            "page_end": 23,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 23::text",
+            "page_start": 23,
+            "page_end": 23,
+            "summary": "9 Annual Report 2018/19",
+            "key_entities": [
+              "Annual",
+              "Report"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 24",
@@ -427,8 +1310,40 @@
           "Ethiopia",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 24::figure",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 24::text",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "10 Commercial Bank of Ethiopia",
+            "key_entities": [
+              "Commercial",
+              "Bank",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 25",
@@ -445,8 +1360,31 @@
           "Republic",
           "Ethiopia"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 25::text",
+            "page_start": 25,
+            "page_end": 25,
+            "summary": "2018/19 Auditor's Report Audited by: The Federal Democratic Republic of Ethiopia Audit Services Corporation 11 Annual Report 2018/19",
+            "key_entities": [
+              "Auditor",
+              "Report",
+              "Audited",
+              "The",
+              "Federal",
+              "Democratic",
+              "Republic",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 26",
@@ -463,8 +1401,45 @@
           "INDEPENDENT",
           "AUDITOR"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 26::figure",
+            "page_start": 26,
+            "page_end": 26,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 26::text",
+            "page_start": 26,
+            "page_end": 26,
+            "summary": "የሒሳብ ምርመራ AUDIT SERVICES አገልግሎት ኮርፖሬሽን CORPORATION COMMERCIAL BANK OF ETHIOPIA INDEPENDENT AUDITOR'S REPORT AND FINANCIAL STATEMENTS 30 JUNE 2019 12 Commercial Bank of Ethiopia",
+            "key_entities": [
+              "AUDIT",
+              "SERVICES",
+              "CORPORATION",
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "INDEPENDENT",
+              "AUDITOR"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 27",
@@ -481,8 +1456,45 @@
           "Services",
           "Corporation"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 27::figure",
+            "page_start": 27,
+            "page_end": 27,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 27::text",
+            "page_start": 27,
+            "page_end": 27,
+            "summary": "በኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ የሂሣብ ምርመራ አገልግሎት ኮርፖሬሽን The Federal Democratic Republic of Ethiopia Audit Services Corporation INDEPENDENT AUDITOR'S REPORT TO THE SUPERVISING AUTHORITY OF COMMERCIAL BANK OF ETHIOPIA Report on the Audit of the Consolidated Financ...",
+            "key_entities": [
+              "The",
+              "Federal",
+              "Democratic",
+              "Republic",
+              "Ethiopia",
+              "Audit",
+              "Services",
+              "Corporation"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 28",
@@ -499,8 +1511,31 @@
           "COMMERCIAL",
           "BANK"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 28::text",
+            "page_start": 28,
+            "page_end": 28,
+            "summary": "INDEPENDENT AUDITOR'S REPORT TO THE SUPERVISING AUTHORITY OF COMMERCIAL BANK OF ETHIOPIA (Continued) Key Audit Matters Key audit matters are those matters that, in our professional judgment, were of most significance in our audit of the consolidated financi...",
+            "key_entities": [
+              "INDEPENDENT",
+              "AUDITOR",
+              "REPORT",
+              "THE",
+              "SUPERVISING",
+              "AUTHORITY",
+              "COMMERCIAL",
+              "BANK"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 29",
@@ -517,8 +1552,31 @@
           "COMMERCIAL",
           "BANK"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 29::text",
+            "page_start": 29,
+            "page_end": 29,
+            "summary": "INDEPENDENT AUDITOR'S REPORT TO THE SUPERVISING AUTHORITY OF COMMERCIAL BANK OF ETHIOPIA (Continued) Responsibilities of the Directors and Those Charged with Governance for the Financial Statements The Directors are responsible for the preparation and fair...",
+            "key_entities": [
+              "INDEPENDENT",
+              "AUDITOR",
+              "REPORT",
+              "THE",
+              "SUPERVISING",
+              "AUTHORITY",
+              "COMMERCIAL",
+              "BANK"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 30",
@@ -535,8 +1593,31 @@
           "COMMERCIAL",
           "BANK"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 30::text",
+            "page_start": 30,
+            "page_end": 30,
+            "summary": "INDEPENDENT AUDITOR'S REPORT TO THE SUPERVISING AUTHORITY OF COMMERCIAL BANK OF ETHIOPIA (Continued) Auditors' Responsibilities for the Audit of the Financial Statements (Continue) Evaluate the appropriateness of accounting policies used and the reasonablen...",
+            "key_entities": [
+              "INDEPENDENT",
+              "AUDITOR",
+              "REPORT",
+              "THE",
+              "SUPERVISING",
+              "AUTHORITY",
+              "COMMERCIAL",
+              "BANK"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 31",
@@ -553,8 +1634,45 @@
           "Bank",
           "Ethiopia"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 31::figure",
+            "page_start": 31,
+            "page_end": 31,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 31::text",
+            "page_start": 31,
+            "page_end": 31,
+            "summary": "Statement of Director's Responsibility The Directors are responsible for the preparation and fair presentation of the consolidated financial statement of Commercial Bank of Ethiopia ('The Group'), comprising the statement of financial position as at 30 June...",
+            "key_entities": [
+              "Statement",
+              "Director",
+              "Responsibility",
+              "The",
+              "Directors",
+              "Commercial",
+              "Bank",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 32",
@@ -571,8 +1689,43 @@
           "LOSS",
           "AND"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 32::table",
+            "page_start": 32,
+            "page_end": 32,
+            "summary": "45,675,245,455 (20,056,803,363) | 37,328,464,816 (14,750,251,230) 25,618,442,092 (3,267,965,350) | 22,578,213,586 (1,547,644,864) 22,350,476,742 479,230,584 26,766,205 8,120,063,274 (15,276,994,392) | 21,030,568,722 (3,847,440,979) 15,728,241 5,466,708,599...",
+            "key_entities": [],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 32::text",
+            "page_start": 32,
+            "page_end": 32,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA CONSOLIDATED STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME FOR THE YEAR ENDED 30 JUNE 2019 (IN ETHIOPIAN BIRR) For the year ended June 30 2019 2018 Note Interest Income 7 45,675,245,455 37,328,464,816 Interest Expens...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "CONSOLIDATED",
+              "STATEMENT",
+              "PROFIT",
+              "LOSS",
+              "AND"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 33",
@@ -589,8 +1742,45 @@
           "POSITION",
           "FOR"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 33::table",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "85,473,472,580 395,196,878,559 197,364,804,056 506,532,587 8,071,372,366 140,067,243 1,007,145,000 22,099,692 11,207,837,514 179,865,829 8,175,926,543 2,958,241,804 2,577,975,411 | As Restated 52,003,793,543 319,069,307,014 172,687,492,850 307,167,397 8,380...",
+            "key_entities": [
+              "Restated"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 33::text",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA CONSOLIDATED STATEMENT OF FINANCIAL POSITION FOR THE YEAR ENDED 30 JUNE 2019 (IN ETHIOPIAN BIRR) 30 June 2019 30 June 2018 Note As Restated Assets Cash and cash equivalents 9 85,473,472,580 52,003,793,543 Debt & Equity securities...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "CONSOLIDATED",
+              "STATEMENT",
+              "FINANCIAL",
+              "POSITION",
+              "FOR"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 34",
@@ -607,8 +1797,45 @@
           "EQUITY",
           "Foreign"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 34::table",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "ytilibail fo -aemeR tnemerus denfi tfi ed eneb | )324,586,482( | | - | 565,949,86 | - | - | - | - | - | - | )958,537,512( detalumuccA ssoL ro tfi orP | )033,142,443( | 380,974,128,1 | 027,443,663,5 | - | - | - | )591,582,297,1( | - | 222,329,992 | )051,601,...",
+            "key_entities": [
+              "BFI"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 34::text",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "47,205,732,446 3,607,223 (5,343,106,150) 115,954,328 21,022,206 5,366,344,719 1,821,479,083 44,553,998,966 20 666,432,049 - Equity Total (215,735,859) - 68,949,565 - - - (284,685,423) - - - liability of Remea- defined surement benefit 8,114,350 (1,792,285,1...",
+            "key_entities": [
+              "Equity",
+              "Total",
+              "Remea",
+              "Accumulated",
+              "Loss",
+              "Profit",
+              "EQUITY",
+              "Foreign"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 35",
@@ -625,8 +1852,45 @@
           "EQUITY",
           "Foreign"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 35::table",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "-rusaemeR -ed tfi eneb ytilibail fo tnem denfi | )858,537,512( | | - | - | )283,702,591( | - | - | - | - | - | - | | )142,349,014( detalumuccA ssoL & tfi orP | 053,411,8 | | 995,824,511 | 116,440,784,11 | | - | - | )921,392,778,2( | - | )368,899,523( | )433...",
+            "key_entities": [
+              "BFI"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 35::text",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "50,248,682,276 (8,614,725,334) - 220,226,791 - 449,195 - (159,083,894) 11,487,044,611 109,038,461 47,205,732,446 Equity Total (410,943,241) - - - - - - - (195,207,382) - (215,735,858) Remeasur- benefit de- liability of ment fined (207,429,766) (8,614,725,33...",
+            "key_entities": [
+              "Equity",
+              "Total",
+              "Remeasur",
+              "Accumulated",
+              "Loss",
+              "Profit",
+              "EQUITY",
+              "Foreign"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 36",
@@ -643,8 +1907,43 @@
           "FLOWS",
           "FOR"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 36::table",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "15,699,542,413 3,582,368,494 2,001,714,562 (26,766,205) 1,163,095 7,340,261 | 10,006,087,861 1,548,615,151 1,698,190,717 (15,728,242) (564,998) 9,281,080 21,265,362,620 | 13,245,881,569 (76,127,571,545) (28,144,641,745) 329,193,382 25,626,948 (736,482,645)...",
+            "key_entities": [],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 36::text",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA CONSOLIDATED STATEMENT OF CASH FLOWS FOR THE YEAR ENDED 30 JUNE 2019 (IN ETHIOPIAN BIRR) 2019 2018 As Restated CASH FLOWS FROM OPERATING ACTIVITIES Profit before tax 15,699,542,413 10,006,087,861 Adjustment Provisions /Impairment...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "CONSOLIDATED",
+              "STATEMENT",
+              "CASH",
+              "FLOWS",
+              "FOR"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 37",
@@ -661,8 +1960,43 @@
           "FLOWS",
           "FOR"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 37::table",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "49,562,985,661 | 19,392,098,513",
+            "key_entities": [],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 37::text",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA CONSOLIDATED STATEMENT OF CASH FLOWS FOR THE YEAR ENDED 30 JUNE 2019 (IN ETHIOPIAN BIRR) Cash in hand 7,854,724,368 6,207,037,962 Balance with National Bank of Ethiopia 37,879,794,339 12,181,985,574 Balance with Bank of South Sud...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "CONSOLIDATED",
+              "STATEMENT",
+              "CASH",
+              "FLOWS",
+              "FOR"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 38",
@@ -679,8 +2013,31 @@
           "FINANCIAL",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 38::text",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENT (1) REPORTING ENTITY Commercial Bank of Ethiopia (the Bank) is a financial institution established in 1942 as State Bank of Ethiopia and later incorporated as a limited liability publ...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 39",
@@ -697,8 +2054,31 @@
           "FINANCIAL",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 39::text",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENT (3) Basis of preparation - (Continued) Note 4 (a) - determination of control over investees. Management used the control model under IFRS 10, to determine whether the control indicato...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 40",
@@ -715,8 +2095,52 @@
           "FINANCIAL",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 40::table",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "Commercial Nominees PLC | Federal Democratic Republic of Ethiopia | 100% | 100% CBE Southern Sudan Limited | The Republic of South Sudan | 100% | 100% CBE Djibouti Limited | The Republic of Djibouti | 100% | 100%",
+            "key_entities": [
+              "Commercial",
+              "Nominees",
+              "PLC",
+              "Federal",
+              "Democratic",
+              "Republic",
+              "Ethiopia",
+              "CBE"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 40::text",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENT (4) SIGNIFICANT ACCOUNTING POLICIES The accounting policies set out below have been applied consistently to all periods presented in this financial statement. (a) Details of Consolida...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 41",
@@ -733,8 +2157,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 41::text",
+            "page_start": 41,
+            "page_end": 41,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (a) Details of Consolidation - (Continued) the extent of the Group's interest in the investee. Unrealized losses are eliminated in...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 42",
@@ -751,8 +2198,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 42::text",
+            "page_start": 42,
+            "page_end": 42,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (c) Financial assets and financial liabilities - (Continued) (i) Recognition and initial measurement - (Continued) through profit...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 43",
@@ -769,8 +2239,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 43::text",
+            "page_start": 43,
+            "page_end": 43,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (c ) Financial assets and financial liabilities - (Continued) (ii ) Classification and measurement - (Continued) Debt instruments,...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 44",
@@ -787,8 +2280,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 44::text",
+            "page_start": 44,
+            "page_end": 44,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (c ) Financial assets and financial liabilities - (Continued ) (ii ) Classification and measurement -(Continued) Financial assets...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 45",
@@ -805,8 +2321,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 45::text",
+            "page_start": 45,
+            "page_end": 45,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (c) Financial assets and financial liabilities - (Continued) (ii) Classification and measurement - (Continued) Impairment on debt...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 46",
@@ -823,8 +2362,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 46::text",
+            "page_start": 46,
+            "page_end": 46,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4) Significant accounting policies - (Continued) ( C ) Financial assets and financial liabilities - (Continued) (ii ) Classification and measurement- Continued Financial assets are...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 47",
@@ -841,8 +2403,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 47::text",
+            "page_start": 47,
+            "page_end": 47,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( C ) Financial assets and financial liabilities - (Continued) (iii) Derecognition - Continued Financial assets: - Continued On de...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 48",
@@ -859,8 +2444,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 48::text",
+            "page_start": 48,
+            "page_end": 48,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( C ) Financial assets and financial liabilities - (Continued) (vi) Amortized cost measurement The 'amortized cost' of a financial...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 49",
@@ -877,8 +2485,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 49::text",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( C ) Financial assets and financial liabilities - (Continued) Measurement of ECL ECL are a probability-weighted estimate of credi...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 50",
@@ -895,8 +2526,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 50::text",
+            "page_start": 50,
+            "page_end": 50,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( C ) Financial assets and financial liabilities - (Continued) In making an assessment of whether an investment in sovereign debt...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 51",
@@ -913,8 +2567,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 51::text",
+            "page_start": 51,
+            "page_end": 51,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (f) Debt Securities Government securities and coupons and corporate bonds are non-derivative financial assets with fixed or determ...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 52",
@@ -931,8 +2608,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 52::text",
+            "page_start": 52,
+            "page_end": 52,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (h) Leases - (Continued) (i) Group acting as a lessee - Continued After the commencement date, the Group measures the right-of-use...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 53",
@@ -949,8 +2649,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 53::text",
+            "page_start": 53,
+            "page_end": 53,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (j) Non-current assets held for sale - (Continued) Subsequently, the available-for-sale assets or group of assets are recorded at...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 54",
@@ -967,8 +2690,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 54::text",
+            "page_start": 54,
+            "page_end": 54,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( l )Impairment of non-financial assets - (Continued) An impairment loss in respect of goodwill is not reversed. For other assets,...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 55",
@@ -985,8 +2731,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 55::text",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( o ) Employee benefits - (Continued) i. Defined benefit plans- continued wages and salaries, bonuses, leave benefits and other al...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 56",
@@ -1003,8 +2772,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 56::text",
+            "page_start": 56,
+            "page_end": 56,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) ( q )Revenue and expense recognition - (Continued) If the asset is no longer credit-impaired, then the calculation of interest inc...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 57",
@@ -1021,8 +2813,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 57::text",
+            "page_start": 57,
+            "page_end": 57,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (t) Income tax - (Continued) (a) Current tax The current income tax is the expected tax payable on the taxable income for the year...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 58",
@@ -1039,8 +2854,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 58::table",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "- IFRIC 23 Uncertainty over Income Tax Treatments | 1 January 2019 - Prepayment Features with Negative Compensation (Amendments to IFRS 9) | 1 January 2019 - Long-term Interests in Associates and Joint Ventures (Amendments to IAS 28) | 1 January 2019 - Annu...",
+            "key_entities": [
+              "IFRIC",
+              "Uncertainty",
+              "Income",
+              "Tax",
+              "Treatments",
+              "January",
+              "Prepayment",
+              "Features"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 58::text",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (v) New standards, amendments and interpretations - (Continued) Effective for financial period New standard or amendments beginnin...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 59",
@@ -1057,8 +2916,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 59::table",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "IFRS 3 Business Combinations and IFRS 11 Joint Arrangements | Clarifi es how the Group accounts for increasing its interest in a joint operation that meets the defi nition of a business. — If a party maintains (or obtains) joint control, then the previously...",
+            "key_entities": [
+              "IFRS",
+              "Business",
+              "Combinations",
+              "Joint",
+              "Arrangements",
+              "Clarifi",
+              "Group",
+              "IAS"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 59::text",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (v ) New standards, amendments and interpretations -(Continued) The amendments apply for annual periods beginning on or after 1 Ja...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 60",
@@ -1075,8 +2978,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 60::text",
+            "page_start": 60,
+            "page_end": 60,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (v ) New standards, amendments and interpretations - (Continued) The amendments are effective for annual reporting periods beginni...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 61",
@@ -1093,8 +3019,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 61::text",
+            "page_start": 61,
+            "page_end": 61,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 4 ) Significant accounting policies - (Continued) (v )New standards, amendments and interpretations-Continued IAS 1 and IAS 8 Definition of Material The amendment refines the defin...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 62",
@@ -1111,8 +3060,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 62::text",
+            "page_start": 62,
+            "page_end": 62,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) FINANCIAL RISK REVIEW - (Continued) Risk management framework The Board of Directors of the Bank has overall responsibility for the establishment and oversight of the Bank's risk...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 63",
@@ -1129,8 +3101,46 @@
           "Lifetime",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 63::table",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "9102 latoT enuJ 03 | | 599,158,164,371 | 582,732,048,3 | 396,310,607,92 | 479,201,800,702 | 233,667,631,9 | 246,633,178,791 | | 485,672,755,593 | - | - | 485,672,755,593 | 391,529,685 | 193,153,079,493 | | 085,185,583,9 | - | - | 085,185,583,9 | 221,481,002...",
+            "key_entities": [
+              "LCE",
+              "BTE"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 63::text",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "166,935,717,276 4,292,058,497 8,260,206,231 179,487,982,004 (6,493,321,756) 172,994,660,247 318,900,683,717 318,900,683,717 14,623,090 318,886,370,014 8,170,340,173 87,430,371 1,391,180,046 9,648,950,590 (1,268,532,995) 8,380,417,595 - - 2018 Total July 01...",
+            "key_entities": [
+              "Total",
+              "July",
+              "June",
+              "Purchased",
+              "ECL",
+              "Stage",
+              "Lifetime",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 64",
@@ -1147,8 +3157,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 64::table",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "1 | Grade 1 | >= 85 % | Exceptionally low risk | Bankable 2 | Grade 2 | 70 – 84 % | Very low risk | Bankable 3 | Grade 3 | 60 – 69.9 % | Low risk | Bankable 4 | Grade 4 | 50 – 59.9 % | Moderate risk | Bankable 5 | Grade 5 | 40 – 49.9 % | Potential risk | Ex...",
+            "key_entities": [
+              "Grade",
+              "Exceptionally",
+              "Bankable",
+              "Very",
+              "Low",
+              "Moderate",
+              "Potential",
+              "High"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 64::text",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial Risk Review - (Continued) (a) Credit risk - (Continued) No Grade Score Rating Status 1 Grade 1 >= 85% Exceptionally low risk Bankable 2 Grade 2 70 - 84% Very low risk B...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 65",
@@ -1165,8 +3219,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 65::text",
+            "page_start": 65,
+            "page_end": 65,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) Grade 1: Loan debtors are labeled as 'exceptionally low risk' borrowers at the time of the risk review period w...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 66",
@@ -1183,8 +3260,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 66::text",
+            "page_start": 66,
+            "page_end": 66,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) - The loans and advance show extended irregularities, or have the arrears (the credit facilities have been inac...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 67",
@@ -1201,8 +3301,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 67::table",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "Risk Grade | Classifi cation | Individually Signifi cant Loans | Other Loans | Gross Amount 1 | Exceptionally low risk | 57,504,865,519 | 23,227,021,560.80 | 80,731,887,080.00 2 | Very low risk | 29,444,402,305 | 36,654,098,948 | 66,098,501,253 3 | Low risk...",
+            "key_entities": [
+              "Risk",
+              "Grade",
+              "Classifi",
+              "Individually",
+              "Signifi",
+              "Loans",
+              "Other",
+              "Gross"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 67::text",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) The Bank has implemented a series of credit procedures and reports for assessing the performance of its portfol...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 68",
@@ -1219,8 +3363,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 68::text",
+            "page_start": 68,
+            "page_end": 68,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Continued) (5 ) Financial Risk Review - (a) Credit risk - (Continued) Inputs, assumptions and techniques used for estimating impairment See accounting policy in Note 4(c)(viii). Sig...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 69",
@@ -1237,8 +3404,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 69::text",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) Determining whether credit risk has increased significantly The criteria for determining whether credit risk ha...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 70",
@@ -1255,8 +3445,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 70::text",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) The revised terms usually include extending the maturity, changing the timing of interest payments and amendin...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 71",
@@ -1273,8 +3486,47 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 71::table",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "Upside Base Downside | Upside Base Downside 15% 70% 15% | 20% 60% 20%",
+            "key_entities": [
+              "Upside",
+              "Base",
+              "Downside"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 71::text",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS ( 5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) The scenario probability weightings are derived from each segment's macroeconomic information values. Average...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 72",
@@ -1291,8 +3543,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 72::text",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5 ) Financial Risk Review - (Continued) (a) Credit risk - (Continued) LGD is the magnitude of the likely loss if there is a default. The Bank estimates LGD parameters based mainly o...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 73",
@@ -1309,8 +3584,47 @@
           "FINANCIAL",
           "ETHIOPIA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 73::table",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "| tiderc emitefiL deriapmi 3 egatS LCE | | 429,756,128,2 | 425,832,152,1 | 844,698,270,4 | - | - | - | )133,945,839,8( | )288,256,568,4( | | | | | - | | | LCE tiderc deriapmi 2 emitefiL egatS ton | | - | 841,188,821 | 841,188,821 | - | - | - | )387,776,023(...",
+            "key_entities": [
+              "LCE",
+              "BTE",
+              "SRFI"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 73::text",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "(1,881,769,965) (11,489,575,755) (6,493,334,759) 6,878,010,961 14,623,090 4,996,240,996 11,754,614 2,868,476 11,754,614 Total - 1,251,238,524 (8,938,549,331) (4,865,652,882) 2,821,657,924 4,072,896,448 - - - credit impaired Lifetime 3 Stage 2018 ECL June -...",
+            "key_entities": [
+              "Total",
+              "Lifetime",
+              "Stage",
+              "ECL",
+              "June",
+              "STATEMENTS",
+              "FINANCIAL",
+              "ETHIOPIA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 74",
@@ -1327,8 +3641,47 @@
           "Continued",
           "ETHIOPIA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 74::table",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "| LCE deriapmi tiderc emitefiL | | 938,879,032,1 | 034,210,94 | 962,199,972,1 | )034,210,94( | 938,879,032,1 | emitefiL ton deriapmi tiderc LCE | | - | 172,505,1 | 172,505,1 | )772,298( | 499,216 | htnom LCE 21 | | 089,803,942 | )178,839,742( | 901,073,1 |...",
+            "key_entities": [
+              "LCE",
+              "BTE",
+              "SRFI"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 74::text",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "1,480,287,819 (197,421,170) 1,282,866,649 1,233,158,866 30,June Total of as 1,230,978,839 49,012,430 1,279,991,269 (49,012,430) 1,230,978,839 ECL amounts impaired credit Lifetime 2018 June recoverable - 1,505,271 1,505,271 (892,277) 612,994 30 impaired Life...",
+            "key_entities": [
+              "June",
+              "Total",
+              "ECL",
+              "Lifetime",
+              "STATEMENTS",
+              "FINANCIAL",
+              "Continued",
+              "ETHIOPIA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 75",
@@ -1345,8 +3698,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 75::text",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) (a) Credit risk - (Continued) • Default but not impaired loans: According to the NBE's directive No. SBB/69/2018, non-performing (defaulted) l...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 76",
@@ -1363,8 +3739,31 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 76::text",
+            "page_start": 76,
+            "page_end": 76,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) (a) Credit risk - (Continued) - Persuading owners, shareholders, and directors/managers of borrowers to enter into a personal guarantee contra...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 77",
@@ -1381,8 +3780,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 77::table",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "From 1 to 29 days | Pass | 187,979,169,164 | 162,423,621,394 From 30 to 89 days | Special Mention | 4,570,345,418 | 4,076,669,413 From 90 to 179 days | Sub-standard | 838,420,644 | 1,569,148,147 From 180 to 360 days | Doubtful | 320,215,947 | 1,083,364,499...",
+            "key_entities": [
+              "From",
+              "Pass",
+              "Special",
+              "Mention",
+              "Sub",
+              "Doubtful",
+              "Over",
+              "Loss"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 77::text",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) (a) Credit risk - (Continued) - Higher Cost of Recovery than the Realizable Value of the Property - Defects in Documentation - if the Bank has...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 78",
@@ -1399,8 +3842,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 78::table",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "| 30 June 2019 | 30 June 2018 Blocked Account | 586,506,475 | 489,433,600 Building | 87,256,973,860 | 87,673,848,905 Bank Guarantee | 152,861,449 | 158,564,462 Business Mortgage | 191,417,146,081 | 192,585,795,318 Documentary Credit | 3,000,000 | 3,000,000...",
+            "key_entities": [
+              "June",
+              "Blocked",
+              "Account",
+              "Building",
+              "Bank",
+              "Guarantee",
+              "Business",
+              "Mortgage"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 78::text",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) (a) Credit risk - (Continued) Collateral CBE has guarantee on loans granted, mainly Government bond and written government undertaking by the...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 79",
@@ -1417,8 +3904,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 79::table",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "Agriculture Manufacturing Domestic Trade and Services International Trade Building and Construction Consumer Loan Financial Institutions Total Principal Interest Receivable from Loan Provision for Loan Loss Net Loan | 11,316,050,059 117,295,712,185 14,355,7...",
+            "key_entities": [
+              "Agriculture",
+              "Manufacturing",
+              "Domestic",
+              "Trade",
+              "Services",
+              "International",
+              "Building",
+              "Construction"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 79::text",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) ( a ) Credit risk- (Continued ) As can be seen from the above table, the value of collateral held by CBEasasecurity for loan granted are measu...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 80",
@@ -1435,8 +3966,52 @@
           "FINANCIAL",
           "STATEMENTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 80::table",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "| 30 June 2019 | 30 June 2018 Term loan Overdraft Advance loan Merchandise loan Total Principal Interest receivable from Loan Provision for Loan Loss Net Loan | 175,430,349,129 4,554,164,208 15,490,845,523 9,303,799 | 153,220,413,268 3,622,889,136 15,458,61...",
+            "key_entities": [
+              "June",
+              "Term",
+              "Overdraft",
+              "Advance",
+              "Merchandise",
+              "Total",
+              "Principal",
+              "Interest"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 80::text",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "COMMERCIAL BANK OF ETHIOPIA NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (5) Financial risk review - (Continued) ( a ) Credit risk - (Continued) Outstanding loan balances Product type 30 June 2019 30 June 2018 Term loan 175,430,349,129 153,220,413,268 Ove...",
+            "key_entities": [
+              "COMMERCIAL",
+              "BANK",
+              "ETHIOPIA",
+              "NOTES",
+              "THE",
+              "CONSOLIDATED",
+              "FINANCIAL",
+              "STATEMENTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }

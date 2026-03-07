@@ -16,8 +16,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 8,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }

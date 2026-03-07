@@ -17,7 +17,8 @@
       "content_hash": "737369423a2e372d19805025a65fa43806597d3fa4f79dc5a5d191c25fa0e339",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 1"
+        "section_title": "Page 1",
+        "cross_reference_links": []
       }
     },
     {
@@ -36,7 +37,8 @@
       "content_hash": "bfdd19d9e49baa9d2c14911bbf06473c79578e56922c3b23de58a3f7c713a496",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 2"
+        "section_title": "Page 2",
+        "cross_reference_links": []
       }
     },
     {
@@ -61,7 +63,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -87,7 +91,8 @@
       "content_hash": "c39d45b37bcf89f7454ec2778866ae517ad2e912ad2302184414639c0a8c54ed",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 3"
+        "section_title": "Page 3",
+        "cross_reference_links": []
       }
     },
     {
@@ -112,7 +117,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -138,7 +145,8 @@
       "content_hash": "dc01d37e7914ecc6714b5778649b08a026920af3608e0fe8f306ccec39f69251",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 4"
+        "section_title": "Page 4",
+        "cross_reference_links": []
       }
     },
     {
@@ -163,7 +171,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -189,7 +199,8 @@
       "content_hash": "c43b51d810138b7d4cb56120a6633211405e44d8b417702d13f883a81cebda9a",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 5"
+        "section_title": "Page 5",
+        "cross_reference_links": []
       }
     },
     {
@@ -214,7 +225,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -240,7 +253,8 @@
       "content_hash": "2d3d8b8ecbd674de1700270a97888d8e4dfdbe794c25c516bda1cf26d1b10642",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 6"
+        "section_title": "Page 6",
+        "cross_reference_links": []
       }
     },
     {
@@ -265,7 +279,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -291,7 +307,8 @@
       "content_hash": "7e8e0b1b78699a1717d813d9c8c1786ec0d1d0bdc5bde383ef030c6fd3a26788",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 7"
+        "section_title": "Page 7",
+        "cross_reference_links": []
       }
     },
     {
@@ -316,7 +333,9 @@
       "metadata": {
         "source_strategy": "Strategy C - VisionExtractor",
         "list_integrity": null,
-        "cross_references": []
+        "list_original_token_count": null,
+        "cross_references": [],
+        "cross_reference_links": []
       }
     },
     {
@@ -342,7 +361,8 @@
       "content_hash": "f0eb8d16ebc35eefd0a5c404540c2647d3ec51f11673876620b675bab5380b83",
       "metadata": {
         "is_section_parent": true,
-        "section_title": "Page 8"
+        "section_title": "Page 8",
+        "cross_reference_links": []
       }
     }
   ],
@@ -364,8 +384,24 @@
           "key_entities": [
             "Page"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Document::text",
+              "page_start": 1,
+              "page_end": 8,
+              "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary",
+              "key_entities": [
+                "Page"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 3",
@@ -382,8 +418,31 @@
             "PERFORMANCE",
             "HIGHLIGHTS"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 3::text",
+              "page_start": 3,
+              "page_end": 3,
+              "summary": "CONTENTS PROFILE ii VISION ii MISSION ii MOTTO ii VALUES ii-iii PERFORMANCE HIGHLIGHTS iv-v BOARD OF DIRECTORS vi-vii CBE NOOR SHARI'AH ADVISORY COMMITTEE viii EXECUTIVE MANAGEMENT ix-xi PRESIDENT\u2019S MESSAGE XII SHARI\u00c1 ADVISORY COMMITTEE (SAC) STATEMENT FOR...",
+              "key_entities": [
+                "CONTENTS",
+                "PROFILE",
+                "VISION",
+                "MISSION",
+                "MOTTO",
+                "VALUES",
+                "PERFORMANCE",
+                "HIGHLIGHTS"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 4",
@@ -400,8 +459,31 @@
             "Western",
             "Union"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 4::text",
+              "page_start": 4,
+              "page_end": 4,
+              "summary": "PROFILE \u00c2 Has been serving Ethiopia since 1942. \u00c2 Pioneered ATM services in Ethiopia. \u00c2 Introduced Western Union Money Transfer Services to Ethiopia. \u00c2 Is the first Ethiopian bank to offer interest-free banking services. \u00c2 Has been playing a catalytic role...",
+              "key_entities": [
+                "PROFILE",
+                "Has",
+                "Ethiopia",
+                "Pioneered",
+                "ATM",
+                "Introduced",
+                "Western",
+                "Union"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 5",
@@ -418,8 +500,31 @@
             "Teamwork",
             "Vii"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 5::text",
+              "page_start": 5,
+              "page_end": 5,
+              "summary": "VALUES - (Continued) Iv) Empowerment \u00c2 We distinguish employees as valuable organizational resources. \u00c2 We promote delegation of duties and responsibilities. \u00c2 We maintain an atmosphere that inspires confidence and take ownership. \u00c2 We take responsibility,...",
+              "key_entities": [
+                "VALUES",
+                "Continued",
+                "Empowerment",
+                "Innovative",
+                "Organization",
+                "Bank",
+                "Teamwork",
+                "Vii"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 6",
@@ -430,8 +535,25 @@
             "Performance",
             "Highlights"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 6::text",
+              "page_start": 6,
+              "page_end": 6,
+              "summary": "Performance Highlights iv",
+              "key_entities": [
+                "Performance",
+                "Highlights"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 7",
@@ -443,8 +565,26 @@
             "Highlights",
             "Continued"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 7::text",
+              "page_start": 7,
+              "page_end": 7,
+              "summary": "Performance Highlights - (Continued) v",
+              "key_entities": [
+                "Performance",
+                "Highlights",
+                "Continued"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         },
         {
           "section_title": "Page 8",
@@ -461,8 +601,31 @@
             "Woy",
             "Aynalem"
           ],
-          "data_types_present": [],
-          "child_sections": []
+          "data_types_present": [
+            "text"
+          ],
+          "child_sections": [
+            {
+              "section_title": "Page 8::text",
+              "page_start": 8,
+              "page_end": 8,
+              "summary": "Board of Directors Ato Ahmed Shide Chairperson Woy. Aynalem Nigussie Ato Moges Balcha Member Member Ato Wondimagegnehu Negera Woy. Tigist Hamid Member Member vi",
+              "key_entities": [
+                "Board",
+                "Directors",
+                "Ato",
+                "Ahmed",
+                "Shide",
+                "Chairperson",
+                "Woy",
+                "Aynalem"
+              ],
+              "data_types_present": [
+                "text"
+              ],
+              "child_sections": []
+            }
+          ]
         }
       ]
     }

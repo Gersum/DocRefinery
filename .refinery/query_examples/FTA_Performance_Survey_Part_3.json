@@ -8,8 +8,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
@@ -40,37 +39,36 @@
     },
     {
       "question": "Which section describes implementation challenges?",
-      "answer": "support (section: Page 1)",
+      "answer": "Most relevant section: Page 10 (page 10)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
-        "page_number": 1,
+        "page_number": 10,
         "citations": [
           {
             "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
             "document_id": "FTA_Performance_Survey_Part_3",
-            "page_number": 1,
-            "excerpt": "support",
+            "page_number": 10,
+            "excerpt": "which",
             "bbox": {
-              "x0": 484.7657199999999,
-              "y0": 329.1367681767956,
-              "x1": 588.721,
-              "y1": 354.21488
+              "x0": 258.1,
+              "y0": 257.1392928176796,
+              "x1": 303.62199999999996,
+              "y1": 273.284
             }
           }
         ],
         "bbox": {
-          "x0": 484.7657199999999,
-          "y0": 329.1367681767956,
-          "x1": 588.721,
-          "y1": 354.21488
+          "x0": 258.1,
+          "y0": 257.1392928176796,
+          "x1": 303.62199999999996,
+          "y1": 273.284
         },
-        "content_hash": "a18603086e5bdf9df88ccc9f5a083fed093e819976e87456b74dafcbd7011114",
+        "content_hash": "77bc06c55d29ee3cfa295b4592e4b2a85a16bb06a8974726b7bfa3d4ca36d5ae",
         "verification_status": "verified"
       }
     },
@@ -80,8 +78,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
@@ -113,37 +110,36 @@
   ],
   "audit_mode": {
     "claim": "assessment findings recommendations implementation is explicitly discussed in this document.",
-    "result": "in (section: Page 1)",
+    "result": "is (section: Page 8)",
     "audit_status": "verified",
     "tool_trace": [
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
-      "page_number": 1,
+      "page_number": 8,
       "citations": [
         {
           "document_name": "20191010_Pharmaceutical-Manufacturing-Opportunites-in-Ethiopia_VF.pdf",
           "document_id": "FTA_Performance_Survey_Part_3",
-          "page_number": 1,
-          "excerpt": "in",
+          "page_number": 8,
+          "excerpt": "is",
           "bbox": {
-            "x0": 729.0802000000003,
-            "y0": 451.9267681767956,
-            "x1": 753.9366400000004,
-            "y1": 477.00487999999996
+            "x0": 154.279104,
+            "y0": 514.5127139005525,
+            "x1": 177.67372799999998,
+            "y1": 539.612352
           }
         }
       ],
       "bbox": {
-        "x0": 729.0802000000003,
-        "y0": 451.9267681767956,
-        "x1": 753.9366400000004,
-        "y1": 477.00487999999996
+        "x0": 154.279104,
+        "y0": 514.5127139005525,
+        "x1": 177.67372799999998,
+        "y1": 539.612352
       },
-      "content_hash": "582967534d0f909d196b97f9e6921342777aea87b46fa52df165389db1fb8ccf",
+      "content_hash": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
       "verification_status": "verified"
     }
   }

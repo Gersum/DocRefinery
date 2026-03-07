@@ -105,31 +105,53 @@ class QueryAgent:
 
     def answer(self, question: str, document_name: str) -> QueryResponse:
         tool_trace: list[str] = []
+        question_lc = question.lower()
+        numeric_intent = bool(re.search(r"\b(revenue|cost|tax|profit|amount|value|\$|%|\d)\b", question_lc))
+        navigational_intent = bool(
+            re.search(r"\b(section|page|where|which part|locate|find section|navigate)\b", question_lc)
+        )
+
+        if numeric_intent:
+            structured_hits = self.structured_query(question)
+            tool_trace.append("structured_query")
+            if structured_hits:
+                fact = structured_hits[0]
+                answer = (
+                    f"{fact.get('key')} = {fact.get('value')} "
+                    f"(page {fact.get('page_number')})"
+                )
+                return QueryResponse(
+                    answer=answer.strip(),
+                    provenance=self._provenance_from_fact(fact),
+                    tool_trace=tool_trace,
+                    audit_status="verified",
+                )
 
         sections = self.pageindex_navigate(question)
         tool_trace.append("pageindex_navigate")
         allowed = set(sections)
 
+        if navigational_intent and sections:
+            semantic_hits = self.semantic_search(question, allowed_sections=allowed)
+            tool_trace.append("semantic_search")
+            if semantic_hits:
+                hit = semantic_hits[0]
+                answer = f"Most relevant section: {hit.parent_section or sections[0]} (page {hit.page_refs[0] if hit.page_refs else 1})"
+                return QueryResponse(
+                    answer=answer,
+                    provenance=self._provenance_from_semantic_hit(hit, document_name=document_name),
+                    tool_trace=tool_trace,
+                    audit_status="verified",
+                )
+            return QueryResponse(
+                answer=f"Most relevant sections: {', '.join(sections[:3])}",
+                provenance=self._unverifiable_provenance(document_name=document_name, question=question),
+                tool_trace=tool_trace,
+                audit_status="unverifiable",
+            )
+
         semantic_hits = self.semantic_search(question, allowed_sections=allowed if sections else None)
         tool_trace.append("semantic_search")
-
-        structured_hits = self.structured_query(question)
-        tool_trace.append("structured_query")
-
-        numeric_intent = bool(re.search(r"\b(revenue|cost|tax|profit|amount|value|\$|%|\d)\b", question.lower()))
-        if numeric_intent and structured_hits:
-            fact = structured_hits[0]
-            answer = (
-                f"{fact.get('key')} = {fact.get('value')} "
-                f"(page {fact.get('page_number')})"
-            )
-            return QueryResponse(
-                answer=answer.strip(),
-                provenance=self._provenance_from_fact(fact),
-                tool_trace=tool_trace,
-                audit_status="verified",
-            )
-
         if semantic_hits:
             hit = semantic_hits[0]
             preview = hit.content.strip()

@@ -8,8 +8,7 @@
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
@@ -22,12 +21,11 @@
     },
     {
       "question": "Which section describes implementation challenges?",
-      "answer": "not found / unverifiable",
+      "answer": "Most relevant sections: Document, Document::text",
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
@@ -44,8 +42,7 @@
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",
@@ -63,8 +60,7 @@
     "audit_status": "unverifiable",
     "tool_trace": [
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "Security_Vulnerability_Disclosure_Standard_Procedure_1.pdf",

@@ -90,6 +90,7 @@ DEFAULT_RULES: Dict[str, Any] = {
         "strict_provenance": True,
         "chunk_max_tokens": 400,
         "pageindex_top_k": 3,
+        "pageindex_output_dir": ".refinery/pageindex",
         "vector_top_k": 5,
         "similarity_min_score": 0.05,
         "embedding_dimension": 256,

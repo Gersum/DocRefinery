@@ -23,8 +23,66 @@
           "NEWS",
           "RELEASE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 1::figure",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::table",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "1. Summary The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made available to data users on a monthly basis. The year-on-year, general inflation rate (annual percentage change) in the country stood at 13.6 percent for th...",
+            "key_entities": [
+              "Summary",
+              "The",
+              "Consumer",
+              "Price",
+              "Index",
+              "CPI",
+              "August",
+              "General"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::text",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin MONTHLY NEWS RELEASE INFLATION REPORT ONAUGUST, EFY 2017 Issue No. 26/2017 August EFY2017 Page 1 1. Summary The Consumer Price Index (CPI), a key economic statistics, is surveyed, analyzed, and made availab...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "MONTHLY",
+              "NEWS",
+              "RELEASE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Document",
@@ -34,8 +92,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 13,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 2",
@@ -52,8 +126,66 @@
           "Issue",
           "Beginning"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 2::figure",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 2::table",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Beginning from August-EFY 2016 the magnitude of the inflation rate steadily declined overtime. In August EFY- 2017 General inflation was 13.6% as compared to the one observed in August- EFY2016. | | | | | Beginning from August-EFY 2016 the magnitude of the...",
+            "key_entities": [
+              "Beginning",
+              "August",
+              "EFY",
+              "General",
+              "Month",
+              "Year",
+              "Food",
+              "Non"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 2::text",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 2 Issue No. 26/2017 Beginning from August - EFY 2016 the magnitude of the inflation rate steadily declined overtime. In August EFY - 2017 General inflation was 13.6% as compared to the one observed in...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Beginning"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 3",
@@ -70,8 +202,66 @@
           "Issue",
           "Fig"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 3::figure",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 3::table",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Fig 1: Food and Non-Food Inflation (%, Year-on-Year), August EFY2016 - August EFY2017 Non-Food Inflation and Alcoholic Beverages (Year-on-Year) As can be seen from the above figure, both the non-food year-on-year inflation rate and Food inflation rate in- c...",
+            "key_entities": [
+              "Fig",
+              "Food",
+              "Non",
+              "Inflation",
+              "Year",
+              "August",
+              "Alcoholic",
+              "Beverages"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 3::text",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 3 Issue No. 26/2017 Fig 1: Food and Non - Food Inflation (%, Year - on - Year), August EFY2016 - August EFY2017 Non - Food Inflation and Alcoholic Beverages (Year - on - Year) As can be seen from the a...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Fig"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 4",
@@ -88,8 +278,66 @@
           "Issue",
           "Major"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 4::figure",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 4::table",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "Major sub divisions in the food and non-food commodities (year-on-Year). When we look at major division of food and non-food commodities, which holds large share in the commodity basket, the magnitude of Food and Non-alcoholic beverages inflation rate at Au...",
+            "key_entities": [
+              "Major",
+              "Year",
+              "When",
+              "Food",
+              "Non",
+              "August",
+              "From",
+              "Alcoholic"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 4::text",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 4 Issue No. 26/2017 Major sub divisions in the food and non - food commodities (year - on - Year). When we look at major division of food and non - food commodities, which holds large share in the comm...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Major"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 5",
@@ -106,8 +354,66 @@
           "Issue",
           "Month"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 5::figure",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 5::table",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Month-to-Month Inflation Rate The month-to-month general inflation rate for August EFY2017 has increased by 1.1 percent compared to what was ob- served last month. During the same month, the food and non-alcoholic component of the inflation increased by at...",
+            "key_entities": [
+              "Month",
+              "Inflation",
+              "Rate",
+              "The",
+              "August",
+              "During",
+              "Table",
+              "General"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 5::text",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 5 Issue No. 26/2017 Month - to - Month Inflation Rate August The month - to - month general inflation rate for EFY2017 has increased by 1.1 percent compared to what was ob- served last month. During th...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Month"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 6",
@@ -124,8 +430,66 @@
           "Issue",
           "Non"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 6::figure",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::table",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Non-Food Inflation (%, Month-to-Month) Looking at non-food items, the month-to-month comparison was observed for Alcoholic beverages and tobac- co decreased by (-0.4%), Clothing and Footwear increased by (1.3%), Furniture, Furnishing, household equip- ment...",
+            "key_entities": [
+              "Non",
+              "Food",
+              "Inflation",
+              "Month",
+              "Looking",
+              "Alcoholic",
+              "Clothing",
+              "Footwear"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::text",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 6 Issue No. 26/2017 Non - Food Inflation (%, Month - to - Month) Looking at non - food items, the month - to - month comparison was observed for Alcoholic beverages and tobac- co decreased by ( - 0.4%)...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Non"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 7",
@@ -142,8 +506,66 @@
           "Month",
           "Moving"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 7::figure",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::table",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "3: 12-Month Moving Average General, Food and Non-food Inflation The 12-month moving average figures provides a broader perspective on inflation trends over a longer period. As it is indi- cated in Table below the country level overall inflation rate (annual...",
+            "key_entities": [
+              "Month",
+              "Moving",
+              "Average",
+              "General",
+              "Food",
+              "Non",
+              "Inflation",
+              "The"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::text",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 7 12 - Month Moving Average General, Food and Non - food Inflation 3: The 12 - month moving average figures provides a broader perspective on inflation trends over a longer period. As it is indi- cated...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Month",
+              "Moving"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 8",
@@ -160,8 +582,66 @@
           "Page",
           "Food"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 8::figure",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 8::table",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "12-month moving average Food and Non-Food Inflation rate (August EFY2016 - August EFY2017) Dis-aggregated, 12-month moving average food inflation increased by 15.0 percent as compared to the one observed a year ago and non-food inflation rate increased by 1...",
+            "key_entities": [
+              "Food",
+              "Non",
+              "Inflation",
+              "August",
+              "Dis",
+              "Table",
+              "Baseline",
+              "Dec"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 8::text",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Issue No. 26/2017 Page 8 12 - month moving average Food and Non - Food Inflation rate (August EFY2016 - August EFY2017) Dis - aggregated, 12 - month moving average food inflation increased by 15.0 percent a...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Issue",
+              "Page",
+              "Food"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 9",
@@ -178,8 +658,66 @@
           "Page",
           "Recent"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 9::figure",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 9::table",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Recent Improvements in CPI Price survey The monthly consumer price data collection first started in Addis Ababa in 1963 (1955 E.C). The consumer price survey which started in the capital city helped to prepare Consumer Price Index (CPI) for the city of Addi...",
+            "key_entities": [
+              "Recent",
+              "Improvements",
+              "CPI",
+              "Price",
+              "The",
+              "Addis",
+              "Ababa",
+              "Consumer"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 9::text",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Issue No. 26/2017 Page 9 Recent Improvements in CPI Price survey The monthly consumer price data collection first started in Addis Ababa in 1963 (1955 E.C). The consumer price survey which started in the ca...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Issue",
+              "Page",
+              "Recent"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 10",
@@ -196,8 +734,66 @@
           "Page",
           "Annual"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 10::figure",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 10::table",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "4. Annual Inflation trend Relatively low and reduction in inflation rate was observed between 2005 and 2009. Since EFY2010 inflation rate stick to double digit. Fig 3: Average Annual General inflation in Ethiopia since Ethiopian EFY2005 (Year-on-Year) The a...",
+            "key_entities": [
+              "Annual",
+              "Inflation",
+              "Relatively",
+              "Since",
+              "Fig",
+              "Average",
+              "General",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 10::text",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Issue No. 26/2017 Page 10 4. Annual Inflation trend Relatively low and reduction in inflation rate was observed between 2005 and 2009. Since EFY2010 inflation rate stick to double digit. Fig 3: Average Annu...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Issue",
+              "Page",
+              "Annual"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 11",
@@ -214,8 +810,66 @@
           "Issue",
           "Fig"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 11::figure",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 11::table",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Fig 4: Average Annual Food Inflation in Ethiopia since EFY2005 (Year-on-Year) The average annual food inflation rate for the country stood at (16.2 %) in EFY2017 compared to (28.1 %) in EFY2016, about tweleve percentage point reduction compared to last year...",
+            "key_entities": [
+              "Fig",
+              "Average",
+              "Annual",
+              "Food",
+              "Inflation",
+              "Ethiopia",
+              "Year",
+              "The"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 11::text",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 11 Issue No. 26/2017 Fig 4: Average Annual Food Inflation in Ethiopia since EFY2005 (Year - on - Year) The average annual food inflation rate for the country stood at (16.2 %) in EFY2017 compared to (2...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Fig"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 12",
@@ -232,8 +886,66 @@
           "Issue",
           "Fig"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 12::figure",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 12::table",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Fig 5: Average Annual Non-Food Inflation in Ethiopia since EFY2005 (Year-on-Year) The average annual non-food inflation rate for the country stood at (15.8 %) in EFY2017 compared to (24.3 %) in EFY2016. Non-food inflation movement, in the past ten year is d...",
+            "key_entities": [
+              "Fig",
+              "Average",
+              "Annual",
+              "Non",
+              "Food",
+              "Inflation",
+              "Ethiopia",
+              "Year"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 12::text",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Page 12 Issue No. 26/2017 Fig 5: Average Annual Non - Food Inflation in Ethiopia since EFY2005 (Year - on - Year) The average annual non - food inflation rate for the country stood at (15.8 %) in EFY2017 co...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Page",
+              "Issue",
+              "Fig"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 13",
@@ -250,8 +962,66 @@
           "Page",
           "Enquiries"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 13::figure",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 13::table",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Enquiries | | 5. GLOSSARY • General Inflation: The highest level of aggregation of infla- tion which covers all the items within the scope of the in- flation. • Food Inflation: inflation which covers all food items within the scope of the inflation. • Non-f...",
+            "key_entities": [
+              "Enquiries",
+              "GLOSSARY",
+              "General",
+              "Inflation",
+              "The",
+              "Food",
+              "Non",
+              "Year"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 13::text",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "ETHIOPIAN STATISTICAL SERVICE Statistical Bulletin Issue No. 26/2017 Page 13 Enquiries 5. GLOSSARY Telephone number General Inflation : The highest level of aggregation of infla- • +251 111 568464 tion which covers all the items within the scope of the in-...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "STATISTICAL",
+              "SERVICE",
+              "Statistical",
+              "Bulletin",
+              "Issue",
+              "Page",
+              "Enquiries"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }

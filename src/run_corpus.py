@@ -140,7 +140,7 @@ def main() -> None:
     profiles_dir = root / ".refinery" / "profiles"
     extractions_dir = root / ".refinery" / "extractions"
     structures_dir = root / ".refinery" / "structures"
-    pageindex_dir = root / ".refinery" / "pageindex"
+    pageindex_dir = root / str(retrieval_preference("pageindex_output_dir", ".refinery/pageindex", args.rules_path))
     query_examples_dir = root / ".refinery" / "query_examples"
     retrieval_dir = root / ".refinery" / "retrieval_benchmark"
     ledger_path = root / ".refinery" / "extraction_ledger.jsonl"

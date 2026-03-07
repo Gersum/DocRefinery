@@ -8,8 +8,7 @@
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "2018_Audited_Financial_Statement_Report.pdf",
@@ -26,8 +25,7 @@
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "2018_Audited_Financial_Statement_Report.pdf",
@@ -40,12 +38,11 @@
     },
     {
       "question": "Which part of the document references financial statements?",
-      "answer": "not found / unverifiable",
+      "answer": "Most relevant sections: Document, Document::text",
       "audit_status": "unverifiable",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "2018_Audited_Financial_Statement_Report.pdf",
@@ -63,8 +60,7 @@
     "audit_status": "unverifiable",
     "tool_trace": [
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "2018_Audited_Financial_Statement_Report.pdf",

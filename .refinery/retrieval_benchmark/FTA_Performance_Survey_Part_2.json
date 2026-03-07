@@ -9,6 +9,7 @@
   "naive_hits": 0,
   "indexed_hits": 0,
   "top_sections": [
-    "Document"
+    "Document",
+    "Document::text"
   ]
 }

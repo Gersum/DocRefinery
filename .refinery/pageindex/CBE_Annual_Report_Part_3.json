@@ -18,8 +18,39 @@
           "REPORT",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 1::figure",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::text",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "ANNUAL REPORT 2022/23",
+            "key_entities": [
+              "ANNUAL",
+              "REPORT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Document",
@@ -29,8 +60,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 80,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 2",
@@ -43,8 +90,40 @@
           "Committed",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 2::figure",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 2::text",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "24/7 customers Family our RE serve Ethio to Committed",
+            "key_entities": [
+              "Family",
+              "Ethio",
+              "Committed"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 3",
@@ -61,8 +140,45 @@
           "ORDINARY",
           "GENERAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 3::figure",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 3::text",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of Ethiopian Reinsurance...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "GENERAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 4",
@@ -79,8 +195,45 @@
           "ANNUAL",
           "THE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 4::figure",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 4::text",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is Notice 372 and 366,367,370,371 Art...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "ANNUAL",
+              "THE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 5",
@@ -97,8 +250,45 @@
           "ORDINARY",
           "AND"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 5::figure",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 5::text",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH TH TH NOTICE OF THE 8 ANNUAL ORDINARY AND 4 NOTICE OF THE 7 ANNUAL ORDINARY EXTRAORDINARY GENERAL MEETING OF SHAREHOLDERS GENERAL MEETING OF SHAREHOLDERS NoticeisherebygiventotheShar...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "AND"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 6",
@@ -115,8 +305,60 @@
           "FINANCIAL",
           "HIGHLIGHTS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 6::figure",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::table",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "| 2022/23 | 2,010.1 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | t o t S. C. e o s s o | e n c e C o d of A | gi v a n ril al e s | yucc e b n ser i r ti | h er R e mA m y ’ s | e i s i a n C o a n | cohm ti pep hit | al er n e G...",
+            "key_entities": [
+              "Hil",
+              "Dir"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 6::text",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ETHIO-RE IN FIGURES (FINANCIAL HIGHLIGHTS) ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL Ethiopian Birr in Millions 0 100 200 300 400 500 600 700 800 900 1,000 1,100 1,2...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "FIGURES",
+              "FINANCIAL",
+              "HIGHLIGHTS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 7",
@@ -133,8 +375,57 @@
           "ORDINARY",
           "Net"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 7::figure",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::table",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "en15s5a2tio | | | n an | d | a mo | nt | hly a | llo | wan | | f t | he m | e | etin | g. | | | | | | |",
+            "key_entities": [],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 7::text",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY Net Claims Ratio GENERAL MEETING OF SHAREHOLDERS 55.25% 55.25% 52.77% 62.41% 51% 46.27% Notice is hereby given to the Shareholders to attend the 7th A...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "Net"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 8",
@@ -151,8 +442,31 @@
           "ETHIO",
           "Annual"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 8::text",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "iii E T HI O R E Ri si n g wit h Afri c a 2 0 2 1 / 2 2 N O T I C E O F T H E 7 A N N U A L O R D I N A R Y T H G E N E R A L M E E T I N G O F S H A R E H O L D E R S N o ti c e i s h er e b y gi v e n t o t h e S h ar e h ol d er s t o a t t e n d t h e 7...",
+            "key_entities": [
+              "Afri",
+              "Dir",
+              "Birr",
+              "Billi",
+              "Kir",
+              "Hil",
+              "ETHIO",
+              "Annual"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 9",
@@ -169,8 +483,45 @@
           "THE",
           "RATING"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 9::figure",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 9::text",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH OUR NOTICE CREDIT OF THE RATING 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of Ethi...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "OUR",
+              "NOTICE",
+              "CREDIT",
+              "THE",
+              "RATING"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 10",
@@ -187,8 +538,45 @@
           "ORDINARY",
           "ANNUAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 10::figure",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 10::text",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH CHAIRPERSON'S ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL STATEMENT of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is Notice 372...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "CHAIRPERSON",
+              "ORDINARY",
+              "ANNUAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 11",
@@ -205,8 +593,45 @@
           "ANNUAL",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 11::figure",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 11::text",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 At Ethio-Re our renewed focus will continue in delivering value to associates, customers, employees, TH NOTICE OF THE 7 ANNUAL ORDINARY community, and the industry as a whole over the u...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "Ethio",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 12",
@@ -223,8 +648,45 @@
           "FROM",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 12::figure",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 12::text",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH MESSAGE FROM ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL THE CEO of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is Notice 372 an...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "MESSAGE",
+              "FROM",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 13",
@@ -241,8 +703,45 @@
           "ORDINARY",
           "Units"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 13::figure",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 13::text",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY We believe that the effective inter-departmental coordination and meaningful cooperation in the various Units of Ethio-Re has led to optimised solutio...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "Units"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 14",
@@ -259,8 +758,45 @@
           "BOARD",
           "ANNUAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 14::figure",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9 Figure 10 Figure 11",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 14::text",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY BOARD ANNUAL OF 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL DIRECTORS of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is Notice 372 and...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "BOARD",
+              "ANNUAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 15",
@@ -277,8 +813,45 @@
           "ANNUAL",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 15::figure",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4 Figure 5 Figure 6 Figure 7 Figure 8 Figure 9",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 15::text",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE EXECUTIVE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS MANAGEMENT Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of E...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "EXECUTIVE",
+              "ANNUAL",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 16",
@@ -295,8 +868,45 @@
           "REPORT",
           "ANNUAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 16::figure",
+            "page_start": 16,
+            "page_end": 16,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 16::text",
+            "page_start": 16,
+            "page_end": 16,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY REPORT ANNUAL OF 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL THE BOARD OF DIRECTORS of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is N...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "REPORT",
+              "ANNUAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 17",
@@ -313,8 +923,45 @@
           "ORDINARY",
           "GENERAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 17::figure",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 17::text",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of Ethiopian Reinsurance...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "GENERAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 18",
@@ -331,8 +978,45 @@
           "ANNUAL",
           "THE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 18::figure",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 18::text",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 4. BOARD OF DIRECTORS The roles and functions of the Board of Directors and the CEO of the Company are distinct and their SHAREHOLDERS OF MEETING GENERAL r...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "ANNUAL",
+              "THE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 19",
@@ -349,8 +1033,45 @@
           "ORDINARY",
           "BUSINESS"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 19::figure",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 19::text",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY 5. THE BUSINESS ENVIRONMENT 5.1 THE GLOBAL REINSURANCE LANDSCAPE GENERAL MEETING OF SHAREHOLDERS It is commonly known that the reinsurance market oper...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "BUSINESS"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 20",
@@ -367,8 +1088,66 @@
           "Top",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 20::figure",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 20::table",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "S R E D L O 2023 | H E R A H S F 2022 | 1 | 1 | Cyberattacks of g n ti e e M al er n e G y 2 | ar n di Or al u n n A h t 7 e h t 2 | d n e t t a o t s er d ol h e ar h S e h t o t n e v gi y b e er h s e i c ti o N Climate change 2 7h 3t d a n 1 3 7n 7 0, 7...",
+            "key_entities": [
+              "Cyberattacks",
+              "Climate",
+              "Deteriorating",
+              "Dir",
+              "Raw",
+              "Birr",
+              "Billi",
+              "Global"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 20::text",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH Table 1: Top 5 risks in 2023 ORDINARY ANNUAL 7 THE OF NOTICE Ranking SHAREHOLDERS OF MEETING GENERAL Risques 2023 2022 1 1 Cyberattacks 2 2 Climate change of Meeting General Ordinary Annu...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "Table",
+              "Top",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 21",
@@ -385,8 +1164,45 @@
           "ORDINARY",
           "Gross"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 21::figure",
+            "page_start": 21,
+            "page_end": 21,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 21::text",
+            "page_start": 21,
+            "page_end": 21,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY Gross written premiums of the industry reached Birr 22.9 billion revealing over 27.3% growth compared with last year's same period result. General Ins...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "Gross"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 22",
@@ -403,8 +1219,45 @@
           "INCURRED",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 22::figure",
+            "page_start": 22,
+            "page_end": 22,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 22::text",
+            "page_start": 22,
+            "page_end": 22,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH CLAIMS INCURRED ORDINARY ANNUAL 7 THE OF NOTICE Claims incurred for the year is calculated as follows: SHAREHOLDERS OF MEETING GENERAL Net outstanding claims of June ,2023 plus Net claims...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "CLAIMS",
+              "INCURRED",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 23",
@@ -421,8 +1274,45 @@
           "ANNUAL",
           "ORDINARY"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 23::figure",
+            "page_start": 23,
+            "page_end": 23,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 23::text",
+            "page_start": 23,
+            "page_end": 23,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 The increase in investment income is explained by smart cash flow management as well as extra TH » NOTICE OF THE 7 ANNUAL ORDINARY cash available following the decision by most sharehol...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "The",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 24",
@@ -439,8 +1329,45 @@
           "ANNUAL",
           "THE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 24::figure",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 24::text",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is Notice 372 and 366,367,370,371 Art...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "ANNUAL",
+              "THE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 25",
@@ -457,8 +1384,45 @@
           "ORDINARY",
           "GENERAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 25::figure",
+            "page_start": 25,
+            "page_end": 25,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 25::text",
+            "page_start": 25,
+            "page_end": 25,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of Ethiopian Reinsurance...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "GENERAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 26",
@@ -475,8 +1439,45 @@
           "ANNUAL",
           "THE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 26::figure",
+            "page_start": 26,
+            "page_end": 26,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 26::text",
+            "page_start": 26,
+            "page_end": 26,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 7. MAJOR CHALLENGES ENCOUNTERED DURING THE YEAR During the period under review, the achievements made had been tempered by the following SHAREHOLDERS OF ME...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "ANNUAL",
+              "THE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 27",
@@ -493,8 +1494,45 @@
           "ORDINARY",
           "Company"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 27::figure",
+            "page_start": 27,
+            "page_end": 27,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 27::text",
+            "page_start": 27,
+            "page_end": 27,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY In the years ahead, the Company should also gear up all its efforts towards the successful » implementation of all prioritized strategic initiatives t...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "Company"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 28",
@@ -511,8 +1549,57 @@
           "ANNUAL",
           "THE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 28::figure",
+            "page_start": 28,
+            "page_end": 28,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 28::table",
+            "page_start": 28,
+            "page_end": 28,
+            "summary": "s; er ell T e t o V of t n e m t n oi p p A . 1",
+            "key_entities": [],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 28::text",
+            "page_start": 28,
+            "page_end": 28,
+            "summary": "ETHIO RE RE ETHIO Annual Report Africa with Rising 2022/23 2021/22 TH promotion & network aio forum 2023 ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL of Meeting General Ordinary Annual 7th the attend to Shareholders the to given hereby is...",
+            "key_entities": [
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "ORDINARY",
+              "ANNUAL",
+              "THE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 29",
@@ -529,8 +1616,45 @@
           "ORDINARY",
           "GENERAL"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 29::figure",
+            "page_start": 29,
+            "page_end": 29,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 29::text",
+            "page_start": 29,
+            "page_end": 29,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Financial Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Meeting of Ethiopian Re...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "GENERAL"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 30",
@@ -547,8 +1671,66 @@
           "Ethiopian",
           "Reinsurance"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 30::figure",
+            "page_start": 30,
+            "page_end": 30,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 30::table",
+            "page_start": 30,
+            "page_end": 30,
+            "summary": "1 | Dawit G/Ammanuel Gorfneh | CEO | June 1,2021 2 | Azeb Wogayehu Tura | EO,Finance & Investment | August 16,2016 3 | Fikru Tsegaye Wordofa | EO,Strategy & Business Dev’t | Novemebr 1,2016 4 | Meseret Tilahun Manyazewal | EO,Operations | August 12,2019 5 |...",
+            "key_entities": [
+              "Dawit",
+              "Ammanuel",
+              "Gorfneh",
+              "CEO",
+              "June",
+              "Azeb",
+              "Wogayehu",
+              "Tura"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 30::text",
+            "page_start": 30,
+            "page_end": 30,
+            "summary": "Registered Address, Executive Management, Independent Auditors Registered Address Ethiopian Reinsurance S.C. Africa Avenue, Kirkos Sub city, Wereda 9 Telephone :- +251 115 575757, +251 115 582790/92/93 P.O. Box 12687, Addis Ababa, Ethiopia Email: info@ethio...",
+            "key_entities": [
+              "Registered",
+              "Address",
+              "Executive",
+              "Management",
+              "Independent",
+              "Auditors",
+              "Ethiopian",
+              "Reinsurance"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 31",
@@ -565,8 +1747,45 @@
           "DIRECTORS",
           "RESPONSIBILITIES"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 31::figure",
+            "page_start": 31,
+            "page_end": 31,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 31::text",
+            "page_start": 31,
+            "page_end": 31,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE ETHIO RE Rising with Africa Rising with Africa STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to atten...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "STATEMENT",
+              "DIRECTORS",
+              "RESPONSIBILITIES"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 32",
@@ -583,8 +1802,45 @@
           "Rising",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 32::figure",
+            "page_start": 32,
+            "page_end": 32,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 32::text",
+            "page_start": 32,
+            "page_end": 32,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE RE ETHIO Annual Report Africa with Rising STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL of Meeting General Ordinary Annual 7th the attend to Sha...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 33",
@@ -601,8 +1857,45 @@
           "DIRECTORS",
           "RESPONSIBILITIES"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 33::figure",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 33::text",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE ETHIO RE Rising with Africa Rising with Africa STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to atten...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "STATEMENT",
+              "DIRECTORS",
+              "RESPONSIBILITIES"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 34",
@@ -619,8 +1912,45 @@
           "Rising",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 34::figure",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 34::text",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE RE ETHIO Annual Report Africa with Rising STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE SHAREHOLDERS OF MEETING GENERAL of Meeting General Ordinary Annual 7th the attend to Sha...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 35",
@@ -637,8 +1967,45 @@
           "DIRECTORS",
           "RESPONSIBILITIES"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 35::figure",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 35::text",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE ETHIO RE Rising with Africa Rising with Africa STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY GENERAL MEETING OF SHAREHOLDERS Notice is hereby given to the Shareholders to atten...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "STATEMENT",
+              "DIRECTORS",
+              "RESPONSIBILITIES"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 36",
@@ -655,8 +2022,45 @@
           "Rising",
           "STATEMENT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 36::figure",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 36::text",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "ETHIOPIAN REINSURANCE S.C ETHIO RE RE ETHIO Annual Report Africa with Rising STATEMENT OF DIRECTORS' RESPONSIBILITIES 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE The commercial Code of Ethiopia 2021 and the insurance business proclamation number 746/...",
+            "key_entities": [
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 37",
@@ -673,8 +2077,66 @@
           "FINANACIL",
           "POSITION"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 37::figure",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 37::table",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "as at June 30, 2023 STATEMENT OF FINANACIL POSITION | | | | | | TH AS AT JUNE 30,2023 | | | | | | NOTICE OF T | | HE | 7 AN General Insurance | NUAL Long-Term Insurance | ORDI Total | NARY Total LDERS 2021-22 ETB 356,976,883 n e r a l M 1e2e,5t1in5,g90 0of...",
+            "key_entities": [
+              "June",
+              "STATEMENT",
+              "FINANACIL",
+              "POSITION",
+              "JUNE",
+              "NOTICE",
+              "General",
+              "Insurance"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 37::text",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "Ethiopian reinsurance share company ETHIO RE ETHIO RE Rising with Africa Rising with Africa statement of the financial position as at June 30, 2023 2022/23 2021/22 as at June 30, 2023 STATEMENT OF FINANACIL POSITION TH NOTICE OF THE 7 ANNUAL ORDINARY AS AT...",
+            "key_entities": [
+              "Ethiopian",
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "June",
+              "STATEMENT",
+              "FINANACIL",
+              "POSITION"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 38",
@@ -691,8 +2153,66 @@
           "June",
           "ETHIOPIAN"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 38::figure",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 38::table",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "statement of the financial position as at June 30, 2023 ETHIOPIAN REINSURANCE SHARE COMPANY | | | | | a c Afri h wit n g Ri si Annual Report 1 / 2 2 2 0 2 2022/23 | as at June 30, 2023 STATEMENT OF PROFIT OR LOSS AND OTHER COMPREHENSIVE INCOME | | | | | | H...",
+            "key_entities": [
+              "June",
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "SHARE",
+              "COMPANY",
+              "Afri",
+              "Annual",
+              "Report"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 38::text",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "Ethiopian reinsurance share company ETHIO RE RE ETHIO Annual Report Africa with Rising statement of the financial position as at June 30, 2023 ETHIOPIAN REINSURANCE SHARE COMPANY 2022/23 2021/22 as at June 30, 2023 STATEMENT OF PROFIT OR LOSS AND OTHER COMP...",
+            "key_entities": [
+              "Ethiopian",
+              "ETHIO",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising",
+              "June",
+              "ETHIOPIAN"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 39",
@@ -709,8 +2229,66 @@
           "REINSURANCE",
           "SHARE"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 39::figure",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 39::table",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "RRiissiinngg wwiitthh AAffrriiccaa 22002212//2223 | statement of the financial position as at June 30, 202 ETHIOPIAN REINSURANCE SHARE COMPANY | | | | | | | as at June 30, 202 STATEMENT OF CHANGES IN EQUITY | | | | | | | | TH FOR THE YEAR ENDED 30 JUNE 2023...",
+            "key_entities": [
+              "RRiissiinngg",
+              "AAffrriiccaa",
+              "June",
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "SHARE",
+              "COMPANY",
+              "STATEMENT"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 39::text",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "Ethiopian reinsurance share company ETHIO RE ETHIO RE Rising with Africa Rising with Africa statement of the financial position as at June 30, 2023 ETHIOPIAN REINSURANCE SHARE COMPANY 2022/23 2021/22 as at June 30, 2023 STATEMENT OF CHANGES IN EQUITY TH FOR...",
+            "key_entities": [
+              "Ethiopian",
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "June",
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "SHARE"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 40",
@@ -727,8 +2305,66 @@
           "Annual",
           "Report"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 40::figure",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 40::table",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "statement of the financial poEsTiHtiIoOnP I AaNs RatE IJNuSnUeR 3A0N, C2E0 2S3HARE COMPANY | | | a c Afri h wit n g Ri si Annual Report 1 / 2 2 2 0 2 2022/23 | as at June 30, 2023 STATEMENT OF CASH FLOW | | | | H T FOR THE YEAR ENDED 30 JUNE 2023 | | | | Y...",
+            "key_entities": [
+              "AaNs",
+              "RatE",
+              "IJNuSnUeR",
+              "COMPANY",
+              "Afri",
+              "Annual",
+              "Report",
+              "June"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 40::text",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "Ethiopian reinsurance share company ETHIO RE RE ETHIO ETHIOPIAN REINSURANCE SHARE COMPANY Annual Report Africa with Rising statement of the financial position as at June 30, 2023 2022/23 2021/22 STATEMENT OF CASH FLOW as at June 30, 2023 FOR THE YEAR ENDED...",
+            "key_entities": [
+              "Ethiopian",
+              "ETHIO",
+              "ETHIOPIAN",
+              "REINSURANCE",
+              "SHARE",
+              "COMPANY",
+              "Annual",
+              "Report"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 41",
@@ -745,8 +2381,45 @@
           "ORDINARY",
           "Notes"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 41::figure",
+            "page_start": 41,
+            "page_end": 41,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 41::text",
+            "page_start": 41,
+            "page_end": 41,
+            "summary": "ETHIO RE ETHIO RE Rising with Africa Rising with Africa 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY Notes to Financial GENERAL MEETING OF SHAREHOLDERS Statements Notice is hereby given to the Shareholders to attend the 7th Annual Ordinary General Mee...",
+            "key_entities": [
+              "ETHIO",
+              "Rising",
+              "Africa",
+              "NOTICE",
+              "THE",
+              "ANNUAL",
+              "ORDINARY",
+              "Notes"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 42",
@@ -763,8 +2436,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 42::figure",
+            "page_start": 42,
+            "page_end": 42,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 42::text",
+            "page_start": 42,
+            "page_end": 42,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 1. Reporting entity SHAREHOLDERS OF MEETING GENERAL Ethiopian Reinsurance Share Company ('The...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 43",
@@ -781,8 +2491,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 43::figure",
+            "page_start": 43,
+            "page_end": 43,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 43::text",
+            "page_start": 43,
+            "page_end": 43,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (d) Use of judgments and estimates(continued) GENERAL MEETING OF SHAREHOLDERS Assumption...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 44",
@@ -799,8 +2546,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 44::figure",
+            "page_start": 44,
+            "page_end": 44,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 44::text",
+            "page_start": 44,
+            "page_end": 44,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies SHAREHOLDERS OF MEETING GENERAL The accounting policies s...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 45",
@@ -817,8 +2601,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 45::figure",
+            "page_start": 45,
+            "page_end": 45,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 45::text",
+            "page_start": 45,
+            "page_end": 45,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (b) Rein...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 46",
@@ -835,8 +2656,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 46::figure",
+            "page_start": 46,
+            "page_end": 46,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 46::text",
+            "page_start": 46,
+            "page_end": 46,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (b) Reinsuran...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 47",
@@ -853,8 +2711,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 47::figure",
+            "page_start": 47,
+            "page_end": 47,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 47::text",
+            "page_start": 47,
+            "page_end": 47,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (b) Rein...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 48",
@@ -871,8 +2766,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 48::figure",
+            "page_start": 48,
+            "page_end": 48,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 48::text",
+            "page_start": 48,
+            "page_end": 48,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (c) Financial...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 49",
@@ -889,8 +2821,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 49::figure",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 49::text",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (c) Fina...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 50",
@@ -907,8 +2876,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 50::figure",
+            "page_start": 50,
+            "page_end": 50,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 50::text",
+            "page_start": 50,
+            "page_end": 50,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (c) Financial...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 51",
@@ -925,8 +2931,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 51::figure",
+            "page_start": 51,
+            "page_end": 51,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 51::text",
+            "page_start": 51,
+            "page_end": 51,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (c) Fina...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 52",
@@ -943,8 +2986,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 52::figure",
+            "page_start": 52,
+            "page_end": 52,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 52::text",
+            "page_start": 52,
+            "page_end": 52,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (c) Financial...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 53",
@@ -961,8 +3041,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 53::figure",
+            "page_start": 53,
+            "page_end": 53,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 53::text",
+            "page_start": 53,
+            "page_end": 53,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (c) Fina...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 54",
@@ -979,8 +3096,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 54::figure",
+            "page_start": 54,
+            "page_end": 54,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 54::text",
+            "page_start": 54,
+            "page_end": 54,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (d) Cash and...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 55",
@@ -997,8 +3151,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 55::figure",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 55::table",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "The General meetingBus iwldiilnl bge held on Tuesday, D 2:30 p.m. to deliberate on the following agend | ecember5 2%0, 2022, at a: | Addis Ababa Hi2lt5o%n starting from Computer equipment | 25% | 1% Agenda for the 7th Annual Ordi Office equipment | nary Gen...",
+            "key_entities": [
+              "The",
+              "General",
+              "Tuesday",
+              "Addis",
+              "Ababa",
+              "Computer",
+              "Agenda",
+              "Annual"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 55::text",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (e) Prop...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 56",
@@ -1015,8 +3227,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 56::figure",
+            "page_start": 56,
+            "page_end": 56,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 56::text",
+            "page_start": 56,
+            "page_end": 56,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (f) Leases (C...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 57",
@@ -1033,8 +3282,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 57::figure",
+            "page_start": 57,
+            "page_end": 57,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 57::text",
+            "page_start": 57,
+            "page_end": 57,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (g) Inta...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 58",
@@ -1051,8 +3337,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 58::figure",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 58::text",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (h) Impairmen...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 59",
@@ -1069,8 +3392,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 59::figure",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 59::text",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (j) Empl...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 60",
@@ -1087,8 +3447,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 60::figure",
+            "page_start": 60,
+            "page_end": 60,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 60::text",
+            "page_start": 60,
+            "page_end": 60,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (j) Employee...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 61",
@@ -1105,8 +3502,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 61::figure",
+            "page_start": 61,
+            "page_end": 61,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 61::text",
+            "page_start": 61,
+            "page_end": 61,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (m) Inco...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 62",
@@ -1123,8 +3557,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 62::figure",
+            "page_start": 62,
+            "page_end": 62,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 62::text",
+            "page_start": 62,
+            "page_end": 62,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE (3) Significant accounting policies (Continued) SHAREHOLDERS OF MEETING GENERAL (o) Finance i...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 63",
@@ -1141,8 +3612,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 63::figure",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 63::table",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "Disclosure Initiative: Accounting Policies – Amendments to IAS 1 Prese n Rtaetgioisnt roaft iFoinn aNnucmiabl eStra otfe tmhee nCtso amnpda InFyR Sis P MraTc/AticAe/3 S/t0a0t3e5m45e4n/t2 20 08; Making Materiality Judgements | 1 January 2023 Its Headquarters...",
+            "key_entities": [
+              "Disclosure",
+              "Initiative",
+              "Accounting",
+              "Policies",
+              "Amendments",
+              "IAS",
+              "Prese",
+              "Rtaetgioisnt"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 63::text",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY (3) Significant accounting policies (Continued) GENERAL MEETING OF SHAREHOLDERS (r) New...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 64",
@@ -1159,8 +3688,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 64::figure",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 64::text",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE The Board also amended IFRS Practice Statement 2 to include guidance and two additional examp...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 65",
@@ -1177,8 +3743,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 65::figure",
+            "page_start": 65,
+            "page_end": 65,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 65::text",
+            "page_start": 65,
+            "page_end": 65,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY The focus of the amendment is solely on the clarifications regarding accounting estimate...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 66",
@@ -1195,8 +3798,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 66::figure",
+            "page_start": 66,
+            "page_end": 66,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 66::text",
+            "page_start": 66,
+            "page_end": 66,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 4. Financial risk review SHAREHOLDERS OF MEETING GENERAL Ethio-Re underwrites risks that natu...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 67",
@@ -1213,8 +3853,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 67::figure",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 67::text",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY 4.2.1. Underwriting risk GENERAL MEETING OF SHAREHOLDERS Underwriting risk comprises; in...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 68",
@@ -1231,8 +3908,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 68::figure",
+            "page_start": 68,
+            "page_end": 68,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 68::text",
+            "page_start": 68,
+            "page_end": 68,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 4.2.1.2. Concentration of underwriting risk SHAREHOLDERS OF MEETING GENERAL The Company's con...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 69",
@@ -1249,8 +3963,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 69::figure",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 69::table",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "| 0.5% increase e Shareholders to | 0.5% decrease attend the 7th Annual | 0.5% Ordinincarerya sGe en | 0.5% erald Mecereetainsge of Ethiopian Reinsurance S.C. Time deposits of the Commercial Code of | that will be held in 9,669,548 Ethiopia, Proclama | acco...",
+            "key_entities": [
+              "Shareholders",
+              "Annual",
+              "Ordinincarerya",
+              "Mecereetainsge",
+              "Ethiopian",
+              "Reinsurance",
+              "Time",
+              "Commercial"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 69::text",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY An analysis of the Company's sensitivity to a 0.5% parallel increase or decrease in the...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 70",
@@ -1267,8 +4039,66 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 70::figure",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 70::table",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "| al t pi a c d e b cri s b u s a s a h C. S. 15% increase | e c n a ur s n ei R n ao o pi hi4 E t1. 15% decrease n; Billi Equity/ Share investment | 27,985,684 | -27,985,684 8; 0 0 2 / 4 5 4 5 3 Total (ETB) | 0 0 / 3 / A A / T M s y i n a p m o C e h t f 2...",
+            "key_entities": [
+              "Billi",
+              "Equity",
+              "Share",
+              "Total",
+              "ETB",
+              "Reinsurance",
+              "USD",
+              "Strengthening"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 70::text",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE Addis-Africa International Convention and Exhibition Centre SHAREHOLDERS OF MEETING GENERAL T...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 71",
@@ -1285,8 +4115,45 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 71::figure",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 71::text",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY The following exchange rate has been applied GENERAL MEETING OF SHAREHOLDERS June 30, 20...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 72",
@@ -1303,8 +4170,66 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 72::figure",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 72::table",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "S R E D L O H E R A H S F O G N I T Time deposits | E E M L A R E N E G 1,933,909,567 Government Bond | 285,134,067 Staff loans | 3,454,105 of g n ti e e M al er n e G y ar n di Or al u n n A h t 7 e h t d n e t t a o t s er d ol Insurance Receivables – Ced...",
+            "key_entities": [
+              "Time",
+              "Government",
+              "Bond",
+              "Staff",
+              "Insurance",
+              "Receivables",
+              "Ceding",
+              "Retrocession"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 72::text",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE Carrying amount ETB SHAREHOLDERS OF MEETING GENERAL Time deposits 1,933,909,567 Government Bo...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 73",
@@ -1321,8 +4246,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 73::figure",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 73::table",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "NoSttiacfef loisa hnesreby given to the Shareholders to at | tend3 t,h45e4 7,1t0h5 Annu | al Ordinary 2G,9e5n1e,2ra33l Meeting of Ethiopian Reinsurance S.C. that will be held in Cash at bank of the Commercial Code of Ethiopia, Proclamati | accordance with 5...",
+            "key_entities": [
+              "NoSttiacfef",
+              "Shareholders",
+              "Annu",
+              "Ordinary",
+              "Meeting",
+              "Ethiopian",
+              "Reinsurance",
+              "Cash"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 73::text",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY 4.2.3.4. Amount arising from Expected Credit Losses (ECL) GENERAL MEETING OF SHAREHOLDER...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 74",
@@ -1339,8 +4322,66 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 74::figure",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 74::table",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "1 Assets | | | 9; | a d e or W Cash and cash equivalent m o g fr n ti ar t s n o t Hil a b a b A s di d A t a 2, 2 0 2 0, 2 | 10,000 er b m e c e D y, a d | s e u T n o d el h e | b will s g n ti e e | 10,000 m al er n e G e h T Reinsurance Premium Receivab...",
+            "key_entities": [
+              "Assets",
+              "Cash",
+              "Hil",
+              "Reinsurance",
+              "Premium",
+              "Receivables",
+              "Ceding",
+              "Net"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 74::text",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE The Statutory deposit was considered as sovereign debt and recoverable in full, but for the s...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 75",
@@ -1357,8 +4398,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 75::figure",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 75::table",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "Employees Benefit Liability | 759,626 | | | 759,626 GENERAL MEETIN Deferred tax liability | G OF 5,309,142 | SHAR | EHOL | DERS 5,309,142 Provision for Income Tax | - | | | - Total Liability ‘B’ Notice is hereby given to the Shareholders | 2,066,518,674 to...",
+            "key_entities": [
+              "Employees",
+              "Benefit",
+              "Liability",
+              "GENERAL",
+              "MEETIN",
+              "Deferred",
+              "SHAR",
+              "EHOL"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 75::text",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY Lease Liability 2,261,893 4,683,202 6,945,095 Employees Benefit Liability 759,626 759,62...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 76",
@@ -1375,8 +4474,45 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 76::figure",
+            "page_start": 76,
+            "page_end": 76,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 76::text",
+            "page_start": 76,
+            "page_end": 76,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE Assessing past experience of the Company (for example, using internal databases) and from » e...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 77",
@@ -1393,8 +4529,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 77::figure",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 77::table",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "| 2023 | 2023 | 2023 | 2022 Saving accounts | | | | Notice is hereby given to the Sha Commercial Bank of Eth. Ethiopian Reinsurance S.C. that w | reholders to att 212,708,869 ill be held in a | end the 7th An - ccordance with | nual Ordinary G 212,708,869 A...",
+            "key_entities": [
+              "Saving",
+              "Notice",
+              "Sha",
+              "Commercial",
+              "Bank",
+              "Eth",
+              "Ethiopian",
+              "Reinsurance"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 77::text",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY 5. Cash and cash equivalents GENERAL MEETING OF SHAREHOLDERS Gen.Ins Long Term Ins Total...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 78",
@@ -1411,8 +4605,66 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 78::figure",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 78::table",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "| 2023 | 2023 | 2023 | 2022 Due from ceding companies of g n ti e e M al er n e G y ar n di Or al u | 618,010,453 n n A h t 7 e h t d n | 48,270,330 e t t a o t s er d ol h e r | 666,280,783 a h S e h t o t n e v i | 474,216,279 g y b e er h s e i c ti o N...",
+            "key_entities": [
+              "Due",
+              "Provision",
+              "Class",
+              "Business",
+              "Kir",
+              "Accident",
+              "Aviation",
+              "Hil"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 78::text",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 7. Due from ceding Companies SHAREHOLDERS OF MEETING GENERAL Gen.Ins Long Term Ins Total Tota...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 79",
@@ -1429,8 +4681,66 @@
           "For",
           "June"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 79::figure",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 79::table",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "Name of Bank | 2023 | 2023 | 2023 | 2022 Abyssinia Bank Notice is hereby given to the Sha | 164,560,048 reholders to att | 43,481,328 end the 7th An | 208,041,377 nual Ordinary G | 284,306,752 eneral Meeting of EAthdiodpisi aInnt .Reinsurance S.C. that w |...",
+            "key_entities": [
+              "Name",
+              "Bank",
+              "Abyssinia",
+              "Notice",
+              "Sha",
+              "Ordinary",
+              "Meeting",
+              "EAthdiodpisi"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 79::text",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "ETHIO RE Notes to Financial Statements ETHIO RE Rising with Africa Rising with Africa For the year ended 30 June 2023 2022/23 2021/22 TH NOTICE OF THE 7 ANNUAL ORDINARY 9. Time deposits GENERAL MEETING OF SHAREHOLDERS Gen.Ins Long Term Ins Total Total Name...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Rising",
+              "Africa",
+              "For",
+              "June"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 80",
@@ -1447,8 +4757,66 @@
           "Africa",
           "Rising"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 80::figure",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 80::table",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "of g n ti e e M al er n e G y ar n di Or al u n n A h t | 7 e h t d n e t t a o 2023 | t s er d ol h e ar h S 2023 | e h t o t n e v gi 2023 | y b e er h s e i c ti o N 2022 2 7h 3t d a n 1 3 7n 7 0, 7, 3 6 6, 3 6 3d s ea Ar ti cl h wi t e United Bank at Fa...",
+            "key_entities": [
+              "United",
+              "Bank",
+              "Fair",
+              "Value",
+              "Dir",
+              "Birr",
+              "Billi",
+              "Addis"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 80::text",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "ETHIO RE Notes to Financial Statements RE ETHIO Annual Report Africa with Rising For the year ended 30 June 2023 2022/23 2021/22 TH ORDINARY ANNUAL 7 THE OF NOTICE 10. Equity Investment SHAREHOLDERS OF MEETING GENERAL The equity investment is measured at fa...",
+            "key_entities": [
+              "ETHIO",
+              "Notes",
+              "Financial",
+              "Statements",
+              "Annual",
+              "Report",
+              "Africa",
+              "Rising"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }

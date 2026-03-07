@@ -72,15 +72,39 @@ class PageIndexBuilder:
         sections: dict[str, dict[str, object]] = {}
         for ldu in ldus:
             section = ldu.parent_section or "Document"
-            bucket = sections.setdefault(section, {"texts": [], "pages": []})
+            bucket = sections.setdefault(
+                section,
+                {"texts": [], "pages": [], "ldus": [], "chunk_types": set(), "by_type": {}},
+            )
             bucket["texts"].append(ldu.content)
             bucket["pages"].extend(ldu.page_refs)
+            bucket["ldus"].append(ldu)
+            bucket["chunk_types"].add(ldu.chunk_type.value)
+            by_type = bucket["by_type"]
+            by_type.setdefault(ldu.chunk_type.value, []).append(ldu.content)
 
         child_nodes: List[PageIndexNode] = []
         for section_title, payload in sorted(sections.items(), key=lambda kv: min(kv[1]["pages"] or [1])):
             pages = sorted(set(payload["pages"] or [1]))
             joined = "\n".join(payload["texts"])
             summary = self._llm_summary(joined)
+
+            type_children: list[PageIndexNode] = []
+            by_type = payload["by_type"]
+            for chunk_type, texts in sorted(by_type.items()):
+                typed_text = "\n".join(texts)
+                type_children.append(
+                    PageIndexNode(
+                        section_title=f"{section_title}::{chunk_type}",
+                        page_start=pages[0],
+                        page_end=pages[-1],
+                        summary=self._llm_summary(typed_text),
+                        key_entities=self._extract_entities(typed_text),
+                        data_types_present=[chunk_type],
+                        child_sections=[],
+                    )
+                )
+
             child_nodes.append(
                 PageIndexNode(
                     section_title=section_title,
@@ -88,8 +112,8 @@ class PageIndexBuilder:
                     page_end=pages[-1],
                     summary=summary,
                     key_entities=self._extract_entities(joined),
-                    data_types_present=[],
-                    child_sections=[],
+                    data_types_present=sorted(payload["chunk_types"]),
+                    child_sections=type_children,
                 )
             )
 
@@ -123,7 +147,15 @@ class PageIndexNavigator:
 
     def query(self, topic: str, top_k: int = 3) -> list[PageIndexNode]:
         topic_tokens = set(re.findall(r"[a-z0-9]+", topic.lower()))
-        candidates = list(self.page_index.root_node.child_sections)
+        candidates: list[PageIndexNode] = []
+
+        def _collect(nodes: list[PageIndexNode]) -> None:
+            for node in nodes:
+                candidates.append(node)
+                if node.child_sections:
+                    _collect(node.child_sections)
+
+        _collect(list(self.page_index.root_node.child_sections))
         candidates.sort(key=lambda node: self._score(topic_tokens, node), reverse=True)
         return candidates[:top_k]
 

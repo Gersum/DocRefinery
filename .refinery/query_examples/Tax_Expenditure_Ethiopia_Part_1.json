@@ -7,9 +7,9 @@
       "answer": "tax (section: Page 8)",
       "audit_status": "verified",
       "tool_trace": [
+        "structured_query",
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
@@ -44,8 +44,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
@@ -80,8 +79,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "tax_expenditure_ethiopia_2021_22.pdf",
@@ -116,9 +114,9 @@
     "result": "tax (section: Page 4)",
     "audit_status": "verified",
     "tool_trace": [
+      "structured_query",
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "tax_expenditure_ethiopia_2021_22.pdf",

@@ -8,8 +8,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Audit Report - 2023.pdf",
@@ -44,8 +43,7 @@
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Audit Report - 2023.pdf",
@@ -76,12 +74,11 @@
     },
     {
       "question": "Which part of the document references financial statements?",
-      "answer": "INDEPENDENT AUDiTOR\u2019S REPORT\nAND\nFiNANCiAL STATEMENTS\n30 JUNE 2023\nDEVELOPMENT BANK OF ETHIOPIA\nYour Development partner! (section: Page 1)",
+      "answer": "Most relevant section: Page 1 (page 1)",
       "audit_status": "verified",
       "tool_trace": [
         "pageindex_navigate",
-        "semantic_search",
-        "structured_query"
+        "semantic_search"
       ],
       "provenance": {
         "document_name": "Audit Report - 2023.pdf",
@@ -117,8 +114,7 @@
     "audit_status": "verified",
     "tool_trace": [
       "pageindex_navigate",
-      "semantic_search",
-      "structured_query"
+      "semantic_search"
     ],
     "provenance": {
       "document_name": "Audit Report - 2023.pdf",

@@ -23,8 +23,45 @@
           "Ethiopia",
           "Final"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 1::figure",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 1::text",
+            "page_start": 1,
+            "page_end": 1,
+            "summary": "Assessment of Financial Transparency and Accountability (FTA) Implementation in Ethiopia Final Report RFP No: ET-NCB-MOFEC-COPCU-129904-CS-QCBS SUBMITTED TO: Ministry of Finance (MoF) Addis Ababa, Ethiopia SUBMITTED BY: TAK-Innovative Research and Developme...",
+            "key_entities": [
+              "Assessment",
+              "Financial",
+              "Transparency",
+              "Accountability",
+              "FTA",
+              "Implementation",
+              "Ethiopia",
+              "Final"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Document",
@@ -34,8 +71,24 @@
         "key_entities": [
           "Page"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Document::text",
+            "page_start": 1,
+            "page_end": 80,
+            "summary": "Page 1 section summary Page 2 section summary Page 3 section summary Page 4 section summary Page 5 section summary Page 6 section summary Page 7 section summary Page 8 section summary Page 9 section summary Page 10 section summary Page 11 section summary Pa...",
+            "key_entities": [
+              "Page"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 2",
@@ -52,8 +105,31 @@
           "Executive",
           "Summary"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 2::text",
+            "page_start": 2,
+            "page_end": 2,
+            "summary": "Contents List of Figures........................................................................................................................................iii List of Tables .................................................................................",
+            "key_entities": [
+              "Contents",
+              "List",
+              "Figures",
+              "Tables",
+              "Acknowledgements",
+              "Acronyms",
+              "Executive",
+              "Summary"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 3",
@@ -70,8 +146,31 @@
           "Characteristics",
           "Citizen"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 3::text",
+            "page_start": 3,
+            "page_end": 3,
+            "summary": "3.2.3. Engagement of stakeholders ...............................................................................................34 3.2.4. Implementation challenges at Federal budgetary institution level......................................35 4. Effectiven...",
+            "key_entities": [
+              "Engagement",
+              "Implementation",
+              "Federal",
+              "Effectiveness",
+              "FTA",
+              "Demographic",
+              "Characteristics",
+              "Citizen"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 4",
@@ -88,8 +187,31 @@
           "BLT",
           "ToT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 4::text",
+            "page_start": 4,
+            "page_end": 4,
+            "summary": "List of Figures Figure 1: Logical framework of FTA initiatives.....................................................................................9 Figure 2: Proportion of woredas that conducted awareness raising training to their citizens...............17...",
+            "key_entities": [
+              "List",
+              "Figures",
+              "Figure",
+              "Logical",
+              "FTA",
+              "Proportion",
+              "BLT",
+              "ToT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 5",
@@ -106,8 +228,31 @@
           "Knowledge",
           "Source"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 5::text",
+            "page_start": 5,
+            "page_end": 5,
+            "summary": "Figure 36: Citizens' understanding of FTA initiative in their areas .....................................................43 Figure 37: Changes in citizens' understanding of the FTA initiative ...................................................44 Figure 38:...",
+            "key_entities": [
+              "Figure",
+              "Citizens",
+              "FTA",
+              "Changes",
+              "Citizen",
+              "Proportion",
+              "Knowledge",
+              "Source"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 6",
@@ -124,8 +269,31 @@
           "Distribution",
           "Key"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 6::text",
+            "page_start": 6,
+            "page_end": 6,
+            "summary": "Figure 70: Community's assessment of the grievance handling system over the past 5 years.............81 List of Tables Table 1: Sample Distribution ................................................................................................................",
+            "key_entities": [
+              "Figure",
+              "Community",
+              "List",
+              "Tables",
+              "Table",
+              "Sample",
+              "Distribution",
+              "Key"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 7",
@@ -142,8 +310,31 @@
           "Abraham",
           "Hailemariam"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 7::text",
+            "page_start": 7,
+            "page_end": 7,
+            "summary": "Acknowledgements This report was prepared by a core team consisting of Abate Mekuriaw, Kaleb Shiferaw, Abraham Hailemariam, and Tamirat Badi. The report benefitted from inputs from officials of the Public Expenditure Management Reform Directorate/Ministry o...",
+            "key_entities": [
+              "Acknowledgements",
+              "This",
+              "Abate",
+              "Mekuriaw",
+              "Kaleb",
+              "Shiferaw",
+              "Abraham",
+              "Hailemariam"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 8",
@@ -160,8 +351,31 @@
           "Bureau",
           "Finance"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 8::text",
+            "page_start": 8,
+            "page_end": 8,
+            "summary": "Acronyms BLT Budget Literacy Training BoFED Bureau of Finance and Economic Development COVID Corona Virus Disease CRC Citizens Report Card CSA Central Statistical Agency CSOs Civil Society Organizations DPs Development Partners ESPES Enhancing Shared Prospe...",
+            "key_entities": [
+              "Acronyms",
+              "BLT",
+              "Budget",
+              "Literacy",
+              "Training",
+              "BoFED",
+              "Bureau",
+              "Finance"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 9",
@@ -178,8 +392,31 @@
           "Ethiopia",
           "Enhancing"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 9::text",
+            "page_start": 9,
+            "page_end": 9,
+            "summary": "Executive Summary : Protection of Basic Services program has been under implementation in Background Ethiopia since 2006 with the aims of expanding citizens' access to basic services particularly in education, health, water supply, sanitation, agriculture a...",
+            "key_entities": [
+              "Executive",
+              "Summary",
+              "Protection",
+              "Basic",
+              "Services",
+              "Background",
+              "Ethiopia",
+              "Enhancing"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 10",
@@ -196,8 +433,31 @@
           "ACHIEVEMENT",
           "AGAINST"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 10::text",
+            "page_start": 10,
+            "page_end": 10,
+            "summary": "The assessment was carried out through a wide participation of all Assessment methods: relevant stakeholders such as federal, regional, woreda kebele representatives, and the community by employing both qualitative and quantitative data. The assessment cove...",
+            "key_entities": [
+              "The",
+              "Assessment",
+              "Multi",
+              "CBOs",
+              "FTA",
+              "Descriptive",
+              "ACHIEVEMENT",
+              "AGAINST"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 11",
@@ -214,8 +474,31 @@
           "EFFECTIVENESS",
           "AND"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 11::text",
+            "page_start": 11,
+            "page_end": 11,
+            "summary": "institutions (36%) lack awareness about the initiative. In similar line, the experience among the federal institutions in engaging stakeholders in budget process is limited, where only a quarter of the institutions conducted discussion with key stakeholders...",
+            "key_entities": [
+              "While",
+              "Consequently",
+              "This",
+              "FTA",
+              "Inconsistency",
+              "Such",
+              "EFFECTIVENESS",
+              "AND"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 12",
@@ -232,8 +515,31 @@
           "While",
           "Citizens"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 12::text",
+            "page_start": 12,
+            "page_end": 12,
+            "summary": "of the officials. The community also recognize the effectiveness of the in enabling them to interpret the budget information better. easy-to-understand information allow the citizens to know how to actively Providing participate and ask the right questions...",
+            "key_entities": [
+              "The",
+              "Providing",
+              "With",
+              "Looking",
+              "More",
+              "Covid",
+              "While",
+              "Citizens"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 13",
@@ -250,8 +556,31 @@
           "ISSUES",
           "The"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 13::text",
+            "page_start": 13,
+            "page_end": 13,
+            "summary": "Encouragingly, there has been an upward trend in both quality of life and general satisfaction with the delivery of essential services (education, health, agriculture, and water) over the course of PBS II, III, and ESPES. CROSS CUTTING ISSUES The significan...",
+            "key_entities": [
+              "Encouragingly",
+              "PBS",
+              "III",
+              "ESPES",
+              "CROSS",
+              "CUTTING",
+              "ISSUES",
+              "The"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 14",
@@ -268,8 +597,31 @@
           "For",
           "BLT"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 14::text",
+            "page_start": 14,
+            "page_end": 14,
+            "summary": "However, the extent of linkage is moderate in the majority of the woredas (54%) and it is only half of the woredas that the status of linkages and coordination were jointly assessed. The parent program of the FTA initiative has a well-thought-out log Projec...",
+            "key_entities": [
+              "However",
+              "The",
+              "FTA",
+              "Project",
+              "This",
+              "With",
+              "For",
+              "BLT"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 15",
@@ -286,8 +638,31 @@
           "COVID",
           "FTA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 15::text",
+            "page_start": 15,
+            "page_end": 15,
+            "summary": "Overall satisfaction with the quality of life is increasing  These improvements can be attributed to the huge investment and efforts made by the parent programs, namely, PBSs and ESPES programs. In recent years, however, citizen engagement-compared with th...",
+            "key_entities": [
+              "Overall",
+              "These",
+              "PBSs",
+              "ESPES",
+              "Similarly",
+              "The",
+              "COVID",
+              "FTA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 16",
@@ -303,8 +678,30 @@
           "The",
           "Thus"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 16::text",
+            "page_start": 16,
+            "page_end": 16,
+            "summary": " Enhance women's participation in accessing Encourage women's participation: budget information, budget process awareness, pre-budget discussions, and BLT training.  More resources to regain the ground you've lost due to COVID-19 and other The impact of t...",
+            "key_entities": [
+              "Enhance",
+              "Encourage",
+              "BLT",
+              "More",
+              "COVID",
+              "The",
+              "Thus"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 17",
@@ -321,8 +718,31 @@
           "McGee",
           "Ethiopia"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 17::text",
+            "page_start": 17,
+            "page_end": 17,
+            "summary": "1. Introduction 1.1. Background Transparency and accountability initiatives have emerged over the past decade as a key for improving public service delivery. The initiatives have been also seen as one of the major strategies to address both developmental fa...",
+            "key_entities": [
+              "Introduction",
+              "Background",
+              "Transparency",
+              "The",
+              "Nevertheless",
+              "Gaventa",
+              "McGee",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 18",
@@ -339,8 +759,31 @@
           "Financial",
           "Management"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 18::text",
+            "page_start": 18,
+            "page_end": 18,
+            "summary": "administration of such units. As regards transparency and accountability, the Constitution clearly stipulates in Article 12:1 that -the conduct of affairs of government shall be transparent‖. Further, sub-Article 2 states that any public official or an elec...",
+            "key_entities": [
+              "Constitution",
+              "Article",
+              "Further",
+              "These",
+              "Entrenched",
+              "Public",
+              "Financial",
+              "Management"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 19",
@@ -357,8 +800,31 @@
           "Services",
           "ESPES"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 19::text",
+            "page_start": 19,
+            "page_end": 19,
+            "summary": "The PBS program was extended through successive programs, namely, Enhancing Shared Prosperity through Equitable Services (ESPES) program and its Additional Financing (ESPES-AF). ESPES is devised as a new framework for engaging in decentralized basic service...",
+            "key_entities": [
+              "The",
+              "PBS",
+              "Enhancing",
+              "Shared",
+              "Prosperity",
+              "Equitable",
+              "Services",
+              "ESPES"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 20",
@@ -375,8 +841,31 @@
           "Innovative",
           "Research"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 20::text",
+            "page_start": 20,
+            "page_end": 20,
+            "summary": "As part of the monitoring and supervision of the implementation of the FTA initiative, an independent and systematic assessment of the effectiveness and impact of the FTA initiative 2 in Ethiopia has been conducted . 1.2. Objective of the assessment The ove...",
+            "key_entities": [
+              "FTA",
+              "Ethiopia",
+              "Objective",
+              "The",
+              "Specific",
+              "TAK",
+              "Innovative",
+              "Research"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 21",
@@ -393,8 +882,31 @@
           "Ababa",
           "Dire"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 21::text",
+            "page_start": 21,
+            "page_end": 21,
+            "summary": " To assess the pre-budget discussion modality and its effectiveness and provide expert opinion on how to improve citizens' participation in decision making process in prioritization of needs and allocation of budget for improved basic service delivery.  T...",
+            "key_entities": [
+              "FTA",
+              "Ethiopian",
+              "Scope",
+              "Geographic",
+              "The",
+              "Addis",
+              "Ababa",
+              "Dire"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 22",
@@ -411,8 +923,31 @@
           "Towards",
           "Government"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 22::text",
+            "page_start": 22,
+            "page_end": 22,
+            "summary": "1.4. Brief overview of FTA Program in Ethiopia 1.4.1. Context Ethiopia has taken major reform programs to empower citizens as well as enhance public sector efficiency, effectiveness, transparency, and accountability, particularly in the last decade (MoFED,...",
+            "key_entities": [
+              "Brief",
+              "FTA",
+              "Program",
+              "Ethiopia",
+              "Context",
+              "MoFED",
+              "Towards",
+              "Government"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 23",
@@ -429,8 +964,31 @@
           "The",
           "FTA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 23::text",
+            "page_start": 23,
+            "page_end": 23,
+            "summary": "and Grievance Redress Mechanisms (GRM); and has been operational since 2015 with additional financing approved in September 2017. These three interrelated intervention areas were designed and executed with the aim of strengthening the system and building th...",
+            "key_entities": [
+              "Grievance",
+              "Redress",
+              "Mechanisms",
+              "GRM",
+              "September",
+              "These",
+              "The",
+              "FTA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 24",
@@ -447,8 +1005,45 @@
           "Outcomes",
           "Impact"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 24::figure",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 24::text",
+            "page_start": 24,
+            "page_end": 24,
+            "summary": "1.4.3. Logical framework of FTA The logical framework FTA (Figure 1 below) highlights identify the elements of the initiatives such as Input, Outputs, Outcomes, and Impact and highlight the logical linkages between them. The initiative aims to improve trans...",
+            "key_entities": [
+              "Logical",
+              "FTA",
+              "The",
+              "Figure",
+              "Input",
+              "Outputs",
+              "Outcomes",
+              "Impact"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 25",
@@ -465,8 +1060,31 @@
           "URL",
           "Implementation"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 25::text",
+            "page_start": 25,
+            "page_end": 25,
+            "summary": "Figure 1: Logical framework of FTA initiatives Source: Own conceptualization based on FTA documents and information from MoF website (URL: http://197.156.84.34/en/programmes-projects/fta/) 1.4.4. Implementation status of FTA initiative so far Since the ince...",
+            "key_entities": [
+              "Figure",
+              "Logical",
+              "FTA",
+              "Source",
+              "Own",
+              "MoF",
+              "URL",
+              "Implementation"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 26",
@@ -483,8 +1101,31 @@
           "MoFEC",
           "Overall"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 26::text",
+            "page_start": 26,
+            "page_end": 26,
+            "summary": "environment to encourage discussion and reflection among the community to come up with ways and mechanisms to make officials accountable to the community. The 2013 assessment also found that the coverage of the FTA training was limited-only about one in fiv...",
+            "key_entities": [
+              "The",
+              "FTA",
+              "However",
+              "Woredas",
+              "City",
+              "With",
+              "MoFEC",
+              "Overall"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 27",
@@ -501,8 +1142,31 @@
           "Sampling",
           "Kebeles"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 27::text",
+            "page_start": 27,
+            "page_end": 27,
+            "summary": "2.1. Study design A mixed-method is used, which involves collecting both and . quantitative qualitative data Structured and semi-structured survey tools were used to collect data from citizens and key informants. Focus group discussions were also conducted...",
+            "key_entities": [
+              "Study",
+              "Structured",
+              "Focus",
+              "The",
+              "Annex",
+              "For",
+              "Sampling",
+              "Kebeles"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 28",
@@ -519,8 +1183,31 @@
           "Gumuz",
           "Addis"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 28::text",
+            "page_start": 28,
+            "page_end": 28,
+            "summary": "Sidama 5 15 60 165 225 SWEP 9 27 120 285 405 Somali 12 36 162 378 540 Gambella 4 12 60 120 180 Harari 3 9 30 105 135 Benishangul-Gumuz 3 9 45 90 135 Addis Ababa 17 51 765 0 765 Dire Dawa 3 9 135 0 135 Total 139 417 2,205 4,050 6,255 2.3. Data collection tec...",
+            "key_entities": [
+              "Sidama",
+              "SWEP",
+              "Somali",
+              "Gambella",
+              "Harari",
+              "Benishangul",
+              "Gumuz",
+              "Addis"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 29",
@@ -537,8 +1224,47 @@
           "FTA",
           "Table"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 29::table",
+            "page_start": 29,
+            "page_end": 29,
+            "summary": "| | | | | | | organizations and universities at federal level (see | | | | | | | | Annex C) | | | | | | | | Key community leaders/Elders |",
+            "key_entities": [
+              "Annex",
+              "Key",
+              "Elders"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 29::text",
+            "page_start": 29,
+            "page_end": 29,
+            "summary": "በጋም/ሕ/ብ/ክ/መንግስት የገን/ኢኮ/ልማ/ቢሮ ( ) የተሻሻለዉ የበጀት ወጪ ታህሳስ ፣  2008 እና አገልግሎት አቅርቦት መረጃ አመላካች ማኑዋል የፋይናንስ ግልጽነትና ፣ PBS-III: ተጠያቂነት ፕሮጀክት፤ የገንዘብና ኢኮኖሚ ልማት ሚኒስቴር (ነሐሴ 2001)፣ በክልል ደረጃ የሚካሄደውን  የበጀት ዝግጅት ሂደት አስመልክቶ የተዘጋጀ መመሪያ፣ ለክልሎች የተዘጋጀ ናሙና፤ የወረዳ ገንዘብና ኢኮኖሚ ልማት ጽ/...",
+            "key_entities": [
+              "PBS",
+              "III",
+              "Household",
+              "For",
+              "Key",
+              "Participants",
+              "FTA",
+              "Table"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 30",
@@ -555,8 +1281,31 @@
           "Data",
           "Descriptive"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 30::text",
+            "page_start": 30,
+            "page_end": 30,
+            "summary": "2.3.4. Focus group discussions One focus group discussion (FGD) per kebele was conducted. Participants for the FGDs were community leaders/influencers, representatives from community-based organizations (CBOs), women groups, and knowledgeable individuals. 2...",
+            "key_entities": [
+              "Focus",
+              "One",
+              "FGD",
+              "Participants",
+              "FGDs",
+              "CBOs",
+              "Data",
+              "Descriptive"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 31",
@@ -573,8 +1322,31 @@
           "Sections",
           "These"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 31::text",
+            "page_start": 31,
+            "page_end": 31,
+            "summary": " The other limitation is the attribution problem. Since a lot of factors affect the transparency and accountability of the local government it is difficult to identify the exact impact of FTA, and it would not be correct to attribute the observed improveme...",
+            "key_entities": [
+              "The",
+              "Since",
+              "FTA",
+              "Though",
+              "Still",
+              "Organization",
+              "Sections",
+              "These"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 32",
@@ -591,8 +1363,31 @@
           "Here",
           "Achievements"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 32::text",
+            "page_start": 32,
+            "page_end": 32,
+            "summary": "3. Achievement against expectations Under this section, activities performed by the regions/city administrations and Federal budgetary institutions are presented. The achievement is measured against the expectations. This section deals with the achievements...",
+            "key_entities": [
+              "Achievement",
+              "Under",
+              "Federal",
+              "The",
+              "This",
+              "FTA",
+              "Here",
+              "Achievements"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 33",
@@ -609,8 +1404,45 @@
           "Harrari",
           "Gambella"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 33::figure",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 33::text",
+            "page_start": 33,
+            "page_end": 33,
+            "summary": "Afar, Somali, and Amhara organized the training, and the achievement in light of the proportion of the woredas is moderate. However, organizing awareness-enhancing training in the Benishangul Gumuz region is very low, where only 33% of the woredas reported...",
+            "key_entities": [
+              "Afar",
+              "Somali",
+              "Amhara",
+              "However",
+              "Benishangul",
+              "Gumuz",
+              "Harrari",
+              "Gambella"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 34",
@@ -627,8 +1459,45 @@
           "ToT",
           "All"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 34::figure",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 34::text",
+            "page_start": 34,
+            "page_end": 34,
+            "summary": "the training, respectively. It seems that the same woredas that did not provide awareness- enhancing training to the communities and CSOs in Benishangul-Gumuz did the same in BLT training as well. Figure 3: Proportion of woredas that received BLT training o...",
+            "key_entities": [
+              "CSOs",
+              "Benishangul",
+              "Gumuz",
+              "BLT",
+              "Figure",
+              "Proportion",
+              "ToT",
+              "All"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 35",
@@ -645,8 +1514,45 @@
           "Ethiopia",
           "Participants"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 35::figure",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 35::text",
+            "page_start": 35,
+            "page_end": 35,
+            "summary": "Figure 4: Provision of BLT to the community as compared to the 2014 budget year plan Disaggregating participants of BLT by sex shows that 56% are male and 44% are female. With respect to promoting and ensuring gender equality, the results are encouraging. H...",
+            "key_entities": [
+              "Figure",
+              "Provision",
+              "BLT",
+              "Disaggregating",
+              "With",
+              "However",
+              "Ethiopia",
+              "Participants"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 36",
@@ -663,8 +1569,45 @@
           "For",
           "Overall"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 36::figure",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 36::text",
+            "page_start": 36,
+            "page_end": 36,
+            "summary": "The provision of BLT should take into account the literacy status of the community and both literate and those with no education should be represented. In this regard, the results indicate that those with primary education account for 51% followed by those...",
+            "key_entities": [
+              "The",
+              "BLT",
+              "Taken",
+              "Figure",
+              "Educational",
+              "During",
+              "For",
+              "Overall"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 37",
@@ -681,8 +1624,45 @@
           "However",
           "Benishangul"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 37::figure",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 37::text",
+            "page_start": 37,
+            "page_end": 37,
+            "summary": "Figure 7: The topics covered during the BLT 3.1.3. Budgetary information provision The provision of budgetary information in a timely manner is the key aspect of the FTA initiative. Local governments are expected to provide information on the government bud...",
+            "key_entities": [
+              "Figure",
+              "The",
+              "BLT",
+              "Budgetary",
+              "FTA",
+              "Local",
+              "However",
+              "Benishangul"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 38",
@@ -699,8 +1679,45 @@
           "Note",
           "Performance"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 38::figure",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 38::text",
+            "page_start": 38,
+            "page_end": 38,
+            "summary": "Figure 8: Proportion of visited woredas that posted budget information In terms of the type of information provided, the most common information posted is Budget and Expenditure (reported by 74% of the visited woredas), which is followed by services standar...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Budget",
+              "Expenditure",
+              "These",
+              "Type",
+              "Note",
+              "Performance"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 39",
@@ -717,8 +1734,45 @@
           "Woredas",
           "Textual"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 39::figure",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 39::text",
+            "page_start": 39,
+            "page_end": 39,
+            "summary": "Public budget information is disseminated using different mechanisms. Reports are posted in public places (such as woreda administration and sectoral offices). Information is also provided through mass media, billboards, school clubs, and websites to a cert...",
+            "key_entities": [
+              "Public",
+              "Reports",
+              "Information",
+              "Figure",
+              "Medium",
+              "The",
+              "Woredas",
+              "Textual"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 40",
@@ -735,8 +1789,45 @@
           "Timeliness",
           "The"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 40::figure",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 40::text",
+            "page_start": 40,
+            "page_end": 40,
+            "summary": "Budget information is useful when they are disseminated in a timely manner. Woredas were asked at what they disseminate different types of budget information, and the results are summarised in the following figure. For instance, the media disclosure guideli...",
+            "key_entities": [
+              "Budget",
+              "Woredas",
+              "For",
+              "Similarly",
+              "Overall",
+              "Figure",
+              "Timeliness",
+              "The"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 41",
@@ -753,8 +1844,45 @@
           "SNNP",
           "Harari"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 41::figure",
+            "page_start": 41,
+            "page_end": 41,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 41::text",
+            "page_start": 41,
+            "page_end": 41,
+            "summary": "Figure 13: Media disclosure approaches 3.1.4. Pre-budget discussions The local governments are expected to conduct a pre-budget discussion with the community. These discussion forums allow the community to voice their views on future priorities and services...",
+            "key_entities": [
+              "Figure",
+              "Media",
+              "Pre",
+              "The",
+              "These",
+              "Oromia",
+              "SNNP",
+              "Harari"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 42",
@@ -771,8 +1899,45 @@
           "Thus",
           "How"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 42::figure",
+            "page_start": 42,
+            "page_end": 42,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 42::text",
+            "page_start": 42,
+            "page_end": 42,
+            "summary": "Figure 14: Composition participants during pre-budget discussion by sex Those woredas that conducted the pre-budget discussion (63% of the visited woredas), where asked when they conducted the discussion. As stated in the pre-budget discussion directive, th...",
+            "key_entities": [
+              "Figure",
+              "Composition",
+              "Those",
+              "About",
+              "Covid",
+              "However",
+              "Thus",
+              "How"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 43",
@@ -787,8 +1952,43 @@
           "Topics",
           "Current"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 43::figure",
+            "page_start": 43,
+            "page_end": 43,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 43::text",
+            "page_start": 43,
+            "page_end": 43,
+            "summary": "Figure 15: Approaches to the pre-budget discussion 8 As stated in the pre-budget discussion, the plan for the current year and the achievement of the last year are expected to be covered. In this regard, the assessment showed that most of the topics that ar...",
+            "key_entities": [
+              "Figure",
+              "Approaches",
+              "For",
+              "The",
+              "Topics",
+              "Current"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 44",
@@ -805,8 +2005,31 @@
           "Indicators",
           "Finally"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 44::text",
+            "page_start": 44,
+            "page_end": 44,
+            "summary": "3.1.5. Accountability mechanism Putting in place robust accountability mechanisms at the local government level increases resource use efficiencies. It is also important to recognize that the local governments not only need to operate lawfully and ethically...",
+            "key_entities": [
+              "Accountability",
+              "Putting",
+              "This",
+              "Among",
+              "Within",
+              "FTA",
+              "Indicators",
+              "Finally"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 45",
@@ -823,8 +2046,45 @@
           "Apart",
           "FTA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 45::figure",
+            "page_start": 45,
+            "page_end": 45,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 45::text",
+            "page_start": 45,
+            "page_end": 45,
+            "summary": "Figure 17: Element of the accountability and its performance 3.1.6. Implementation challenges at regional/city administration and woreda level The main implementation challenges were the security situations of the country and the COVID-19 pandemic. These un...",
+            "key_entities": [
+              "Figure",
+              "Element",
+              "Implementation",
+              "The",
+              "COVID",
+              "These",
+              "Apart",
+              "FTA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 46",
@@ -841,8 +2101,45 @@
           "Figure",
           "Six"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 46::figure",
+            "page_start": 46,
+            "page_end": 46,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 46::text",
+            "page_start": 46,
+            "page_end": 46,
+            "summary": "3.2 Achievement at Federal budgetary institutions Federal institutions are expected to be aware of the FTA initiatives, provide budgetary information, and engage their key stakeholders in the budget planning process. The achievements so far in these areas a...",
+            "key_entities": [
+              "Achievement",
+              "Federal",
+              "FTA",
+              "The",
+              "Awareness",
+              "However",
+              "Figure",
+              "Six"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 47",
@@ -859,8 +2156,45 @@
           "Worryingly",
           "Public"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 47::figure",
+            "page_start": 47,
+            "page_end": 47,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 47::text",
+            "page_start": 47,
+            "page_end": 47,
+            "summary": "depiction in organogram might not be necessary but the initiative should be supported by responsible personnel or work force. As it stands now with different institutions, it warrants taking and selecting best practices and working towards institutionalizat...",
+            "key_entities": [
+              "Figure",
+              "How",
+              "FTA",
+              "Only",
+              "The",
+              "Provision",
+              "Worryingly",
+              "Public"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 48",
@@ -877,8 +2211,45 @@
           "Larreguy",
           "This"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 48::figure",
+            "page_start": 48,
+            "page_end": 48,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 48::text",
+            "page_start": 48,
+            "page_end": 48,
+            "summary": "12 procurement process (Williams-Elegbe, 2012) . Similarly, audits increase accountability, reduce misuse of public resources, and improve compliance with laws and regulations (Ferraz 13 and Frederic, 2008) . In countries like Ethiopia, audits become more e...",
+            "key_entities": [
+              "Williams",
+              "Elegbe",
+              "Similarly",
+              "Ferraz",
+              "Frederic",
+              "Ethiopia",
+              "Larreguy",
+              "This"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 49",
@@ -895,8 +2266,66 @@
           "Semi",
           "Annually"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 49::figure",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 49::table",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "| Type of information | | | Expectation15 | | | | | | | | | | | | | | | | | Quarterly | | | Semi-annually | | | Annually | | Budget and expenditure | | | Quarterly | | | 14% | | | 36% | | | 50% | | Basic service standards and provision | | | Annually | | |...",
+            "key_entities": [
+              "Type",
+              "Quarterly",
+              "Semi",
+              "Annually",
+              "Budget",
+              "Basic",
+              "Procurement",
+              "External"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 49::text",
+            "page_start": 49,
+            "page_end": 49,
+            "summary": "Table 3: Frequency of information provision Achievement 15 Type of information Expectation Quarterly Semi-annually Annually Quarterly Budget and expenditure 14% 36% 50% Annually Basic service standards and provision 0% 0% 100% Annually Procurement plan 0% 0...",
+            "key_entities": [
+              "Table",
+              "Frequency",
+              "Achievement",
+              "Type",
+              "Expectation",
+              "Quarterly",
+              "Semi",
+              "Annually"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 50",
@@ -913,8 +2342,45 @@
           "Discussions",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 50::figure",
+            "page_start": 50,
+            "page_end": 50,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 50::text",
+            "page_start": 50,
+            "page_end": 50,
+            "summary": "3.2.3. Engagement of stakeholders The federal institutions are also lagging in terms of involving and engaging key stakeholders in the budgeting process. Out of the visited institutions, only 9 (23%) reported that they conducted discussion with key stakehol...",
+            "key_entities": [
+              "Engagement",
+              "The",
+              "Out",
+              "This",
+              "Consequently",
+              "FTA",
+              "Discussions",
+              "Figure"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 51",
@@ -931,8 +2397,45 @@
           "FTA",
           "These"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 51::figure",
+            "page_start": 51,
+            "page_end": 51,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 51::text",
+            "page_start": 51,
+            "page_end": 51,
+            "summary": "stakeholders feel that key stakeholders are highly engaged in the budget planning phase. The awareness level and capacity of the stakeholders as well as the commitments of the institutions are mentioned as the major hurdle that limits stakeholders' particip...",
+            "key_entities": [
+              "The",
+              "Figure",
+              "Level",
+              "Implementation",
+              "Federal",
+              "Apart",
+              "FTA",
+              "These"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 52",
@@ -949,8 +2452,45 @@
           "Figure",
           "Sex"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 52::figure",
+            "page_start": 52,
+            "page_end": 52,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 52::text",
+            "page_start": 52,
+            "page_end": 52,
+            "summary": "4. Effectiveness and impact of FTA initiatives This section presents the effectiveness of the above activities in increasing citizen awareness and understanding level and in encouraging citizens to actively engage and participate in the local government. Th...",
+            "key_entities": [
+              "Effectiveness",
+              "FTA",
+              "This",
+              "The",
+              "Demographic",
+              "Characteristics",
+              "Figure",
+              "Sex"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 53",
@@ -964,8 +2504,42 @@
           "Martial",
           "For"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 53::figure",
+            "page_start": 53,
+            "page_end": 53,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 53::text",
+            "page_start": 53,
+            "page_end": 53,
+            "summary": "Figure 25: Literacy status of respondent by place of residence The results of respondents' marital status are shown in the following graph. A little over half (45%) have never been married, while 43% are currently married, 4% are widowed, 3% are divorced, a...",
+            "key_entities": [
+              "Figure",
+              "Literacy",
+              "The",
+              "Martial",
+              "For"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 54",
@@ -982,8 +2556,45 @@
           "National",
           "Birr"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 54::figure",
+            "page_start": 54,
+            "page_end": 54,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 54::text",
+            "page_start": 54,
+            "page_end": 54,
+            "summary": "Figure 27: Housing ownership 16 Based on the self-reported income level and using the national poverty line , respondents were categorized into poor and non-poor. The results indicate that about a quarter of the respondents (26%) are poor. The poverty rate...",
+            "key_entities": [
+              "Figure",
+              "Housing",
+              "Based",
+              "The",
+              "Poverty",
+              "Regardless",
+              "National",
+              "Birr"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 55",
@@ -1000,8 +2611,45 @@
           "Larreguy",
           "Marshall"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 55::figure",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 55::text",
+            "page_start": 55,
+            "page_end": 55,
+            "summary": "where they live, impoverished households tend to have larger households on average than non-poor households. Figure 29: Household size by poverty status and place of residence 4.2. Citizen awareness and understanding To effectively participate in the local...",
+            "key_entities": [
+              "Figure",
+              "Household",
+              "Citizen",
+              "Studies",
+              "Mayer",
+              "Lin",
+              "Larreguy",
+              "Marshall"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 56",
@@ -1018,8 +2666,45 @@
           "ESPES",
           "Ethiopia"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 56::figure",
+            "page_start": 56,
+            "page_end": 56,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 56::text",
+            "page_start": 56,
+            "page_end": 56,
+            "summary": "Figure 30: Proportion of respondents that report that they understand the budget process. Disaggregating the understanding level of the budget process by education level and location of respondents reveals that those with formal education and those in urban...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Disaggregating",
+              "Understand",
+              "Looking",
+              "PBS",
+              "ESPES",
+              "Ethiopia"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 57",
@@ -1035,8 +2720,44 @@
           "Ethiopian",
           "The"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 57::figure",
+            "page_start": 57,
+            "page_end": 57,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 57::text",
+            "page_start": 57,
+            "page_end": 57,
+            "summary": "Figure 32: Understanding level of the budget process over time Participants of the focus group discussion were also asked how their awareness and understanding level of the budgeting process of their local government is progressing over time (over the last...",
+            "key_entities": [
+              "Figure",
+              "Understanding",
+              "Participants",
+              "About",
+              "Changes",
+              "Ethiopian",
+              "The"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 58",
@@ -1053,8 +2774,45 @@
           "Dawa",
           "Afar"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 58::figure",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 58::text",
+            "page_start": 58,
+            "page_end": 58,
+            "summary": "reginal/city administration results please see figure 30 above). The results indicate that when it comes to their knowledge about the specific activities of the budgeting process, the results of the focus group discussions indicate that there is a lot to be...",
+            "key_entities": [
+              "The",
+              "Conversely",
+              "Figure",
+              "Citizens",
+              "FTA",
+              "Dire",
+              "Dawa",
+              "Afar"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 59",
@@ -1070,8 +2828,44 @@
           "While",
           "During"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 59::figure",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 59::text",
+            "page_start": 59,
+            "page_end": 59,
+            "summary": "Figure 35: Citizens' awareness level of FTA initiative by region/city administration The community was further asked detailed questions about the FTA initiative to measure the depth of their understanding. Most of them correctly reported that their local go...",
+            "key_entities": [
+              "Figure",
+              "Citizens",
+              "FTA",
+              "The",
+              "Most",
+              "While",
+              "During"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 60",
@@ -1083,8 +2877,40 @@
           "Changes",
           "FTA"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 60::figure",
+            "page_start": 60,
+            "page_end": 60,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 60::text",
+            "page_start": 60,
+            "page_end": 60,
+            "summary": "Figure 37: Changes in citizens' understanding of the FTA initiative 44",
+            "key_entities": [
+              "Figure",
+              "Changes",
+              "FTA"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 61",
@@ -1101,8 +2927,45 @@
           "COVID",
           "Figure"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 61::figure",
+            "page_start": 61,
+            "page_end": 61,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 61::text",
+            "page_start": 61,
+            "page_end": 61,
+            "summary": "4.3. Access to budget information Discussion with citizens shows that 62% of them know their local government budget and expenditure. Compared to the situation in 2009, the performance significantly improved (62% as compared to 9%). Looking at the recent pe...",
+            "key_entities": [
+              "Access",
+              "Discussion",
+              "Compared",
+              "Looking",
+              "Ethiopians",
+              "This",
+              "COVID",
+              "Figure"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 62",
@@ -1116,8 +2979,42 @@
           "Knowledge",
           "Not"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 62::figure",
+            "page_start": 62,
+            "page_end": 62,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 62::text",
+            "page_start": 62,
+            "page_end": 62,
+            "summary": "Figure 39: Proportion of respondents who reported that they know the budget and expenditure by region Note: N denotes number of observations for each region/city administrations for 2022. Knowledge of the local budget seems to be different based on the resp...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Note",
+              "Knowledge",
+              "Not"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 63",
@@ -1134,8 +3031,45 @@
           "Continued",
           "Looking"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 63::figure",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 63::text",
+            "page_start": 63,
+            "page_end": 63,
+            "summary": "During the citizen survey, respondents were asked to state their main source of budgetary information. The results revealed that meetings with the local government and community bulletin boards are the most common sources of budget information. Figure 41: S...",
+            "key_entities": [
+              "During",
+              "The",
+              "Figure",
+              "Source",
+              "This",
+              "Provision",
+              "Continued",
+              "Looking"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 64",
@@ -1152,8 +3086,45 @@
           "The",
           "BLTs"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 64::figure",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 64::text",
+            "page_start": 64,
+            "page_end": 64,
+            "summary": "Figure 42: Citizens who ever participated in BLT Those with formal education and those who live in urban areas are more likely to participate in BLT than their counterparts (58% as compared with 43% for education and 62% as compared with 46% for place of re...",
+            "key_entities": [
+              "Figure",
+              "Citizens",
+              "BLT",
+              "Those",
+              "Participation",
+              "Age",
+              "The",
+              "BLTs"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 65",
@@ -1170,8 +3141,45 @@
           "The",
           "Since"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 65::figure",
+            "page_start": 65,
+            "page_end": 65,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 65::text",
+            "page_start": 65,
+            "page_end": 65,
+            "summary": "Figure 44: Composition BLT training participants by age As stated above, to support high-quality community engagement practice, proving training should be an ongoing activity where regular refresher training based on contextual changes and gaps is part of t...",
+            "key_entities": [
+              "Figure",
+              "Composition",
+              "BLT",
+              "FTA",
+              "Discussion",
+              "Repeated",
+              "The",
+              "Since"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 66",
@@ -1188,8 +3196,45 @@
           "BLT",
           "For"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 66::figure",
+            "page_start": 66,
+            "page_end": 66,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 66::text",
+            "page_start": 66,
+            "page_end": 66,
+            "summary": "Figure 45: When was the training taken Focus group participants were asked in what way they benefited as a result of participating in training. Their responses are coded, categorized, and summarized in the following figure. The majority of participants repo...",
+            "key_entities": [
+              "Figure",
+              "When",
+              "Focus",
+              "Their",
+              "The",
+              "Interestingly",
+              "BLT",
+              "For"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 67",
@@ -1206,8 +3251,45 @@
           "Improving",
           "For"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 67::figure",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 67::text",
+            "page_start": 67,
+            "page_end": 67,
+            "summary": "performance. The results are presented in a matrix where the ease of access is presented on the vertical axis while the ease of understating the information is presented on the horizontal axis. Access to and the understandability of budget and expenditures...",
+            "key_entities": [
+              "The",
+              "Access",
+              "Looking",
+              "Quadrant",
+              "Overall",
+              "Figure",
+              "Improving",
+              "For"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 68",
@@ -1224,8 +3306,45 @@
           "Engagement",
           "However"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 68::figure",
+            "page_start": 68,
+            "page_end": 68,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 68::text",
+            "page_start": 68,
+            "page_end": 68,
+            "summary": "annual performance review meetings, now know how the budget is being utilized and whether the target set out in the beginning are achieved or not. 4.4. Citizens' participation in local government The purpose of providing awareness creation training to citiz...",
+            "key_entities": [
+              "Citizens",
+              "The",
+              "Looking",
+              "Figure",
+              "Meeting",
+              "Note",
+              "Engagement",
+              "However"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 69",
@@ -1242,8 +3361,66 @@
           "Oromia",
           "This"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 69::figure",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 69::table",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "perspectives. Public Administration, 79(2), 445–455. Michels, A. (2011). Innovations in democratic governance: How does citizen participation contribute to a better democracy? International Review of Administrative Sciences, 77(2), 275–293",
+            "key_entities": [
+              "Public",
+              "Administration",
+              "Michels",
+              "Innovations",
+              "How",
+              "International",
+              "Review",
+              "Administrative"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 69::text",
+            "page_start": 69,
+            "page_end": 69,
+            "summary": "22 Benishangul Gumuz region to 72% in SNNP. Respondents in Afar, Amhara, and Oromia are less likely to meet with their representatives in 2022 than in 2016. This has much to do with the instability these regions experience. Figure 49: Proportion of citizen...",
+            "key_entities": [
+              "Benishangul",
+              "Gumuz",
+              "SNNP",
+              "Respondents",
+              "Afar",
+              "Amhara",
+              "Oromia",
+              "This"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 70",
@@ -1257,8 +3434,42 @@
           "The",
           "Those"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 70::figure",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "Figure 1 Figure 2 Figure 3",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 70::text",
+            "page_start": 70,
+            "page_end": 70,
+            "summary": "the visited regions and city administrations reported that they have participated in the budget planning. Figure 50: Extent of community participation in budget planning in the last 12 months. Participation in budget planning is disaggregated by education,...",
+            "key_entities": [
+              "Figure",
+              "Extent",
+              "Participation",
+              "The",
+              "Those"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 71",
@@ -1275,8 +3486,45 @@
           "The",
           "People"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 71::figure",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 71::text",
+            "page_start": 71,
+            "page_end": 71,
+            "summary": "Information collected during focus group discussion revealed that the community participates in different activities that affect their lives. In this regard, relatively the majority of respondents of the household survey participated in the identification o...",
+            "key_entities": [
+              "Information",
+              "Though",
+              "COVID",
+              "Figure",
+              "Extent",
+              "Another",
+              "The",
+              "People"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 72",
@@ -1293,8 +3541,45 @@
           "Ababa",
           "Benishangul"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 72::figure",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 72::text",
+            "page_start": 72,
+            "page_end": 72,
+            "summary": "communicating their opinions and ideas to their local government in greater numbers. The percentage of citizens who express their opinions has increased more than sevenfold since the baseline year-47% in 2022 as compared to 6% in 2009. As was the case for o...",
+            "key_entities": [
+              "The",
+              "Figure",
+              "Trend",
+              "Note",
+              "Disaggregated",
+              "Addis",
+              "Ababa",
+              "Benishangul"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 73",
@@ -1308,8 +3593,42 @@
           "Looking",
           "The"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 73::figure",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 73::text",
+            "page_start": 73,
+            "page_end": 73,
+            "summary": "Figure 54: Proportion of citizen that provided their opinion on local government service provision. Simply, having a voice in the decision-making process of the local government may not be enough. A voice that is perceived to have no influence is detrimenta...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Simply",
+              "Looking",
+              "The"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 74",
@@ -1324,8 +3643,43 @@
           "Basic",
           "Only"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 74::figure",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 74::text",
+            "page_start": 74,
+            "page_end": 74,
+            "summary": "Figure 55: Proportion of respondents who feel that their ideas and opinion have impact on no their local government's decisions. Note: The dotted line represents the trend. Basic services standards are expected to be posted/ provided to empower the citizen...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Note",
+              "The",
+              "Basic",
+              "Only"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 75",
@@ -1342,8 +3696,45 @@
           "Addis",
           "Ababa"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 75::figure",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 75::text",
+            "page_start": 75,
+            "page_end": 75,
+            "summary": "Figure 56: Accessibility of information on basic service standards (2013-2022) Region/city administration-wise, Somali, SNNP and Harari region, and Addis Ababa city administration performed well (more than 50% of the respondent accessed information on basic...",
+            "key_entities": [
+              "Figure",
+              "Accessibility",
+              "Region",
+              "Somali",
+              "SNNP",
+              "Harari",
+              "Addis",
+              "Ababa"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 76",
@@ -1360,8 +3751,45 @@
           "GRM",
           "Grievance"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 76::figure",
+            "page_start": 76,
+            "page_end": 76,
+            "summary": "Figure 1",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 76::text",
+            "page_start": 76,
+            "page_end": 76,
+            "summary": "Figure 57: Proportion of citizens who accessed information on basic service delivery standards Creating a favorable environment for a citizen to participate in local government is also expected to encourage citizens to voice their concerns and grievances. T...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Creating",
+              "Those",
+              "The",
+              "Participation",
+              "GRM",
+              "Grievance"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 77",
@@ -1376,8 +3804,43 @@
           "GRM",
           "Number"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 77::figure",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "Figure 1 Figure 2",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 77::text",
+            "page_start": 77,
+            "page_end": 77,
+            "summary": "Figure 58: Proportion of respondent who logged their grievances Focus group participants were asked whether the number of grievances in their area is increasing or decreasing over the last four years. The results show that the majority of the participants (...",
+            "key_entities": [
+              "Figure",
+              "Proportion",
+              "Focus",
+              "The",
+              "GRM",
+              "Number"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 78",
@@ -1394,8 +3857,52 @@
           "ESPES",
           "Since"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "table",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 78::table",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "The matrix is divided into four quadrants and each quadrate is named. Concentrate here: This quadrant displays items that are considered to be important by the community yet are not being performed to the same level. Effort should be made to shift items tha...",
+            "key_entities": [
+              "The",
+              "Concentrate",
+              "This",
+              "Effort",
+              "Keep",
+              "Items",
+              "Possible",
+              "Resources"
+            ],
+            "data_types_present": [
+              "table"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 78::text",
+            "page_start": 78,
+            "page_end": 78,
+            "summary": "4.5. Transparency and accountability in basic services delivery The Program Development Objective of the parent program of FTA (namely the ESPES Program) is to improve equitable access to basic services and strengthen accountability systems at the decentral...",
+            "key_entities": [
+              "Transparency",
+              "The",
+              "Program",
+              "Development",
+              "Objective",
+              "FTA",
+              "ESPES",
+              "Since"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 79",
@@ -1407,8 +3914,40 @@
           "Citizen",
           "Assessment"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "figure",
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 79::figure",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "Figure 1 Figure 2 Figure 3 Figure 4",
+            "key_entities": [
+              "Figure"
+            ],
+            "data_types_present": [
+              "figure"
+            ],
+            "child_sections": []
+          },
+          {
+            "section_title": "Page 79::text",
+            "page_start": 79,
+            "page_end": 79,
+            "summary": "Figure 60: Citizen Assessment of transparency and accountability in basic service delivery 63",
+            "key_entities": [
+              "Figure",
+              "Citizen",
+              "Assessment"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       },
       {
         "section_title": "Page 80",
@@ -1425,8 +3964,31 @@
           "Satisfaction",
           "Citizens"
         ],
-        "data_types_present": [],
-        "child_sections": []
+        "data_types_present": [
+          "text"
+        ],
+        "child_sections": [
+          {
+            "section_title": "Page 80::text",
+            "page_start": 80,
+            "page_end": 80,
+            "summary": "Apart from providing the above rating on the importance and performance of FTA activities as it relates to basic services, the following issues were raised by focus group participants more broadly. When the information on service standards is made available...",
+            "key_entities": [
+              "Apart",
+              "FTA",
+              "When",
+              "The",
+              "Even",
+              "This",
+              "Satisfaction",
+              "Citizens"
+            ],
+            "data_types_present": [
+              "text"
+            ],
+            "child_sections": []
+          }
+        ]
       }
     ]
   }
