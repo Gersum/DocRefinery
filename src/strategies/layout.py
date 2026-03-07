@@ -28,15 +28,32 @@ class LayoutExtractor(BaseExtractionStrategy):
         self.min_chars = int(extraction_threshold("layout_min_chars_per_page", 120, rules_path))
         self.min_char_density = float(extraction_threshold("layout_min_char_density", 0.0007, rules_path))
         self.max_image_ratio = float(extraction_threshold("layout_max_image_ratio", 0.75, rules_path))
+        self.font_signal_floor = float(extraction_threshold("strategy_b_font_signal_floor", 0.25, rules_path))
+        self.image_penalty_span = float(extraction_threshold("strategy_b_image_penalty_span", 0.50, rules_path))
+        self.weight_char_signal = float(extraction_threshold("strategy_b_weight_char_signal", 0.30, rules_path))
+        self.weight_density_signal = float(extraction_threshold("strategy_b_weight_density_signal", 0.25, rules_path))
+        self.weight_image_signal = float(extraction_threshold("strategy_b_weight_image_signal", 0.20, rules_path))
+        self.weight_font_signal = float(extraction_threshold("strategy_b_weight_font_signal", 0.15, rules_path))
+        self.weight_structure_signal = float(extraction_threshold("strategy_b_weight_structure_signal", 0.10, rules_path))
+        self.structure_figure_cap = int(extraction_threshold("strategy_b_structure_figure_cap", 2, rules_path))
+        self.structure_norm = float(extraction_threshold("strategy_b_structure_norm", 3.0, rules_path))
+        self.scan_image_ratio_floor = float(extraction_threshold("strategy_b_scan_image_ratio_floor", 0.80, rules_path))
+        self.scan_char_multiplier = float(extraction_threshold("strategy_b_scan_char_multiplier", 0.50, rules_path))
+        self.scan_confidence_cap = float(extraction_threshold("strategy_b_scan_confidence_cap", 0.45, rules_path))
         self.base_cost = float(extraction_threshold("strategy_b_base_cost_usd", 0.005, rules_path))
         self.per_page_cost = float(extraction_threshold("strategy_b_cost_per_page_usd", 0.0015, rules_path))
 
         self.adapter = DoclingDocumentAdapter()
         self.docling_parser_cls = None
-        if importlib.util.find_spec("docling_parse.pdf_parser") is not None:
-            from docling_parse.pdf_parser import DoclingPdfParser
+        try:
+            has_docling_parse = importlib.util.find_spec("docling_parse") is not None
+            has_docling_pdf_parser = importlib.util.find_spec("docling_parse.pdf_parser") is not None
+            if has_docling_parse and has_docling_pdf_parser:
+                from docling_parse.pdf_parser import DoclingPdfParser
 
-            self.docling_parser_cls = DoclingPdfParser
+                self.docling_parser_cls = DoclingPdfParser
+        except ModuleNotFoundError:
+            self.docling_parser_cls = None
 
     def _extract_tables_with_bbox(self, pdf_page: Any, document_id: str, page_number: int) -> List[ExtractedTable]:
         tables: List[ExtractedTable] = []
@@ -87,21 +104,25 @@ class LayoutExtractor(BaseExtractionStrategy):
         char_signal = min(1.0, signals.char_count / max(1, self.min_chars))
         char_density = signals.char_count / max(1.0, signals.page_area)
         density_signal = min(1.0, char_density / max(self.min_char_density, 1e-9))
-        image_signal = 1.0 if signals.image_ratio <= self.max_image_ratio else max(0.0, 1.0 - ((signals.image_ratio - self.max_image_ratio) / 0.5))
-        font_signal = 1.0 if signals.has_font_metadata else 0.25
-        structure_signal = min(1.0, (signals.table_count + min(2, signals.figure_count)) / 3.0)
+        image_signal = 1.0 if signals.image_ratio <= self.max_image_ratio else max(
+            0.0, 1.0 - ((signals.image_ratio - self.max_image_ratio) / max(self.image_penalty_span, 1e-9))
+        )
+        font_signal = 1.0 if signals.has_font_metadata else self.font_signal_floor
+        structure_signal = min(
+            1.0, (signals.table_count + min(self.structure_figure_cap, signals.figure_count)) / max(self.structure_norm, 1e-9)
+        )
 
         confidence = (
-            (0.30 * char_signal)
-            + (0.25 * density_signal)
-            + (0.20 * image_signal)
-            + (0.15 * font_signal)
-            + (0.10 * structure_signal)
+            (self.weight_char_signal * char_signal)
+            + (self.weight_density_signal * density_signal)
+            + (self.weight_image_signal * image_signal)
+            + (self.weight_font_signal * font_signal)
+            + (self.weight_structure_signal * structure_signal)
         )
 
         # Strong hint of scan leakage: high image area with sparse characters.
-        if signals.image_ratio > 0.80 and signals.char_count < int(self.min_chars * 0.5):
-            confidence = min(confidence, 0.45)
+        if signals.image_ratio > self.scan_image_ratio_floor and signals.char_count < int(self.min_chars * self.scan_char_multiplier):
+            confidence = min(confidence, self.scan_confidence_cap)
 
         return max(0.0, min(1.0, confidence))
 

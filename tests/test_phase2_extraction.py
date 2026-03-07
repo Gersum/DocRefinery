@@ -4,6 +4,7 @@ from types import SimpleNamespace
 from src.agents.extractor import ExtractionRouter
 from src.models.extraction import ExtractedDocument, ExtractedPage, ExtractedText
 from src.models.profile import CostEstimate, DocumentProfile, DomainHint, LayoutComplexity, OriginType
+from src.strategies.fast_text import FastTextExtractor
 from src.strategies.layout import LayoutExtractor
 from src.strategies.vision import VisionExtractor
 
@@ -243,3 +244,22 @@ def test_router_flags_low_confidence_outcomes_for_review(tmp_path, monkeypatch):
     assert "strategy_c confidence" in record["review_reason"]
     assert record["strategy_used"] == "STRATEGY_C_LOW_CONFIDENCE"
     assert review_record["document_id"] == "doc"
+
+
+def test_strategies_read_config_tunables(tmp_path):
+    rules = tmp_path / "rules.yaml"
+    rules.write_text(
+        "extraction_thresholds:\n"
+        "  strategy_a_weight_char_signal: 0.91\n"
+        "  strategy_b_weight_structure_signal: 0.42\n"
+        "  strategy_c_base_confidence: 0.33\n",
+        encoding="utf-8",
+    )
+
+    fast = FastTextExtractor(rules_path=str(rules))
+    layout = LayoutExtractor(rules_path=str(rules))
+    vision = VisionExtractor(rules_path=str(rules))
+
+    assert fast.weight_char_signal == 0.91
+    assert layout.weight_structure_signal == 0.42
+    assert vision.base_confidence == 0.33

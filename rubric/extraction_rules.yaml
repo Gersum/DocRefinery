@@ -11,16 +11,34 @@ extraction_thresholds:
   strategy_a_min_char_density: 0.0007
   strategy_a_max_image_ratio: 0.50
   strategy_a_font_presence_floor: 0.60
+  strategy_a_image_penalty_span: 0.50
+  strategy_a_weight_char_signal: 0.35
+  strategy_a_weight_density_signal: 0.30
+  strategy_a_weight_image_signal: 0.20
+  strategy_a_weight_font_signal: 0.15
+  strategy_a_scan_image_ratio_floor: 0.80
+  strategy_a_scan_char_multiplier: 0.30
+  strategy_a_scan_confidence_cap: 0.20
 
   # Router gates and review controls
   escalation_confidence_gate: 0.85
   strategy_a_confidence_gate: 0.85
   strategy_b_confidence_gate: 0.85
+  strategy_c_confidence_gate: 0.85
   strategy_c_review_floor: 0.75
 
-  # Strategy C (Vision) budget controls
+  # Strategy C (Vision) budget + scoring controls
   vision_budget_cap_usd: 1.00
   vision_min_remaining_budget_for_call: 0.01
+  strategy_c_base_confidence: 0.25
+  strategy_c_text_confidence: 0.65
+  strategy_c_table_confidence: 0.75
+  strategy_c_vlm_success_confidence_with_text: 0.90
+  strategy_c_vlm_success_confidence_without_text: 0.55
+  strategy_c_budget_exhausted_confidence_cap: 0.85
+  strategy_c_render_resolution_dpi: 120
+  strategy_c_token_cost_per_token_usd: 0.000002
+  strategy_c_request_timeout_sec: 60
 
   # Triage origin detection
   origin_scanned_char_density_max: 0.0008
@@ -36,11 +54,26 @@ extraction_thresholds:
   layout_multi_column_count_min: 2
   layout_table_page_ratio_min: 0.15
   layout_figure_page_ratio_min: 0.20
+  layout_min_words_for_column_detection: 40
+  layout_column_left_split_factor: 0.95
+  layout_column_right_split_factor: 1.05
 
   # Strategy B (Layout)
   layout_min_chars_per_page: 120
   layout_min_char_density: 0.0007
   layout_max_image_ratio: 0.75
+  strategy_b_font_signal_floor: 0.25
+  strategy_b_image_penalty_span: 0.50
+  strategy_b_weight_char_signal: 0.30
+  strategy_b_weight_density_signal: 0.25
+  strategy_b_weight_image_signal: 0.20
+  strategy_b_weight_font_signal: 0.15
+  strategy_b_weight_structure_signal: 0.10
+  strategy_b_structure_figure_cap: 2
+  strategy_b_structure_norm: 3.0
+  strategy_b_scan_image_ratio_floor: 0.80
+  strategy_b_scan_char_multiplier: 0.50
+  strategy_b_scan_confidence_cap: 0.45
   strategy_b_base_cost_usd: 0.005
   strategy_b_cost_per_page_usd: 0.0015
   layout_max_pages_per_document: 80
@@ -69,3 +102,19 @@ chunking_constitution:
 retrieval_preferences:
   default_max_chunks: 5
   strict_provenance: true
+  chunk_max_tokens: 400
+  pageindex_top_k: 3
+  vector_top_k: 5
+  similarity_min_score: 0.05
+  embedding_dimension: 256
+  # Options: local_hash | chroma
+  vector_backend: local_hash
+  vector_chroma_path: .refinery/chroma
+  vector_chroma_collection: ldus
+  summary_max_chars: 260
+  summary_model: openrouter/auto
+  summary_request_timeout_sec: 30
+  summary_temperature: 0.0
+  summary_max_tokens: 80
+  fact_table_db_path: .refinery/facts.db
+  fact_min_numeric_length: 1

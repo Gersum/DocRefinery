@@ -26,7 +26,7 @@ class ExtractionRouter:
         self.strategy_thresholds = {
             "strategy_a": float(extraction_threshold("strategy_a_confidence_gate", self.default_threshold, rules_path)),
             "strategy_b": float(extraction_threshold("strategy_b_confidence_gate", self.default_threshold, rules_path)),
-            "strategy_c": self.default_threshold,
+            "strategy_c": float(extraction_threshold("strategy_c_confidence_gate", self.default_threshold, rules_path)),
         }
         self.strategy_c_review_floor = float(extraction_threshold("strategy_c_review_floor", 0.75, rules_path))
         self.review_queue_path = os.path.join(os.path.dirname(ledger_path), "review_queue.jsonl")

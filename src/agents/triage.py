@@ -55,6 +55,9 @@ class TriageAgent:
         self.multi_column_count_min = int(extraction_threshold("layout_multi_column_count_min", 2, rules_path))
         self.table_page_ratio_min = float(extraction_threshold("layout_table_page_ratio_min", 0.15, rules_path))
         self.figure_page_ratio_min = float(extraction_threshold("layout_figure_page_ratio_min", 0.20, rules_path))
+        self.min_words_for_column_detection = int(extraction_threshold("layout_min_words_for_column_detection", 40, rules_path))
+        self.column_left_split_factor = float(extraction_threshold("layout_column_left_split_factor", 0.95, rules_path))
+        self.column_right_split_factor = float(extraction_threshold("layout_column_right_split_factor", 1.05, rules_path))
         self.language_amharic_ratio_threshold = float(extraction_threshold("language_amharic_ratio_threshold", 0.05, rules_path))
         self.language_confidence_floor = float(extraction_threshold("language_confidence_floor", 0.60, rules_path))
         self.language_confidence_base = float(extraction_threshold("language_confidence_base", 0.60, rules_path))
@@ -141,10 +144,14 @@ class TriageAgent:
                     except Exception:
                         words = []
 
-                    if len(words) >= 40:
+                    if len(words) >= self.min_words_for_column_detection:
                         midpoint = page.width / 2
-                        left_count = sum(1 for word in words if float(word.get("x0", 0.0)) < midpoint * 0.95)
-                        right_count = sum(1 for word in words if float(word.get("x0", 0.0)) >= midpoint * 1.05)
+                        left_count = sum(
+                            1 for word in words if float(word.get("x0", 0.0)) < midpoint * self.column_left_split_factor
+                        )
+                        right_count = sum(
+                            1 for word in words if float(word.get("x0", 0.0)) >= midpoint * self.column_right_split_factor
+                        )
                         left_right_balance = min(left_count, right_count) / max(1, left_count + right_count)
                         approx_column_count = 1 + int(left_count > 0 and right_count > 0)
                         column_count_total += approx_column_count

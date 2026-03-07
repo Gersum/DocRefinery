@@ -12,8 +12,15 @@ def test_bounding_box_requires_positive_area():
 
 
 def test_provenance_chain_uses_typed_bbox_and_hash_at_chain_level():
-    citation = ProvenanceCitation(document_name="Doc", document_id="d1", page_number=3)
+    citation = ProvenanceCitation(
+        document_name="Doc",
+        document_id="d1",
+        page_number=3,
+        bbox=BoundingBox(x0=1, y0=2, x1=3, y1=4),
+    )
     chain = ProvenanceChain(
+        document_name="Doc",
+        page_number=3,
         citations=[citation],
         bbox=BoundingBox(x0=0, y0=0, x1=10, y1=10),
         content_hash="0123456789abcdef",
@@ -21,6 +28,7 @@ def test_provenance_chain_uses_typed_bbox_and_hash_at_chain_level():
     )
     assert chain.bbox is not None
     assert chain.content_hash == "0123456789abcdef"
+    assert citation.bbox is not None
 
 
 def test_page_index_node_validates_page_ranges():
